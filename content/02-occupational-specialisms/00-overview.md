@@ -5,7 +5,7 @@
 Alongside the shared core component, every student on the Digital Support and Security T Level studies **one** Occupational Specialism (OS). This is where the qualification narrows into a specific job-ready skill set, and it carries equal weight to the core — 50% of the overall qualification, delivered over roughly 600 Guided Learning Hours (660 Total Qualification Time). There are four specialisms to choose from: Digital Infrastructure, Network Cabling, Digital Support, and Cyber Security.
 
 <figure>
-<img src="../../assets/img/hero-specialisms.svg" alt="Four icons -- a server, a cable connector, a headset and a shield -- arranged around a central hub">
+<img src="assets/img/hero-specialisms.svg" alt="Four icons -- a server, a cable connector, a headset and a shield -- arranged around a central hub">
 <figcaption>Four specialisms, one shared foundation: Digital Infrastructure, Network Cabling, Digital Support and Cyber Security.</figcaption>
 </figure>
 

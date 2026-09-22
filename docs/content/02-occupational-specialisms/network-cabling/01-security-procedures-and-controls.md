@@ -5,7 +5,7 @@
 This page covers Content Area 1 of the Network Cabling occupational specialism: applying procedures and controls to maintain the digital security of an organisation and its data. It largely mirrors the Digital Infrastructure specialism's security content but is scoped to a cabling installer's world — physical site security, cabling-specific risk, and the legislation/standards that govern cabling work. Subsection numbers mirror the specification.
 
 <figure>
-<img src="../../../assets/img/hero-network-cabling.svg" alt="A patch panel with cables plugged into numbered ports">
+<img src="assets/img/hero-network-cabling.svg" alt="A patch panel with cables plugged into numbered ports">
 <figcaption>Network Cabling: running, terminating and testing cable to a professional standard.</figcaption>
 </figure>
 

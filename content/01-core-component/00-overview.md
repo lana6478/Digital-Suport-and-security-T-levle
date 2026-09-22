@@ -5,7 +5,7 @@
 The **Core Component** is the shared foundation every student studies, regardless of which Occupational Specialism they go on to choose. It covers the underpinning knowledge, concepts and skills that support **threshold competence** across the whole digital industry, and is assessed through two written exam papers plus an Employer Set Project.
 
 <figure>
-<img src="../../assets/img/hero-core-component.svg" alt="A central gear connected to four smaller nodes, representing shared foundational knowledge">
+<img src="assets/img/hero-core-component.svg" alt="A central gear connected to four smaller nodes, representing shared foundational knowledge">
 <figcaption>One shared core of knowledge, feeding into four occupational specialisms.</figcaption>
 </figure>
 

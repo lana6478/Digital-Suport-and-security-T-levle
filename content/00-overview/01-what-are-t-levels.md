@@ -5,7 +5,7 @@
 T Levels are two-year, Level 3 technical study programmes for 16–19 year-olds, designed as a technical alternative to A Levels and Apprenticeships. This page explains what a T Level is in general, and what the **T Level Technical Qualification in Digital Support and Security (Level 3)** covers specifically.
 
 <figure>
-<img src="../../assets/img/hero-t-level.svg" alt="A graduation cap above a circuit-board pattern, representing technical education">
+<img src="assets/img/hero-t-level.svg" alt="A graduation cap above a circuit-board pattern, representing technical education">
 <figcaption>T Levels combine classroom theory with a minimum 315-hour industry placement.</figcaption>
 </figure>
 

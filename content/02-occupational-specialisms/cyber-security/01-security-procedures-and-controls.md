@@ -5,7 +5,7 @@
 This is Content Area 1 of the Cyber Security occupational specialism. Every specialism has a version of this content area, but here — since security is the specialism's whole focus — it goes noticeably deeper, into governance, IT service management frameworks, cryptography, digital certificates and the legal/ethical framework a cyber security technician operates within.
 
 <figure>
-<img src="../../../assets/img/hero-cyber-security.svg" alt="A shield with a padlock, surrounded by a radar-style scan sweep, representing threat detection and defence">
+<img src="assets/img/hero-cyber-security.svg" alt="A shield with a padlock, surrounded by a radar-style scan sweep, representing threat detection and defence">
 <figcaption>Cyber Security: identifying risk, assessing threats, recommending remediation.</figcaption>
 </figure>
 
