@@ -2,7 +2,7 @@
 
 *Digital Support and Security T Level → Overview*
 
-This page summarises the key facts about the T Level Technical Qualification in Digital Support and Security (Level 3) — its identifying details, how it's weighted, and how each component is assessed.
+This page summarises the key facts about the T Level Technical Qualification in Digital Support and Security (Level 3) - its identifying details, how it's weighted, and how each component is assessed.
 
 ## Qualification summary
 
@@ -31,11 +31,11 @@ This page summarises the key facts about the T Level Technical Qualification in 
 
 - The **Core** and **Employer Set Project** components are graded **A\*–E or Unclassified**.
 - The **Occupational Specialism (OS)** components are graded **Pass, Merit, Distinction or Unclassified**.
-- The overall qualification grade is reported on a scale of **Pass, Merit, Distinction, Distinction\* or Unclassified**, and this overall grade is awarded by the **Institute for Apprenticeships and Technical Education (IfATE)** — see [Grading and results](04-grading-and-results.md) for the full calculation.
+- The overall qualification grade is reported on a scale of **Pass, Merit, Distinction, Distinction\* or Unclassified**, and this overall grade is awarded by the **Institute for Apprenticeships and Technical Education (IfATE)** - see [Grading and results](04-grading-and-results.md) for the full calculation.
 
 ## Entry requirements and assessment ownership
 
-There are no formal prior-learning entry requirements — it's the Provider's responsibility to make sure students recruited have a reasonable expectation of success. Students are most likely to succeed with Level 2 qualifications already under their belt (e.g. 5 GCSEs at grade 4+ including English and maths, or a Level 2 vocational Tech Award), though relevant work experience or demonstrated aptitude can also count.
+There are no formal prior-learning entry requirements - it's the Provider's responsibility to make sure students recruited have a reasonable expectation of success. Students are most likely to succeed with Level 2 qualifications already under their belt (e.g. 5 GCSEs at grade 4+ including English and maths, or a Level 2 vocational Tech Award), though relevant work experience or demonstrated aptitude can also count.
 
 - The **Core** and **ESP** components are externally set *and* externally marked by Pearson.
 - The **Occupational Specialism** components are set by Pearson and externally marked by Pearson.
@@ -56,7 +56,7 @@ Covers the underpinning knowledge, concepts and skills that support threshold co
 
 ### 2. Occupational Specialism component
 
-There are **four** Occupational Specialism components — students take **one**. Each is assessed through a skills-related project that synoptically tests the Performance Outcomes and the underpinning knowledge behind them (full content in [Occupational Specialisms](../02-occupational-specialisms/00-overview.md)).
+There are **four** Occupational Specialism components - students take **one**. Each is assessed through a skills-related project that synoptically tests the Performance Outcomes and the underpinning knowledge behind them (full content in [Occupational Specialisms](../02-occupational-specialisms/00-overview.md)).
 
 | Assessment component | Method | Duration | Marks | Weighting | Timetable | Availability |
 |---|---|---|---|---|---|---|
@@ -80,11 +80,11 @@ The content is built from Outline Content created by IfATE and the Digital T Lev
 
 ## Key terms
 
-- **GLH (Guided Learning Hours)** — time spent being taught or supervised, as opposed to independent study.
-- **TQT (Total Qualification Time)** — GLH plus estimated hours of unsupervised study/preparation.
-- **Employer Set Project (ESP)** — a substantial externally set project, part of the Core component, assessing the core skills synoptically.
-- **Windowed assessment** — an assessment made available across a date range ("window") rather than on one fixed date.
-- **Synoptic assessment** — assessment that draws together knowledge and skills from across a whole specialism rather than testing topics in isolation.
+- **GLH (Guided Learning Hours)** - time spent being taught or supervised, as opposed to independent study.
+- **TQT (Total Qualification Time)** - GLH plus estimated hours of unsupervised study/preparation.
+- **Employer Set Project (ESP)** - a substantial externally set project, part of the Core component, assessing the core skills synoptically.
+- **Windowed assessment** - an assessment made available across a date range ("window") rather than on one fixed date.
+- **Synoptic assessment** - assessment that draws together knowledge and skills from across a whole specialism rather than testing topics in isolation.
 
 ## Related pages
 

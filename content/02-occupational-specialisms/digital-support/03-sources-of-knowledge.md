@@ -1,4 +1,4 @@
-# Digital Support — Discover, Evaluate and Apply Reliable Sources of Knowledge
+# Digital Support - Discover, Evaluate and Apply Reliable Sources of Knowledge
 
 *Digital Support and Security T Level → Occupational Specialisms → Digital Support → Sources of Knowledge*
 
@@ -8,7 +8,7 @@ This is Content Area 3 of the Digital Support specialism. Every specialism ends 
 
 Academic publications (textbooks, research journals, periodicals), supplier literature (handbooks, device-specific online articles), search engines (Google, Bing), websites (wikis, forums, Stack Overflow, manufacturer sites), social media (company profiles on X/Facebook/LinkedIn), blogs (reviews, opinion on sector issues), vlogs (demos, tutorials), professional networks (conferences/networking events), e-learning (MOOCs, vendor qualifications such as Cisco), and peers (colleagues, contacts, other professionals).
 
-**Skill**: identify sources of knowledge and apply legitimising factors to meet a requirement — clarify the requirement's parameters, identify up to three appropriate sources, apply reliability/validity factors (authority, publication date), assess potential bias, and review each source's appropriateness. *(E4, D1.)*
+**Skill**: identify sources of knowledge and apply legitimising factors to meet a requirement - clarify the requirement's parameters, identify up to three appropriate sources, apply reliability/validity factors (authority, publication date), assess potential bias, and review each source's appropriateness. *(E4, D1.)*
 
 ## 3.2 Reliability and validity factors
 
@@ -20,7 +20,7 @@ Clarify the search parameters (e.g. "explore the future of the digital economy" 
 
 ## 3.4 Bias and how to identify it
 
-**Types**: author/proprietary bias (unweighted personal opinion), confirmation bias (source supports a pre-existing assumption), selection bias (sources chosen to fit a predetermined criterion), cultural bias (implicit assumptions from societal norms). **Indicators**: partiality, prejudice, omission. **Reducing bias**: grounding conclusions in fact/evidence and taking an inclusive approach — representing demographics fully and staying objective. **Skill**: identify the type of bias present, identify its indicators in the source, and explain clearly how it arose and how it could be avoided.
+**Types**: author/proprietary bias (unweighted personal opinion), confirmation bias (source supports a pre-existing assumption), selection bias (sources chosen to fit a predetermined criterion), cultural bias (implicit assumptions from societal norms). **Indicators**: partiality, prejudice, omission. **Reducing bias**: grounding conclusions in fact/evidence and taking an inclusive approach - representing demographics fully and staying objective. **Skill**: identify the type of bias present, identify its indicators in the source, and explain clearly how it arose and how it could be avoided.
 
 ## 3.5 Critical thinking and evaluation
 
@@ -46,10 +46,10 @@ Identify the sources to compare, apply reliability/validity factors to each, com
 
 ## Key terms
 
-- **Corroboration** — confirming information by checking it against multiple independent sources.
-- **Confirmation bias / selection bias / cultural bias** — three of the specific bias types students must be able to recognise.
-- **Triangulation** — validating a finding using three (or more) different evaluation angles.
-- **Gap analysis** — comparing a current state against a desired state to find what's missing.
+- **Corroboration** - confirming information by checking it against multiple independent sources.
+- **Confirmation bias / selection bias / cultural bias** - three of the specific bias types students must be able to recognise.
+- **Triangulation** - validating a finding using three (or more) different evaluation angles.
+- **Gap analysis** - comparing a current state against a desired state to find what's missing.
 
 ## Related pages
 

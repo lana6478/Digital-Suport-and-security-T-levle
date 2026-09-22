@@ -12,16 +12,16 @@ This is an independent study-guide project built and maintained by **Samuel O'Co
 - Email: [samueloconnell62@gmail.com](mailto:samueloconnell62@gmail.com)
 - Source code: [github.com/lana6478/Digital-Suport-and-security-T-levle](https://github.com/lana6478/Digital-Suport-and-security-T-levle)
 
-Found a mistake, an out-of-date detail, or want a topic covered in more depth? Open an [issue](https://github.com/lana6478/Digital-Suport-and-security-T-levle/issues) on GitHub, or email directly — both are welcome.
+Found a mistake, an out-of-date detail, or want a topic covered in more depth? Open an [issue](https://github.com/lana6478/Digital-Suport-and-security-T-levle/issues) on GitHub, or email directly - both are welcome.
 
 ## How the site is built
 
 The whole project is two things living in one repository:
 
-- **`content/`** — the actual study-guide library: plain markdown files, organised into folders by topic.
-- **`docs/`** — a small, dependency-free static website (plain HTML, CSS and JavaScript, plus [marked.js](https://marked.js.org/) for rendering markdown in the browser) built for GitHub Pages. It reads its page list and page content from `docs/content/`, which is a generated mirror of `content/` — so the website always shows exactly what's in the file library.
+- **`content/`** - the actual study-guide library: plain markdown files, organised into folders by topic.
+- **`docs/`** - a small, dependency-free static website (plain HTML, CSS and JavaScript, plus [marked.js](https://marked.js.org/) for rendering markdown in the browser) built for GitHub Pages. It reads its page list and page content from `docs/content/`, which is a generated mirror of `content/` - so the website always shows exactly what's in the file library.
 
-There's no build framework, no bundler, and no server-side code — it's designed to be easy to read, fork and self-host.
+There's no build framework, no bundler, and no server-side code - it's designed to be easy to read, fork and self-host.
 
 ## Rebuilding the site after an edit
 
@@ -33,8 +33,8 @@ python3 tools/build_site.py
 
 This copies every file from `content/` into `docs/content/`, copies shared images from `assets/img/` into `docs/assets/img/`, and rebuilds:
 
-- `docs/assets/data/manifest.json` — the page list used to build the sidebar directory tree
-- `docs/assets/data/search-index.json` — the page text used by the search box
+- `docs/assets/data/manifest.json` - the page list used to build the sidebar directory tree
+- `docs/assets/data/search-index.json` - the page text used by the search box
 
 Then preview it locally:
 
@@ -57,9 +57,9 @@ This project paraphrases and reorganises the official T Level Technical Qualific
 
 ## Key terms
 
-- **`content/`** — the canonical markdown study-guide library.
-- **`docs/`** — the generated GitHub Pages website that reads from `content/`.
-- **`tools/build_site.py`** — the script that mirrors `content/` into `docs/content/` and rebuilds the site's directory tree and search index.
+- **`content/`** - the canonical markdown study-guide library.
+- **`docs/`** - the generated GitHub Pages website that reads from `content/`.
+- **`tools/build_site.py`** - the script that mirrors `content/` into `docs/content/` and rebuilds the site's directory tree and search index.
 
 ## Related pages
 

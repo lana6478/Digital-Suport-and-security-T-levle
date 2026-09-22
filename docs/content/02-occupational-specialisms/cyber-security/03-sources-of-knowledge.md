@@ -1,8 +1,8 @@
-# Cyber Security — Discover, Evaluate and Apply Reliable Sources of Knowledge
+# Cyber Security - Discover, Evaluate and Apply Reliable Sources of Knowledge
 
 *Digital Support and Security T Level → Occupational Specialisms → Cyber Security → Sources of Knowledge*
 
-This is Content Area 3 of the Cyber Security specialism. It mirrors the equivalent content area in the other three specialisms, but is populated with sources and bodies specific to the cyber security profession — professional bodies, accreditation schemes and vulnerability databases a working cyber security technician would actually use.
+This is Content Area 3 of the Cyber Security specialism. It mirrors the equivalent content area in the other three specialisms, but is populated with sources and bodies specific to the cyber security profession - professional bodies, accreditation schemes and vulnerability databases a working cyber security technician would actually use.
 
 ## 3.1 Sources of knowledge applicable to cyber security
 
@@ -32,11 +32,11 @@ Identify relevant information (arguments, views, opinions) → analyse it (bias,
 
 ## 3.7 Communication methods for sharing cyber security knowledge
 
-**Digital services** (two-way channels: helpdesk, phone, email, SMS, chat), **social media channels** (organisational, public, community, personal), **knowledge bases/management systems** — including sector-specific ones such as **CyBOK** (the Cyber Security Body of Knowledge) and **MITRE ATT&CK** (a knowledge base of adversary tactics and techniques), plus wikis, blogs, training platforms and vendor subscriptions — and **project management tools** (issue logs, Gantt charts, Kanban boards, burndown charts).
+**Digital services** (two-way channels: helpdesk, phone, email, SMS, chat), **social media channels** (organisational, public, community, personal), **knowledge bases/management systems** - including sector-specific ones such as **CyBOK** (the Cyber Security Body of Knowledge) and **MITRE ATT&CK** (a knowledge base of adversary tactics and techniques), plus wikis, blogs, training platforms and vendor subscriptions - and **project management tools** (issue logs, Gantt charts, Kanban boards, burndown charts).
 
 ## 3.8 Cyber security impacts on critical national infrastructure
 
-Disruption to supply chains (food, raw materials); utilities — energy (power cuts, surges, under-voltage, gas supply loss), water/sanitation (loss of supply, flooding, treatment disruption), government (communication/policy interruption), finance (failed payments, transfer interruption), healthcare (compromised patient records, impaired communication/treatment), communications/ISPs (service loss, eavesdropping, impersonation), defence (impaired military/defence capability), and transport (disrupted public/private transport and emergency dispatch).
+Disruption to supply chains (food, raw materials); utilities - energy (power cuts, surges, under-voltage, gas supply loss), water/sanitation (loss of supply, flooding, treatment disruption), government (communication/policy interruption), finance (failed payments, transfer interruption), healthcare (compromised patient records, impaired communication/treatment), communications/ISPs (service loss, eavesdropping, impersonation), defence (impaired military/defence capability), and transport (disrupted public/private transport and emergency dispatch).
 
 ## 3.9 Purpose and types of control systems
 
@@ -56,10 +56,10 @@ Compare sources using reliability/validity factors (publisher credibility, curre
 
 ## Key terms
 
-- **CyBOK** — Cyber Security Body of Knowledge, a structured foundation of cyber security knowledge areas.
-- **MITRE ATT&CK** — a knowledge base cataloguing real-world adversary tactics and techniques, widely used as a reference in threat analysis.
-- **Availability bias** — judging based disproportionately on the most recent or memorable experience.
-- **IAG** — Information Assurance and Governance, the discipline of guiding, auditing and maintaining an organisation's security posture.
+- **CyBOK** - Cyber Security Body of Knowledge, a structured foundation of cyber security knowledge areas.
+- **MITRE ATT&CK** - a knowledge base cataloguing real-world adversary tactics and techniques, widely used as a reference in threat analysis.
+- **Availability bias** - judging based disproportionately on the most recent or memorable experience.
+- **IAG** - Information Assurance and Governance, the discipline of guiding, auditing and maintaining an organisation's security posture.
 
 ## Related pages
 

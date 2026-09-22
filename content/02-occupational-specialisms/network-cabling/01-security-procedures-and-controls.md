@@ -1,8 +1,8 @@
-# Network Cabling — Security Procedures and Controls
+# Network Cabling - Security Procedures and Controls
 
 *Digital Support and Security T Level → Occupational Specialisms → Network Cabling → Security Procedures and Controls*
 
-This page covers Content Area 1 of the Network Cabling occupational specialism: applying procedures and controls to maintain the digital security of an organisation and its data. It largely mirrors the Digital Infrastructure specialism's security content but is scoped to a cabling installer's world — physical site security, cabling-specific risk, and the legislation/standards that govern cabling work. Subsection numbers mirror the specification.
+This page covers Content Area 1 of the Network Cabling occupational specialism: applying procedures and controls to maintain the digital security of an organisation and its data. It largely mirrors the Digital Infrastructure specialism's security content but is scoped to a cabling installer's world - physical site security, cabling-specific risk, and the legislation/standards that govern cabling work. Subsection numbers mirror the specification.
 
 <figure>
 <img src="assets/img/hero-network-cabling.svg" alt="A patch panel with cables plugged into numbered ports">
@@ -11,24 +11,24 @@ This page covers Content Area 1 of the Network Cabling occupational specialism: 
 
 ## 1.1 Preventative business controls
 
-- **Physical** — anti-pick locks, barriers (fencing, bollards), gates, cages, lock-and-key (or equivalent).
-- **Combined/managed access** — card readers, biometric scanners, video, PIN/passcodes.
-- **Administrative** — separation of duties, relevance of role-based access.
-- **Technical** — allowlists, denylists, access control lists, sandboxing, device hardening, certificate authorities.
+- **Physical** - anti-pick locks, barriers (fencing, bollards), gates, cages, lock-and-key (or equivalent).
+- **Combined/managed access** - card readers, biometric scanners, video, PIN/passcodes.
+- **Administrative** - separation of duties, relevance of role-based access.
+- **Technical** - allowlists, denylists, access control lists, sandboxing, device hardening, certificate authorities.
 
 Students also implement the five NCSC Cyber Essentials controls (boundary firewalls, secure configuration, access control, malware protection, patch management), apply access-control methods (authentication, MAC, DAC, ABAC, RBAC) to physical or virtual networks, and manage documents/data in line with data protection legislation. *(E5, D1, D6.)*
 
 ## 1.2–1.6 Detective, corrective, deterrent, directive and compensating controls
 
-- **Detective** — CCTV, motion sensors; logs and site-access audits.
-- **Corrective** — fire/gas suppression; SOPs for responding to an incident such as a fire.
-- **Deterrent** — security guards, alarms, visible surveillance; SOPs (alarm-setting, fire drills), codes of conduct in employment contracts, acceptable-use policies.
-- **Directive** — signage, mandatory ID badges; agreement types, general security policy, regular compulsory training.
-- **Compensating** — temperature control; role-based awareness training, SOPs for environmental monitoring.
+- **Detective** - CCTV, motion sensors; logs and site-access audits.
+- **Corrective** - fire/gas suppression; SOPs for responding to an incident such as a fire.
+- **Deterrent** - security guards, alarms, visible surveillance; SOPs (alarm-setting, fire drills), codes of conduct in employment contracts, acceptable-use policies.
+- **Directive** - signage, mandatory ID badges; agreement types, general security policy, regular compulsory training.
+- **Compensating** - temperature control; role-based awareness training, SOPs for environmental monitoring.
 
 ## 1.7 Applying and monitoring business controls (skill)
 
-Review an identified risk (gather information from systems/users), then select, apply and monitor the right control type — preventative, detective, corrective, deterrent, directive, compensating or recovery — while complying with relevant policy. *(D3.)*
+Review an identified risk (gather information from systems/users), then select, apply and monitor the right control type - preventative, detective, corrective, deterrent, directive, compensating or recovery - while complying with relevant policy. *(D3.)*
 
 ## 1.8 Disaster recovery plan components
 
@@ -40,7 +40,7 @@ Impacts of realised threats: danger to life, privacy breaches, property/resource
 
 ## 1.12–1.14 Risk management, analysis and threat assessment
 
-The risk management process: identify → assess probability → assess impact → prioritise → mitigate. Analysis approaches: **qualitative** (RAG rating — red/amber/green) and **quantitative** (numeric cost/resource effects), using tools such as fault tree analysis, impact analysis, failure mode & effects critical analysis, ALE, CRAMM, SWOT analysis and a risk register.
+The risk management process: identify → assess probability → assess impact → prioritise → mitigate. Analysis approaches: **qualitative** (RAG rating - red/amber/green) and **quantitative** (numeric cost/resource effects), using tools such as fault tree analysis, impact analysis, failure mode & effects critical analysis, ALE, CRAMM, SWOT analysis and a risk register.
 
 Threat-assessment factors: environmental (weather, natural disaster, animals such as a rodent chewing cables, humidity, air quality), manmade (internal staff/contractor action; external malware, hacking, social engineering, third parties, terrorism), technological (Wi-Fi dropouts, inaccessible systems, device/firewall faults, signal interference, system/software upgrade impact), and political (legislative change).
 
@@ -62,7 +62,7 @@ Gather and organise incident information → analyse trends to surface underlyin
 
 ## 1.21–1.23 Encryption, back-ups and organisational policy
 
-Encryption (asymmetric, symmetric, data-at-rest via full-disk encryption/HSM/TPM, data-in-transit via SSL/TLS) and back-up (purpose, criteria — frequency, source, destination, storage — and types: full, incremental, differential, mirror) mirror the Digital Infrastructure content. Organisational policy covers a digital use policy (network/internet usage, BYOD, WFH, password renewal, software updates) and a health & safety policy (lone working, manual handling, working at height, fire safety, RIDDOR 2013), backed by a formal change procedure and regular policy audits. *(E5, D5 for the policy content.)*
+Encryption (asymmetric, symmetric, data-at-rest via full-disk encryption/HSM/TPM, data-in-transit via SSL/TLS) and back-up (purpose, criteria - frequency, source, destination, storage - and types: full, incremental, differential, mirror) mirror the Digital Infrastructure content. Organisational policy covers a digital use policy (network/internet usage, BYOD, WFH, password renewal, software updates) and a health & safety policy (lone working, manual handling, working at height, fire safety, RIDDOR 2013), backed by a formal change procedure and regular policy audits. *(E5, D5 for the policy content.)*
 
 ## 1.24 Legislation, standards and best practice
 
@@ -74,7 +74,7 @@ Covers the same core framework as Digital Infrastructure, applied to cabling wor
 - Access-control methods: authentication, firewalls, **IDS/IPS**, **NAC**, **MAC/DAC/ABAC/RBAC**.
 - Traffic security: physical (SDN with TLS, DMZ, air gapping) and virtual (VLAN, VPN, VRF, subnets, IPSec).
 - Cyber security techniques for connected devices: WPA2/WPA3, encryption, virtualisation, penetration testing, malware protection, patching, internet-gateway security, data-leakage protection, multi-factor authentication, single logout.
-- Importance to organisations and society mirrors the Digital Infrastructure content — protecting systems/data/cloud availability for organisations, and privacy/identity/equal-opportunity protection (plus DPA 2018 rights) for society.
+- Importance to organisations and society mirrors the Digital Infrastructure content - protecting systems/data/cloud availability for organisations, and privacy/identity/equal-opportunity protection (plus DPA 2018 rights) for society.
 
 ## 1.31 Network topologies, referencing models and minimum standards
 
@@ -82,19 +82,19 @@ Topologies (bus, star, ring, token ring, mesh, hybrid, client-server, peer-to-pe
 
 ## 1.32 Common vulnerabilities and cyber security controls
 
-Missing patches/updates, weak or missing passwords, insecure BIOS/UEFI, misconfigured permissions, unprotected systems, insecure data/device disposal (WEEE Directive 2013), poor back-up management, and unprotected physical devices — each paired with a specific control (patch management, minimum password policy aligned to NCSC guidance, BIOS review, scheduled permission audits, malware protection, correct back-up frequency/type, correct software installation).
+Missing patches/updates, weak or missing passwords, insecure BIOS/UEFI, misconfigured permissions, unprotected systems, insecure data/device disposal (WEEE Directive 2013), poor back-up management, and unprotected physical devices - each paired with a specific control (patch management, minimum password policy aligned to NCSC guidance, BIOS review, scheduled permission audits, malware protection, correct back-up frequency/type, correct software installation).
 
 ## Key terms
 
-- **DRP/BCP** — disaster recovery plan / business continuity plan.
-- **RAG rating** — red/amber/green qualitative risk severity scale.
-- **CIA triad** — confidentiality, integrity, availability.
-- **DMZ** — demilitarised zone, an isolated network segment between internal and external networks.
+- **DRP/BCP** - disaster recovery plan / business continuity plan.
+- **RAG rating** - red/amber/green qualitative risk severity scale.
+- **CIA triad** - confidentiality, integrity, availability.
+- **DMZ** - demilitarised zone, an isolated network segment between internal and external networks.
 
 ## Related pages
 
 - [Cabling Installation and Testing](02-cabling-installation-and-testing.md)
 - [Discover, Evaluate and Apply Reliable Sources of Knowledge](03-sources-of-knowledge.md)
-- [Digital Infrastructure — Security Procedures and Controls](../digital-infrastructure/01-security-procedures-and-controls.md)
+- [Digital Infrastructure - Security Procedures and Controls](../digital-infrastructure/01-security-procedures-and-controls.md)
 - [Occupational Specialisms overview](../00-overview.md)
 - [Scheme of Assessment](../05-scheme-of-assessment.md)

@@ -1,4 +1,4 @@
-# Network Cabling — Sources of Knowledge
+# Network Cabling - Sources of Knowledge
 
 *Digital Support and Security T Level → Occupational Specialisms → Network Cabling → Sources of Knowledge*
 
@@ -36,13 +36,13 @@ Identify sources for comparison, apply reliability/validity factors, compare out
 
 ## Key terms
 
-- **Triangulation** — validating a finding using three or more independent sources or methods.
-- **Confirmation bias** — favouring sources that support an assumption you already hold.
+- **Triangulation** - validating a finding using three or more independent sources or methods.
+- **Confirmation bias** - favouring sources that support an assumption you already hold.
 
 ## Related pages
 
 - [Security Procedures and Controls](01-security-procedures-and-controls.md)
 - [Cabling Installation and Testing](02-cabling-installation-and-testing.md)
-- [Digital Infrastructure — Sources of Knowledge](../digital-infrastructure/03-sources-of-knowledge.md)
+- [Digital Infrastructure - Sources of Knowledge](../digital-infrastructure/03-sources-of-knowledge.md)
 - [Occupational Specialisms overview](../00-overview.md)
 - [Scheme of Assessment](../05-scheme-of-assessment.md)

@@ -185,7 +185,7 @@
     });
     var html = "<h1>Digital Support and Security T Level</h1>";
     html += "<p><em>An independent, browsable study-guide wiki for the T Level Technical Qualification in Digital Support and Security (Level 3).</em></p>";
-    html += "<p>Use the search bar above, or browse the directory tree on the left &mdash; it mirrors the <code>/content</code> folder in the GitHub repository. Start with the overview, or jump straight to a topic:</p>";
+    html += "<p>Use the search bar above, or browse the directory tree on the left - it mirrors the <code>/content</code> folder in the GitHub repository. Start with the overview, or jump straight to a topic:</p>";
     html += '<div class="home-grid">';
     Object.keys(sections).sort().forEach(function (top) {
       var items = sections[top];

@@ -2,7 +2,7 @@
 
 *Digital Support and Security T Level → Occupational Specialisms*
 
-Alongside the shared core component, every student on the Digital Support and Security T Level studies **one** Occupational Specialism (OS). This is where the qualification narrows into a specific job-ready skill set, and it carries equal weight to the core — 50% of the overall qualification, delivered over roughly 600 Guided Learning Hours (660 Total Qualification Time). There are four specialisms to choose from: Digital Infrastructure, Network Cabling, Digital Support, and Cyber Security.
+Alongside the shared core component, every student on the Digital Support and Security T Level studies **one** Occupational Specialism (OS). This is where the qualification narrows into a specific job-ready skill set, and it carries equal weight to the core - 50% of the overall qualification, delivered over roughly 600 Guided Learning Hours (660 Total Qualification Time). There are four specialisms to choose from: Digital Infrastructure, Network Cabling, Digital Support, and Cyber Security.
 
 <figure>
 <img src="assets/img/hero-specialisms.svg" alt="Four icons -- a server, a cable connector, a headset and a shield -- arranged around a central hub">
@@ -11,9 +11,9 @@ Alongside the shared core component, every student on the Digital Support and Se
 
 Every specialism is built from the same three-content-area pattern, even though the detail differs:
 
-1. **Apply procedures and controls to maintain the digital security of an organisation and its data** — a security-focused content area common to all four specialisms, though the depth and angle shifts depending on the job role.
-2. **A specialism-specific technical skill area** — the hands-on discipline the specialism is named for.
-3. **Discover, evaluate and apply reliable sources of knowledge** — research and information-literacy skills applied to the specialism's technical domain.
+1. **Apply procedures and controls to maintain the digital security of an organisation and its data** - a security-focused content area common to all four specialisms, though the depth and angle shifts depending on the job role.
+2. **A specialism-specific technical skill area** - the hands-on discipline the specialism is named for.
+3. **Discover, evaluate and apply reliable sources of knowledge** - research and information-literacy skills applied to the specialism's technical domain.
 
 ## The four specialisms
 
@@ -28,9 +28,9 @@ Each specialism is assessed by a single externally-set, synoptic project (see [S
 
 ## Choosing a specialism
 
-- **Digital Infrastructure** suits students who enjoy designing and running networks and systems end-to-end — physical hardware and virtualised environments alike — and want a broad infrastructure-engineering career.
+- **Digital Infrastructure** suits students who enjoy designing and running networks and systems end-to-end - physical hardware and virtualised environments alike - and want a broad infrastructure-engineering career.
 - **Network Cabling** suits students who prefer highly practical, physical, hands-on work: running, terminating and testing cable to a professional standard, with a career as a specialist installer.
-- **Digital Support** suits students who like solving day-to-day technical problems for end users — installing, configuring and troubleshooting software and operating systems — and want a career in IT/service desk support.
+- **Digital Support** suits students who like solving day-to-day technical problems for end users - installing, configuring and troubleshooting software and operating systems - and want a career in IT/service desk support.
 - **Cyber Security** suits students most interested in the security side specifically: identifying risks, assessing threats and recommending remediation, as a route into a dedicated cyber security career.
 
 ## Related pages

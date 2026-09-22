@@ -1,25 +1,25 @@
-# Digital Infrastructure — Physical and Virtual Infrastructure
+# Digital Infrastructure - Physical and Virtual Infrastructure
 
 *Digital Support and Security T Level → Occupational Specialisms → Digital Infrastructure → Physical and Virtual Infrastructure*
 
-This page covers Content Area 2 of the Digital Infrastructure specialism: explaining, installing, configuring, testing and managing both physical and virtual infrastructure. It's the technical core of the specialism — networking, servers, virtualisation, cloud and service management. Subsection numbers mirror the specification.
+This page covers Content Area 2 of the Digital Infrastructure specialism: explaining, installing, configuring, testing and managing both physical and virtual infrastructure. It's the technical core of the specialism - networking, servers, virtualisation, cloud and service management. Subsection numbers mirror the specification.
 
 ## 2.1 Principles of network and infrastructure design
 
 - **Resilience**: high availability (primary/secondary configurations), clustering (redundancy + scalability), load balancing (traffic distribution), segmentation (splitting network/systems/data/devices/services to limit risk impact).
-- **Quality of Service (QoS)** — guarantees a specific level of network service.
+- **Quality of Service (QoS)** - guarantees a specific level of network service.
 - **Number systems** for subnetting/IP addressing: binary, hexadecimal, decimal, octal.
 - Students must be able to explain the purpose, benefits and protocol/port usage of network infrastructure using correct technical language. *(E1, E4.)*
 
 ## 2.2 Transmitting digital information over copper, fibre and wireless
 
-Signal types are electrical (copper), light-based (fibre) or wireless. Security risks include tampering and signal loss. Copper cabling needs segregating from electrical cabling because of interference (electromagnetic, static, crosstalk) — mitigated by shielding or parallel cable runs, in line with **BS EN 50174**. Wireless standards range from 802.11b/g/n through Wi-Fi 5, 6/6e and 7. Addressing covers **IPv4** (addressing schemes, subnetting, subnet masks) and **IPv6** (address types).
+Signal types are electrical (copper), light-based (fibre) or wireless. Security risks include tampering and signal loss. Copper cabling needs segregating from electrical cabling because of interference (electromagnetic, static, crosstalk) - mitigated by shielding or parallel cable runs, in line with **BS EN 50174**. Wireless standards range from 802.11b/g/n through Wi-Fi 5, 6/6e and 7. Addressing covers **IPv4** (addressing schemes, subnetting, subnet masks) and **IPv6** (address types).
 
 ## 2.3 Elements of infrastructure and associated technologies
 
 - **Network devices**: firewalls (including NGFW/UTM appliances), routers, switches, hubs, bridges, wireless access points, range extenders, modems, media converters.
 - **End-user devices**: desktops/laptops, mobile devices, smart devices, removable media.
-- **Storage**: HDD, SSD, removable media, **NAS**, **SAN**, block storage, object storage, and **RAID** levels — 0 (striping), 1 (mirroring), 5 (parity), 10 (mirroring + striping).
+- **Storage**: HDD, SSD, removable media, **NAS**, **SAN**, block storage, object storage, and **RAID** levels - 0 (striping), 1 (mirroring), 5 (parity), 10 (mirroring + striping).
 - **Wired/wireless tech**: UTP cabling (straight-through/crossover, TIA/EIA-568A/B), RJ11/RJ45 connectors, copper (Cat5e/Cat6) and fibre-optic cable, PPP, SDN, WPA1/2/3.
 - **Antennas**: omni-directional, directional, patch, yagi, dipole.
 - **Cloud service models**: IaaS, PaaS, SaaS, cloud storage.
@@ -28,7 +28,7 @@ Signal types are electrical (copper), light-based (fibre) or wireless. Security 
 
 ## 2.4 Electrostatic discharge (ESD) prevention and risk assessment (skill)
 
-Mitigate ESD risk by limiting movement, checking temperature/humidity (higher humidity increases static build-up), and using anti-static equipment (e.g. wrist straps). Students apply the full risk-management process — identify risks and their effect on people, calculate probability/impact, prioritise, record findings, apply ESD protection, and comply with health & safety legislation. *(E1, E3, M2, M6, M10, D5.)*
+Mitigate ESD risk by limiting movement, checking temperature/humidity (higher humidity increases static build-up), and using anti-static equipment (e.g. wrist straps). Students apply the full risk-management process - identify risks and their effect on people, calculate probability/impact, prioritise, record findings, apply ESD protection, and comply with health & safety legislation. *(E1, E3, M2, M6, M10, D5.)*
 
 ## 2.5 Health and safety legislation in a digital infrastructure context
 
@@ -36,27 +36,27 @@ Health and Safety at Work etc. Act 1974 (PPE, employer duty of care); Manual Han
 
 ## 2.6–2.8 Physical servers, virtual servers and containers
 
-- **Physical servers** — full access to resources and full customisation, but expensive to buy/run, harder to maintain, storage is harder to scale, and they need physical space.
-- **Self-hosted virtual servers** — lower setup expertise, better cost control, scalable, support HA/clustering, but high upfront cost and expensive resilience.
-- **Cloud-hosted virtual servers** (e.g. Azure, AWS) — scale easily, built-in redundancy, third-party support, but higher subscription cost and a more complex initial setup.
-- **Containers** — lightweight, portable, consistent and cheap to run and develop, but less secure if misconfigured, less OS flexibility, and need more expertise to set up.
+- **Physical servers** - full access to resources and full customisation, but expensive to buy/run, harder to maintain, storage is harder to scale, and they need physical space.
+- **Self-hosted virtual servers** - lower setup expertise, better cost control, scalable, support HA/clustering, but high upfront cost and expensive resilience.
+- **Cloud-hosted virtual servers** (e.g. Azure, AWS) - scale easily, built-in redundancy, third-party support, but higher subscription cost and a more complex initial setup.
+- **Containers** - lightweight, portable, consistent and cheap to run and develop, but less secure if misconfigured, less OS flexibility, and need more expertise to set up.
 
 ## 2.9 Operating systems in digital infrastructure
 
-Types: end-user/desktop (Windows, macOS), mobile (Android, iOS), server (Linux, Windows Server). Benefits: usability, no machine-language knowledge required, stronger data security. All OSs share a user interface, personalisation, resource management and an application platform — but differ in purpose-specific features, UX/UI, and supported functionality.
+Types: end-user/desktop (Windows, macOS), mobile (Android, iOS), server (Linux, Windows Server). Benefits: usability, no machine-language knowledge required, stronger data security. All OSs share a user interface, personalisation, resource management and an application platform - but differ in purpose-specific features, UX/UI, and supported functionality.
 
 ## 2.10 Client-server network services
 
-- **Active Directory Domain Services (AD DS)** — centrally manages users, devices, security groups and distribution lists via **organisational units (OUs)**.
-- **Group Policy** — **GPOs** applied to OUs to push settings/files to users and devices.
-- **DHCP** — assigns IP addresses to clients.
-- **LDAP** — directory-service authentication.
-- **DNS** — hostname-to-IP translation.
-- **File servers/DFS** — shared disk access. **Print servers** — shared printing. **Web/proxy/cache servers** — internet access, security, filtering. **Mail servers**, **application servers**, **database servers**, and security utilities (e.g. anti-virus) to protect data and systems.
+- **Active Directory Domain Services (AD DS)** - centrally manages users, devices, security groups and distribution lists via **organisational units (OUs)**.
+- **Group Policy** - **GPOs** applied to OUs to push settings/files to users and devices.
+- **DHCP** - assigns IP addresses to clients.
+- **LDAP** - directory-service authentication.
+- **DNS** - hostname-to-IP translation.
+- **File servers/DFS** - shared disk access. **Print servers** - shared printing. **Web/proxy/cache servers** - internet access, security, filtering. **Mail servers**, **application servers**, **database servers**, and security utilities (e.g. anti-virus) to protect data and systems.
 
 ## 2.11–2.12 Remote access and VPN setup
 
-Remote access methods: **VPN** (private, encrypted connection), **RDP** (processing stays on the host machine), **LOM** — lights-out management (remote server administration), **SSH** (secure two-host connection). Setting up a simple VPN involves server-side configuration (enabling the service, setting IP/DNS, managing authentication and permissions) and client-side configuration (creating the connection, setting the destination IP/FQDN, setting permissions).
+Remote access methods: **VPN** (private, encrypted connection), **RDP** (processing stays on the host machine), **LOM** - lights-out management (remote server administration), **SSH** (secure two-host connection). Setting up a simple VPN involves server-side configuration (enabling the service, setting IP/DNS, managing authentication and permissions) and client-side configuration (creating the connection, setting the destination IP/FQDN, setting permissions).
 
 ## 2.13–2.14 Installing, configuring, testing and maintaining networks (skill)
 
@@ -98,17 +98,17 @@ Identify the hardware affected by a change and assess current network performanc
 
 ## Key terms
 
-- **HA / clustering / load balancing** — resilience techniques for network design.
-- **AD DS / GPO** — Active Directory Domain Services / Group Policy Object.
-- **RAID 0/1/5/10** — striping, mirroring, parity, mirroring+striping.
-- **IaaS/PaaS/SaaS** — Infrastructure/Platform/Software as a Service.
-- **ITIL** — IT Infrastructure Library, a service-management framework.
-- **SLC** — solution lifecycle.
+- **HA / clustering / load balancing** - resilience techniques for network design.
+- **AD DS / GPO** - Active Directory Domain Services / Group Policy Object.
+- **RAID 0/1/5/10** - striping, mirroring, parity, mirroring+striping.
+- **IaaS/PaaS/SaaS** - Infrastructure/Platform/Software as a Service.
+- **ITIL** - IT Infrastructure Library, a service-management framework.
+- **SLC** - solution lifecycle.
 
 ## Related pages
 
 - [Security Procedures and Controls](01-security-procedures-and-controls.md)
 - [Discover, Evaluate and Apply Reliable Sources of Knowledge](03-sources-of-knowledge.md)
-- [Network Cabling — Cabling Installation and Testing](../network-cabling/02-cabling-installation-and-testing.md)
+- [Network Cabling - Cabling Installation and Testing](../network-cabling/02-cabling-installation-and-testing.md)
 - [Occupational Specialisms overview](../00-overview.md)
 - [Scheme of Assessment](../05-scheme-of-assessment.md)

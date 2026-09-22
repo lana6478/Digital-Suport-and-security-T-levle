@@ -2,27 +2,27 @@
 
 *Digital Support and Security T Level → Core Component → Core Paper 2*
 
-Core Paper 2 is a 2 hour 15 minute written exam worth 90 marks (30% of the core, 15% of the total qualification). It covers five content areas: **Legislation and regulatory requirements**, **Business context**, **Emerging issues**, **Digital environments**, and **Security**. This is the largest single content block in the qualification — this page works through each area using the specification's own numbering.
+Core Paper 2 is a 2 hour 15 minute written exam worth 90 marks (30% of the core, 15% of the total qualification). It covers five content areas: **Legislation and regulatory requirements**, **Business context**, **Emerging issues**, **Digital environments**, and **Security**. This is the largest single content block in the qualification - this page works through each area using the specification's own numbering.
 
 ## Content area 4: Legislation and regulatory requirements
 
 ### 4.1 Legislation
 
 **Health and safety law** relevant to digital workplaces:
-- **Health and Safety at Work Act** — employers must provide a safe working environment, properly train staff, provide adequate welfare provision, and give relevant information/instruction/supervision.
-- **Manual handling operations regulations** — avoid hazardous manual handling where possible; where it can't be avoided, assess the risk, give information on load and centre of gravity, and reduce injury risk so far as reasonably practicable.
-- **Work at height regulations** — work must be properly planned, supervised and carried out by competent people; do as much as possible from the ground; ensure safe access; ensure equipment is suitable/stable/strong enough; protect against falling objects; plan for emergency evacuation.
-- **Display screen equipment (DSE) regulations** — employers must carry out a DSE workstation assessment, reduce risks (including ensuring breaks from screen work), provide eye tests on request, and provide training/information.
+- **Health and Safety at Work Act** - employers must provide a safe working environment, properly train staff, provide adequate welfare provision, and give relevant information/instruction/supervision.
+- **Manual handling operations regulations** - avoid hazardous manual handling where possible; where it can't be avoided, assess the risk, give information on load and centre of gravity, and reduce injury risk so far as reasonably practicable.
+- **Work at height regulations** - work must be properly planned, supervised and carried out by competent people; do as much as possible from the ground; ensure safe access; ensure equipment is suitable/stable/strong enough; protect against falling objects; plan for emergency evacuation.
+- **Display screen equipment (DSE) regulations** - employers must carry out a DSE workstation assessment, reduce risks (including ensuring breaks from screen work), provide eye tests on request, and provide training/information.
 
 Students should also understand the specific **health and safety risks** of digital work (DSE use, working at height, cable installation, manual handling) and how to mitigate them (training, safe environment, safety equipment, supervision).
 
 Key legislation:
-- **Data Protection Act / UK GDPR** — its purpose and the eight data protection principles.
-- **Computer Misuse Act (CMA) 1990** — its principles, the consequences for both company and employee, the need for employee awareness, and the types of crime it covers.
-- **Equality legislation** — the nine protected characteristics, types of discrimination (direct, indirect, harassment, victimisation), who's protected, and time limits for taking action.
-- **Intellectual Property legislation** — unregistered designs, registered designs, and patents.
-- **Electrical Waste legislation** — the Waste Electrical and Electronic Equipment (WEEE) Regulations, and safe/environmentally responsible disposal.
-- **International law** also applies to some offences — e.g. international law in cyberspace and around surveillance.
+- **Data Protection Act / UK GDPR** - its purpose and the eight data protection principles.
+- **Computer Misuse Act (CMA) 1990** - its principles, the consequences for both company and employee, the need for employee awareness, and the types of crime it covers.
+- **Equality legislation** - the nine protected characteristics, types of discrimination (direct, indirect, harassment, victimisation), who's protected, and time limits for taking action.
+- **Intellectual Property legislation** - unregistered designs, registered designs, and patents.
+- **Electrical Waste legislation** - the Waste Electrical and Electronic Equipment (WEEE) Regulations, and safe/environmentally responsible disposal.
+- **International law** also applies to some offences - e.g. international law in cyberspace and around surveillance.
 
 Students should be able to weigh up how digital legislation interrelates with digital support and security work, and its impact on organisations, society and individuals.
 
@@ -32,7 +32,7 @@ Students should be able to weigh up how digital legislation interrelates with di
 
 **Digital industry standards** come from bodies including ISO, WCAG, W3C, IETF, EIA/TIA, British Standards (BS), IEEE, and the PCI Security Standards Council.
 
-**Acceptable use policies (AUPs)** set out permitted/prohibited activities, working practices (including confidentiality), communication etiquette, and sanctions/penalties. **Whistleblowing procedures** matter too — students should understand why they're important.
+**Acceptable use policies (AUPs)** set out permitted/prohibited activities, working practices (including confidentiality), communication etiquette, and sanctions/penalties. **Whistleblowing procedures** matter too - students should understand why they're important.
 
 ## Content area 5: Business context
 
@@ -43,13 +43,13 @@ Organisations exist to provide a **service** or **product**, across sectors: **p
 ### 5.2 Digital value to organisations
 
 Digital systems support every part of a business:
-- **Sales and marketing** — market research, brand promotion (including social media), online selling, personalisation, customer retention, brand differentiation, analytics tools.
-- **R&D** — enabling unique products/services.
-- **HR** — staff records, performance management, training records.
-- **Operations** — internal communication, process automation, automated manufacturing, remote working, intranets, document sharing.
-- **Management** — real-time KPI monitoring (sales, customers served, units measured, asset location).
-- **Logistics** — automated stock control.
-- **Finance** — reduced costs, increased revenue, better up-to-date reporting.
+- **Sales and marketing** - market research, brand promotion (including social media), online selling, personalisation, customer retention, brand differentiation, analytics tools.
+- **R&D** - enabling unique products/services.
+- **HR** - staff records, performance management, training records.
+- **Operations** - internal communication, process automation, automated manufacturing, remote working, intranets, document sharing.
+- **Management** - real-time KPI monitoring (sales, customers served, units measured, asset location).
+- **Logistics** - automated stock control.
+- **Finance** - reduced costs, increased revenue, better up-to-date reporting.
 
 Digital systems also need to meet **user needs and quality expectations**: appropriate/effective functionality, reduced "pain points" (response time, task complexity), accessibility, compatibility (with legacy systems, future systems, external services), availability (minimised downtime, future-proofing), effective end-user support, and ease of installation.
 
@@ -73,16 +73,16 @@ The **change management process**: identify the type of change (new system vs. a
 
 ### 5.5 How digital support roles enable business operations
 
-The specification breaks this down by occupational area — useful context for all four Occupational Specialisms:
+The specification breaks this down by occupational area - useful context for all four Occupational Specialisms:
 
-- **Digital infrastructure support** — responsibilities: install/test/maintain components, schedule updates, maintain system availability, recovery/restoration, optimise performance, apply security, troubleshoot, escalate, follow legislation, document system changes. Roles: technician/service desk, first-to-fourth-line support, network installation, server support. Skills: problem-solving, analytical thinking, digital tools, communication, prioritisation, teamwork, upskilling.
-- **Network cabling installation** — responsibilities: install/terminate/test/certify copper and fibre cable, maintain cabling, fault-find and repair, install cabinets/fixtures/racks and physical protection, risk assessments, legislation compliance, cable route maps and documentation, asset registers, maintenance logs. Roles: cabling installer, network surveyor, network analyst, network installation engineer. Skills: manual handling, working at height, interpreting plans, adaptability, prioritisation, teamwork, upskilling.
-- **Digital support** — responsibilities: hardware/software support, software installation, user account management (quotas, permissions), communicating changes, training end users, asset registers, incident response software, escalation, standard operating procedures. Roles: first-line support, helpdesk/service desk, support technician (desktop/applications/hardware). Skills: problem-solving, analytical thinking, logging/monitoring/diagnostic tools, communication, prioritisation, active listening, customer service, teamwork, upskilling.
-- **Digital communications support** — install/test/maintain integrated communication systems, manage availability, configure/monitor/optimise performance, apply security, document to organisational standards.
+- **Digital infrastructure support** - responsibilities: install/test/maintain components, schedule updates, maintain system availability, recovery/restoration, optimise performance, apply security, troubleshoot, escalate, follow legislation, document system changes. Roles: technician/service desk, first-to-fourth-line support, network installation, server support. Skills: problem-solving, analytical thinking, digital tools, communication, prioritisation, teamwork, upskilling.
+- **Network cabling installation** - responsibilities: install/terminate/test/certify copper and fibre cable, maintain cabling, fault-find and repair, install cabinets/fixtures/racks and physical protection, risk assessments, legislation compliance, cable route maps and documentation, asset registers, maintenance logs. Roles: cabling installer, network surveyor, network analyst, network installation engineer. Skills: manual handling, working at height, interpreting plans, adaptability, prioritisation, teamwork, upskilling.
+- **Digital support** - responsibilities: hardware/software support, software installation, user account management (quotas, permissions), communicating changes, training end users, asset registers, incident response software, escalation, standard operating procedures. Roles: first-line support, helpdesk/service desk, support technician (desktop/applications/hardware). Skills: problem-solving, analytical thinking, logging/monitoring/diagnostic tools, communication, prioritisation, active listening, customer service, teamwork, upskilling.
+- **Digital communications support** - install/test/maintain integrated communication systems, manage availability, configure/monitor/optimise performance, apply security, document to organisational standards.
 
 **Routes into digital support and security**: further education, apprenticeships, higher education, professional courses, professional recognition.
 
-**Communication techniques**: incident tickets, system update notifications, forums, and using clear/concise language matched to audience (target audience, size, knowledge level, detail needed) — via troubleshooting technique, active listening, reading body language, open questioning, negotiation, and conflict de-escalation.
+**Communication techniques**: incident tickets, system update notifications, forums, and using clear/concise language matched to audience (target audience, size, knowledge level, detail needed) - via troubleshooting technique, active listening, reading body language, open questioning, negotiation, and conflict de-escalation.
 
 **End-user interaction needs** differ by group: clients/end-users (verbal support, written updates, training, remote support, screen sharing), managers (escalation routes, progress reports, presentations), peers/colleagues (sharing best practice, knowledge dissemination, training, collaboration).
 
@@ -94,7 +94,7 @@ The specification breaks this down by occupational area — useful context for a
 
 **On society**: job losses, shifting skill requirements, reduced human decision-making/empathy, privacy concerns (digital footprint, surveillance), behavioural change (social skills, digital identity), wider access to social networks and online services, potential digital isolation (skills, equipment, connectivity, resistance to change), improved access to information, growth of generative AI (text, image, video, audio), and globalisation (access to global media).
 
-**Digital inclusion** matters — ensuring fair access via suitable hardware/software, connectivity, adherence to best-practice codes, and public sector accessibility regulations. End-user characteristics that affect inclusivity: age, digital/literacy skills, internal vs. external audience, cultural issues (including bias in digital systems), and additional/accessibility needs.
+**Digital inclusion** matters - ensuring fair access via suitable hardware/software, connectivity, adherence to best-practice codes, and public sector accessibility regulations. End-user characteristics that affect inclusivity: age, digital/literacy skills, internal vs. external audience, cultural issues (including bias in digital systems), and additional/accessibility needs.
 
 **Professional development** benefits: increased industry competence, better employability/job security, and staying current with industry standards.
 
@@ -117,8 +117,8 @@ Operating system types: **batch** (non-interactive, high volume, scheduled), **m
 Benefits/drawbacks of networking devices together. Network types by scale: **PAN, LAN, MAN, WAN**. Connectivity: wired (copper/ethernet, fibre) and wireless (access points). Topologies: star, mesh, tree, and logical vs. physical topology. Network models: client-server, thin client, peer-to-peer. Components: server, client, router, switch, internet connection/backbone.
 
 Two key reference models:
-- **OSI 7-layer model** — application, presentation, session, transport, network, data link, physical — each with its own function and associated protocols.
-- **TCP/IP 4-layer model** — application, transport, internet, network.
+- **OSI 7-layer model** - application, presentation, session, transport, network, data link, physical - each with its own function and associated protocols.
+- **TCP/IP 4-layer model** - application, transport, internet, network.
 
 **Data packets**: their contents/structure, the role of each component, packet switching (and causes of packet loss), and error handling via cyclic redundancy check (CRC). **Common protocols**: web (HTTP, HTTPS), mail (SMTP, POP, IMAP), routing (RIP, OSPF), application (FTP, SFTP, DHCP, DNS). **Bandwidth** and **latency**, and their effect on network/system performance.
 
@@ -148,9 +148,9 @@ Confidential information organisations hold: HR data (salaries, staff details), 
 
 ### 8.2 Types of threats and vulnerabilities
 
-**Technical threats**: botnets; DoS/DDoS; malicious hacking (hacktivists, nation states, organised crime, individuals — using password cracking/brute force, cross-site scripting, SQL injection, buffer overflow); malware (viruses, worms, keyloggers, ransomware, spyware, remote access trojans); social engineering (phishing, spear phishing, smishing, vishing, pharming, watering-hole attacks, USB baiting); DNS attacks/traffic redirection; open/unsecured Wi-Fi.
+**Technical threats**: botnets; DoS/DDoS; malicious hacking (hacktivists, nation states, organised crime, individuals - using password cracking/brute force, cross-site scripting, SQL injection, buffer overflow); malware (viruses, worms, keyloggers, ransomware, spyware, remote access trojans); social engineering (phishing, spear phishing, smishing, vishing, pharming, watering-hole attacks, USB baiting); DNS attacks/traffic redirection; open/unsecured Wi-Fi.
 
-**Technical vulnerabilities**: inadequate security processes (weak encryption, poor password policy, no MFA); out-of-date components (hardware, software — including legacy compatibility issues and zero-day bugs, firmware).
+**Technical vulnerabilities**: inadequate security processes (weak encryption, poor password policy, no MFA); out-of-date components (hardware, software - including legacy compatibility issues and zero-day bugs, firmware).
 
 **Human threats**: human error (mitigated by file properties, confirmation boxes, staff training); malicious employees (immediate removal, account suspension); disguised criminals (visitor escorts, ID checks); poor cyber hygiene (locking unattended machines, not writing down passwords, poor password management).
 
@@ -160,28 +160,28 @@ Confidential information organisations hold: HR data (salaries, staff details), 
 
 ### 8.3 Threat mitigation
 
-Techniques: security settings (hardware and software); anti-malware software; intrusion detection; encryption (hashing, symmetric, asymmetric); user access policies; staff vetting and training; software-based access control; device hardening; backups (full, incremental, differential — safely stored); software/firmware/driver updates; air gaps; API certification; VPNs; multi-factor authentication; password managers; port scanning; penetration testing (ethical vs. unethical hacking).
+Techniques: security settings (hardware and software); anti-malware software; intrusion detection; encryption (hashing, symmetric, asymmetric); user access policies; staff vetting and training; software-based access control; device hardening; backups (full, incremental, differential - safely stored); software/firmware/driver updates; air gaps; API certification; VPNs; multi-factor authentication; password managers; port scanning; penetration testing (ethical vs. unethical hacking).
 
 **Internet security processes**: firewall configuration (inbound/outbound rules, traffic-type rules, application rules, IP rules); network segregation (virtual, physical, offline); network monitoring; port scanning.
 
 ### 8.4 How security components interrelate
 
-**The CIA triad**: **Confidentiality** (controlling who can access data), **Integrity** (ensuring data hasn't been tampered with — partly achieved by maintaining confidentiality), **Availability** (ensuring data is accessible and usable — partly achieved by maintaining integrity). The three properties reinforce each other rather than standing alone.
+**The CIA triad**: **Confidentiality** (controlling who can access data), **Integrity** (ensuring data hasn't been tampered with - partly achieved by maintaining confidentiality), **Availability** (ensuring data is accessible and usable - partly achieved by maintaining integrity). The three properties reinforce each other rather than standing alone.
 
 **The IAAA model**:
-- **Identification** — recognising an individual within a system (knowledge-based e.g. username, possession-based, or biometric-based methods).
-- **Authentication** — verifying the identity claimed at identification (MFA, passwords/passphrases, biometrics).
-- **Authorisation** — ensuring an authenticated user can only access what they're permitted to (role-based access, access control lists).
-- **Accountability** — ensuring actions can be traced back to the responsible user (audit logs, user activity monitoring).
+- **Identification** - recognising an individual within a system (knowledge-based e.g. username, possession-based, or biometric-based methods).
+- **Authentication** - verifying the identity claimed at identification (MFA, passwords/passphrases, biometrics).
+- **Authorisation** - ensuring an authenticated user can only access what they're permitted to (role-based access, access control lists).
+- **Accountability** - ensuring actions can be traced back to the responsible user (audit logs, user activity monitoring).
 
 ## Key terms
 
-- **CIA triad** — Confidentiality, Integrity, Availability: the three interlocking goals of information security.
-- **IAAA model** — Identification, Authentication, Authorisation, Accountability.
-- **CAB (Change Advisory Board)** — the group that prioritises, reviews and approves change requests.
-- **SMARTER objectives** — Specific, Measurable, Achievable, Realistic, Time-bound, Evaluated, Reviewed.
-- **IaaS / PaaS / SaaS** — Infrastructure / Platform / Software as a Service — cloud delivery models distinguished by who manages what.
-- **OSI model / TCP-IP model** — the two standard layered models of network communication.
+- **CIA triad** - Confidentiality, Integrity, Availability: the three interlocking goals of information security.
+- **IAAA model** - Identification, Authentication, Authorisation, Accountability.
+- **CAB (Change Advisory Board)** - the group that prioritises, reviews and approves change requests.
+- **SMARTER objectives** - Specific, Measurable, Achievable, Realistic, Time-bound, Evaluated, Reviewed.
+- **IaaS / PaaS / SaaS** - Infrastructure / Platform / Software as a Service - cloud delivery models distinguished by who manages what.
+- **OSI model / TCP-IP model** - the two standard layered models of network communication.
 
 ## Related pages
 

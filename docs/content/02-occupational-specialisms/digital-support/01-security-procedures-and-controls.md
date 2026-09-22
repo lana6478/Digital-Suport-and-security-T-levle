@@ -1,8 +1,8 @@
-# Digital Support — Security Procedures and Controls
+# Digital Support - Security Procedures and Controls
 
 *Digital Support and Security T Level → Occupational Specialisms → Digital Support → Security Procedures and Controls*
 
-This is Content Area 1 of the Digital Support occupational specialism. It is one of three content areas every Digital Support student studies, and it is largely shared in spirit (though not word-for-word) with the equivalent content area in the other three specialisms — every T Level Digital Support and Security student, whichever specialism they choose, has to be able to apply procedures and controls to protect an organisation's digital security. In the Digital Support version, the emphasis sits on business controls, disaster recovery, risk management and network/device-level technical controls a digital support technician would apply day to day.
+This is Content Area 1 of the Digital Support occupational specialism. It is one of three content areas every Digital Support student studies, and it is largely shared in spirit (though not word-for-word) with the equivalent content area in the other three specialisms - every T Level Digital Support and Security student, whichever specialism they choose, has to be able to apply procedures and controls to protect an organisation's digital security. In the Digital Support version, the emphasis sits on business controls, disaster recovery, risk management and network/device-level technical controls a digital support technician would apply day to day.
 
 <figure>
 <img src="assets/img/hero-digital-support.svg" alt="A laptop with a chat bubble and a support headset, representing helpdesk and technical support">
@@ -13,12 +13,12 @@ This is Content Area 1 of the Digital Support occupational specialism. It is one
 
 Preventative controls stop an incident happening in the first place. They fall into four broad groups:
 
-- **Physical** — specialist anti-picking locks, barriers (fencing, bollards, gates, cages), flood defence systems, temperature control (e.g. air conditioning).
-- **Combined/managed access** — card readers, biometric readers, video verification, PIN/passcodes.
-- **Administrative** — separation of duties and role-based access, so no one person holds excessive privilege.
-- **Technical** — domain and security policies such as allowlisting/denylisting, access control lists, sandboxing, device hardening and use of a certificate authority.
+- **Physical** - specialist anti-picking locks, barriers (fencing, bollards, gates, cages), flood defence systems, temperature control (e.g. air conditioning).
+- **Combined/managed access** - card readers, biometric readers, video verification, PIN/passcodes.
+- **Administrative** - separation of duties and role-based access, so no one person holds excessive privilege.
+- **Technical** - domain and security policies such as allowlisting/denylisting, access control lists, sandboxing, device hardening and use of a certificate authority.
 
-Practical skills built alongside this knowledge include setting up a domain services environment with security controls (group-based permissions, password complexity rules), deploying a certificate authority, and implementing the five NCSC Cyber Essentials controls — boundary firewalls, secure configuration (e.g. enabling MFA), access control, malware protection and patch management — plus configuring access control methods on end-user devices (authentication, MAC, DAC, ABAC, RBAC) and handling documents/data in line with data protection law.
+Practical skills built alongside this knowledge include setting up a domain services environment with security controls (group-based permissions, password complexity rules), deploying a certificate authority, and implementing the five NCSC Cyber Essentials controls - boundary firewalls, secure configuration (e.g. enabling MFA), access control, malware protection and patch management - plus configuring access control methods on end-user devices (authentication, MAC, DAC, ABAC, RBAC) and handling documents/data in line with data protection law.
 
 ## 1.2 Detective business control techniques
 
@@ -38,18 +38,18 @@ Controls that tell people what to do: signage, mandatory ID badge display, agree
 
 ## 1.6 Compensating business control techniques
 
-A safeguard used when a primary control isn't available or fails — e.g. environmental temperature controls as a physical example, or role-based awareness training and environmental-monitoring SOPs as administrative examples.
+A safeguard used when a primary control isn't available or fails - e.g. environmental temperature controls as a physical example, or role-based awareness training and environmental-monitoring SOPs as administrative examples.
 
 ## 1.7 Applying and monitoring business controls
 
-Students must be able to review an identified risk (gathering information from systems and users), then select, apply and monitor the appropriate control type — preventative, detective, corrective, deterrent, directive, compensating or recovery — while complying with relevant regulation and organisational procedure. *(Maps to assessment competencies D3.)*
+Students must be able to review an identified risk (gathering information from systems and users), then select, apply and monitor the appropriate control type - preventative, detective, corrective, deterrent, directive, compensating or recovery - while complying with relevant regulation and organisational procedure. *(Maps to assessment competencies D3.)*
 
 ## 1.8 Disaster recovery plan components
 
 A Disaster Recovery Plan (DRP) covers:
 
-- **Physical** elements — backups, off-site alternative server storage.
-- **Administrative/procedural** elements sitting under a wider organisational Business Continuity Plan (BCP) — keeping systems functional, letting users access systems away from the main site, deploying backups to preserve data integrity, keeping digital systems aligned with business needs, tracking assets across the network (tagging/logging laptops), and reporting infrastructure changes to management.
+- **Physical** elements - backups, off-site alternative server storage.
+- **Administrative/procedural** elements sitting under a wider organisational Business Continuity Plan (BCP) - keeping systems functional, letting users access systems away from the main site, deploying backups to preserve data integrity, keeping digital systems aligned with business needs, tracking assets across the network (tagging/logging laptops), and reporting infrastructure changes to management.
 
 ## 1.9 Impacts of threats and vulnerabilities
 
@@ -69,21 +69,21 @@ A five-step cycle: **identification** of risks/threats/vulnerabilities → **pro
 
 ## 1.13 Approaches and tools for analysing threats
 
-- **Qualitative** (non-numeric) — RAG rating: red = high risk needing immediate action, amber = moderate risk to watch closely, green = low risk, no immediate action.
-- **Quantitative** (numeric) — analysing effects such as cost overrun or resource consumption.
-- **Tools** — fault tree analysis, impact analysis, failure mode effect critical analysis, Annualised Loss Expectancy (ALE), CRAMM (CCTA Risk Analysis and Management Method), SWOT analysis, and a risk register recording risks with a RAG rating.
+- **Qualitative** (non-numeric) - RAG rating: red = high risk needing immediate action, amber = moderate risk to watch closely, green = low risk, no immediate action.
+- **Quantitative** (numeric) - analysing effects such as cost overrun or resource consumption.
+- **Tools** - fault tree analysis, impact analysis, failure mode effect critical analysis, Annualised Loss Expectancy (ALE), CRAMM (CCTA Risk Analysis and Management Method), SWOT analysis, and a risk register recording risks with a RAG rating.
 
 ## 1.14 Factors in threat assessment
 
-- **Environmental** — extreme weather, natural disaster, pests, humidity, air quality.
-- **Manmade internal** — malicious or accidental staff/contractor activity.
-- **Manmade external** — malware, hacking, social engineering, third parties, terrorism.
-- **Technological** — device/system failures (hard disk or RAM failure, damaged peripherals, software corruption, inaccessible sites) and the impact of technical change (downtime, upgrades, misconfiguration).
-- **Political** — changes in legislation.
+- **Environmental** - extreme weather, natural disaster, pests, humidity, air quality.
+- **Manmade internal** - malicious or accidental staff/contractor activity.
+- **Manmade external** - malware, hacking, social engineering, third parties, terrorism.
+- **Technological** - device/system failures (hard disk or RAM failure, damaged peripherals, software corruption, inaccessible sites) and the impact of technical change (downtime, upgrades, misconfiguration).
+- **Political** - changes in legislation.
 
 ## 1.15 Purpose and process of risk assessment in a digital support context
 
-The purpose is to identify and reduce risk — applying HSE guidance (e.g. ergonomic/accessible equipment), investigating project risks (e.g. a PESTLE analysis), identifying internal/external risk (e.g. system access for staff/contractors) and quantifying impact on asset value. Students conduct a security risk assessment for a scenario (e.g. a BYOD system): assess the system and its components, identify possible risks, calculate probability and impact, analyse and prioritise, and record findings accurately using correct technical terms. *(E4, M6, D4.)*
+The purpose is to identify and reduce risk - applying HSE guidance (e.g. ergonomic/accessible equipment), investigating project risks (e.g. a PESTLE analysis), identifying internal/external risk (e.g. system access for staff/contractors) and quantifying impact on asset value. Students conduct a security risk assessment for a scenario (e.g. a BYOD system): assess the system and its components, identify possible risks, calculate probability and impact, analyse and prioritise, and record findings accurately using correct technical terms. *(E4, M6, D4.)*
 
 ## 1.16 Types of risk response
 
@@ -99,7 +99,7 @@ Design considerations include the chosen risk response, the user profile (requir
 
 ## 1.19 Technical security controls as risk mitigation
 
-Purpose: improving network security for users and systems. The five Cyber Essentials controls reappear here in more technical depth — access control (least privilege), patch management, malware protection, boundary firewalls/internet gateways, and secure configuration — alongside device hardening (removing unneeded programs/accounts/ports), remote monitoring and management (RMM), and vulnerability scanning (port/device scanning).
+Purpose: improving network security for users and systems. The five Cyber Essentials controls reappear here in more technical depth - access control (least privilege), patch management, malware protection, boundary firewalls/internet gateways, and secure configuration - alongside device hardening (removing unneeded programs/accounts/ports), remote monitoring and management (RMM), and vulnerability scanning (port/device scanning).
 
 ## 1.20 Continuous improvement through risk mitigation
 
@@ -107,8 +107,8 @@ The same continuous-improvement cycle as 1.18, extended with the requirement to 
 
 ## 1.21 Encryption as risk mitigation
 
-- **Asymmetric encryption** — sends private data between users (e.g. encrypted email).
-- **Symmetric encryption** — same key used to encrypt/decrypt (e.g. card payments).
+- **Asymmetric encryption** - sends private data between users (e.g. encrypted email).
+- **Symmetric encryption** - same key used to encrypt/decrypt (e.g. card payments).
 - **Data-at-rest**: full disk encryption; a Hardware Security Module (HSM) safeguarding keys; a Trusted Platform Module (TPM) storing device-specific keys.
 - **Data-in-transit**: SSL (encrypted link between browser and website) and TLS (end-to-end encryption for email, web and messaging).
 
@@ -122,18 +122,18 @@ Organisational digital use policy SOPs cover network usage/monitoring, internet 
 
 ## 1.24 Legislation, standards and best practice for information security
 
-- **UK GDPR** — standardises how data is used/stored/transferred; key articles cover subject matter, material/territorial scope, definitions, processing principles, lawfulness and consent conditions.
-- **Data Protection Act 2018** — the UK's implementation of GDPR: data must be used fairly/lawfully/transparently, for specified purposes, kept only as long as necessary, accurate, and secured against unlawful processing, loss or damage.
-- **Computer Misuse Act 1990** — criminalises unauthorised access to computer material, unauthorised access with intent to commit further offences, and unauthorised acts intended (or reckless as to) impairing a computer's operation.
-- **ISO 27001:2017** — certifiable information security management standard, applied to GDPR/DPA compliance, information security/management, penetration testing and risk assessment.
-- **PCI DSS** — global card-payment security standard: secure network, protected cardholder data, vulnerability management, strong access control, regular monitoring/testing, and a documented security policy.
-- **NCSC "10 Steps to Cyber Security"** — user education/awareness, home/mobile working, secure configuration, removable media control, managing user privileges, incident management, monitoring, malware protection, network security, risk management regime.
-- **OWASP** — reviews and shares cyber security tools/resources, provides education for the public and professionals, and acts as a networking platform; applied in digital support to help users stay safe online and to improve software security.
+- **UK GDPR** - standardises how data is used/stored/transferred; key articles cover subject matter, material/territorial scope, definitions, processing principles, lawfulness and consent conditions.
+- **Data Protection Act 2018** - the UK's implementation of GDPR: data must be used fairly/lawfully/transparently, for specified purposes, kept only as long as necessary, accurate, and secured against unlawful processing, loss or damage.
+- **Computer Misuse Act 1990** - criminalises unauthorised access to computer material, unauthorised access with intent to commit further offences, and unauthorised acts intended (or reckless as to) impairing a computer's operation.
+- **ISO 27001:2017** - certifiable information security management standard, applied to GDPR/DPA compliance, information security/management, penetration testing and risk assessment.
+- **PCI DSS** - global card-payment security standard: secure network, protected cardholder data, vulnerability management, strong access control, regular monitoring/testing, and a documented security policy.
+- **NCSC "10 Steps to Cyber Security"** - user education/awareness, home/mobile working, secure configuration, removable media control, managing user privileges, incident management, monitoring, malware protection, network security, risk management regime.
+- **OWASP** - reviews and shares cyber security tools/resources, provides education for the public and professionals, and acts as a networking platform; applied in digital support to help users stay safe online and to improve software security.
 
 ## 1.25 Principles of network security
 
-- **CIA triad** — confidentiality, integrity, availability — underpins security policy design.
-- **IAAA** — identification, authentication, authorisation, accountability — applied via directory services, authentication processes, password practice, data protection/identification, and a current information asset register.
+- **CIA triad** - confidentiality, integrity, availability - underpins security policy design.
+- **IAAA** - identification, authentication, authorisation, accountability - applied via directory services, authentication processes, password practice, data protection/identification, and a current information asset register.
 
 ## 1.26 Managing and controlling access
 
@@ -141,8 +141,8 @@ Authentication restricts/grants access based on verified identity; firewalls res
 
 ## 1.27 Managing and securing network traffic
 
-- **Physical** — software-defined networking (using TLS, e.g. for banking sites), demilitarised zone (DMZ), air gapping.
-- **Virtual** — VLAN (carrying VPN traffic for intranets/file systems), Virtual Routing and Forwarding (VRF), subnets, IPSec, and virtual air gapping.
+- **Physical** - software-defined networking (using TLS, e.g. for banking sites), demilitarised zone (DMZ), air gapping.
+- **Virtual** - VLAN (carrying VPN traffic for intranets/file systems), Virtual Routing and Forwarding (VRF), subnets, IPSec, and virtual air gapping.
 
 ## 1.28 Cyber security techniques for internet-connected devices
 
@@ -150,7 +150,7 @@ Wireless security (WPA2/WPA3 with end-to-end protection), device/password authen
 
 ## 1.29 The importance of cyber security to organisations and society
 
-For **organisations**: protecting systems, devices, cloud availability, personal/commercially sensitive data, password policy, legal compliance and defence against cybercrime. For **society**: protecting privacy, preventing prejudice, ensuring equal opportunity and preventing identity theft — including the individual rights guaranteed under DPA 2018 (be informed, access data, correct inaccurate data, erasure, restrict processing, data portability, object to processing).
+For **organisations**: protecting systems, devices, cloud availability, personal/commercially sensitive data, password policy, legal compliance and defence against cybercrime. For **society**: protecting privacy, preventing prejudice, ensuring equal opportunity and preventing identity theft - including the individual rights guaranteed under DPA 2018 (be informed, access data, correct inaccurate data, erasure, restrict processing, data portability, object to processing).
 
 ## 1.30 Techniques applied to cyber security for connected devices
 
@@ -158,9 +158,9 @@ The same technique list as 1.28 (wireless security, device security, encryption,
 
 ## 1.31 Network topologies, referencing models and minimum standards
 
-- **Topologies** — bus, star, ring, token ring, mesh, hybrid, client-server, peer-to-peer.
-- **OSI model** — application, presentation, session, transport, network, data link, physical.
-- **TCP/IP model** — application, transport, network, network interface.
+- **Topologies** - bus, star, ring, token ring, mesh, hybrid, client-server, peer-to-peer.
+- **OSI model** - application, presentation, session, transport, network, data link, physical.
+- **TCP/IP model** - application, transport, network, network interface.
 - **Minimum cyber security standard principles**: **identify** (assign a lead, run risk assessments, document configurations/responses), **protect** (anti-virus/firewalls, reduce attack surface, trusted OS/apps, decommission legacy systems, security audits, encryption, least-privilege access, training), **detect** (security measures, audit/event logs, network monitoring), **respond** (contain and minimise impact) and **recover** (backups, maintenance plans, continuous-improvement review).
 
 ## 1.32 Common network/system/device vulnerabilities
@@ -169,13 +169,13 @@ Missing patches/firmware updates → mitigate with patch-manager software, traff
 
 ## Key terms
 
-- **Preventative / detective / corrective / deterrent / directive / compensating control** — the six standard categories of business security control, each acting at a different stage of an incident.
-- **DRP (Disaster Recovery Plan) / BCP (Business Continuity Plan)** — the DRP restores IT systems; the BCP keeps the wider business running.
-- **RTO / RPO / MTBF / MTTR** — recovery-time, recovery-point, mean-time-between-failure and mean-time-to-repair metrics used to size resilience requirements.
-- **RAG rating** — red/amber/green qualitative risk severity scale.
-- **CIA triad** — confidentiality, integrity, availability.
-- **IAAA** — identification, authentication, authorisation, accountability.
-- **Cyber Essentials** — the NCSC's five baseline technical controls: boundary firewalls, secure configuration, access control, malware protection, patch management.
+- **Preventative / detective / corrective / deterrent / directive / compensating control** - the six standard categories of business security control, each acting at a different stage of an incident.
+- **DRP (Disaster Recovery Plan) / BCP (Business Continuity Plan)** - the DRP restores IT systems; the BCP keeps the wider business running.
+- **RTO / RPO / MTBF / MTTR** - recovery-time, recovery-point, mean-time-between-failure and mean-time-to-repair metrics used to size resilience requirements.
+- **RAG rating** - red/amber/green qualitative risk severity scale.
+- **CIA triad** - confidentiality, integrity, availability.
+- **IAAA** - identification, authentication, authorisation, accountability.
+- **Cyber Essentials** - the NCSC's five baseline technical controls: boundary firewalls, secure configuration, access control, malware protection, patch management.
 
 ## Related pages
 

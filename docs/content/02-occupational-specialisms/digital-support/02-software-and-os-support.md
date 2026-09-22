@@ -1,8 +1,8 @@
-# Digital Support — Installing, Configuring and Supporting Software and Operating Systems
+# Digital Support - Installing, Configuring and Supporting Software and Operating Systems
 
 *Digital Support and Security T Level → Occupational Specialisms → Digital Support → Software and OS Support*
 
-This is Content Area 2 of the Digital Support specialism — the specialism's distinctive technical core. It covers how digital support technicians work with agile delivery practices, business systems, domains, service/content management, end-user devices, operating systems, application deployment, remote access, and end-user support and training.
+This is Content Area 2 of the Digital Support specialism - the specialism's distinctive technical core. It covers how digital support technicians work with agile delivery practices, business systems, domains, service/content management, end-user devices, operating systems, application deployment, remote access, and end-user support and training.
 
 ## 2.1 Agile values
 
@@ -10,13 +10,13 @@ The four values behind agile work: individuals and interactions over processes a
 
 ## 2.2 Agile methodologies in practice
 
-- **Scrum** — defined roles/events/artefacts/rules, daily scrums, work split into sprints.
-- **Kanban** — balances demand against capacity, surfaces bottlenecks, uses a Kanban board and work-in-progress (WIP) limits.
-- **DSDM** (Dynamic Systems Development Method) — fixes cost, quality and time; prioritises scope with MoSCoW.
-- **Feature-driven development** — breaks work into small features, planned/designed/built feature by feature.
-- **Crystal** — prioritises communication and interaction between people over process and tooling.
-- **Lean** (7 principles) — eliminate waste, build in quality, create knowledge, defer commitment, deliver fast, respect people, optimise the whole.
-- **Extreme Programming (XP)** — frequent short release cycles, checkpoints for new requirements, planning and feedback loops.
+- **Scrum** - defined roles/events/artefacts/rules, daily scrums, work split into sprints.
+- **Kanban** - balances demand against capacity, surfaces bottlenecks, uses a Kanban board and work-in-progress (WIP) limits.
+- **DSDM** (Dynamic Systems Development Method) - fixes cost, quality and time; prioritises scope with MoSCoW.
+- **Feature-driven development** - breaks work into small features, planned/designed/built feature by feature.
+- **Crystal** - prioritises communication and interaction between people over process and tooling.
+- **Lean** (7 principles) - eliminate waste, build in quality, create knowledge, defer commitment, deliver fast, respect people, optimise the whole.
+- **Extreme Programming (XP)** - frequent short release cycles, checkpoints for new requirements, planning and feedback loops.
 
 ## 2.3 Digital technologies across business operations
 
@@ -24,13 +24,13 @@ Digital systems now sit inside every business function: finance (budget dashboar
 
 ## 2.4 Service functions that create a domain environment
 
-- **Active Directory Domain Services (AD DS)** — centrally manages users/devices/security groups/distribution lists via organisational units (OUs); **Group Policy** applies Group Policy Objects (GPOs) to OUs to push settings/files.
-- **DHCP** — assigns IP addresses and network configuration to clients.
-- **DNS** — resolves hostnames to IP addresses.
-- **File server / DFS** — shared disk access and permission management.
-- **Print server** — shared printer access.
-- **Mail server** — manages inbound/outbound client mail.
-- **Certificate authority** — issues digital certificates to certify ownership of a public key.
+- **Active Directory Domain Services (AD DS)** - centrally manages users/devices/security groups/distribution lists via organisational units (OUs); **Group Policy** applies Group Policy Objects (GPOs) to OUs to push settings/files.
+- **DHCP** - assigns IP addresses and network configuration to clients.
+- **DNS** - resolves hostnames to IP addresses.
+- **File server / DFS** - shared disk access and permission management.
+- **Print server** - shared printer access.
+- **Mail server** - manages inbound/outbound client mail.
+- **Certificate authority** - issues digital certificates to certify ownership of a public key.
 
 ## 2.5 Content management systems (CMS) and resolving user problems
 
@@ -42,7 +42,7 @@ Desktop (thick/thin clients), cloud workspaces (free or licensed), mobile device
 
 ## 2.7 Operating system types in a digital support environment
 
-End-user OS (Windows/macOS/Linux — desktops and laptops), mobile OS (iOS/Android — tablets and phones), and server OS (Windows/Linux — client-server environments).
+End-user OS (Windows/macOS/Linux - desktops and laptops), mobile OS (iOS/Android - tablets and phones), and server OS (Windows/Linux - client-server environments).
 
 ## 2.8 Application types used in digital support
 
@@ -50,22 +50,22 @@ Productivity software (word processing, spreadsheets, presentations, diagramming
 
 ## 2.9 Application installation and configuration
 
-System requirements to check before installing: storage, RAM, compatibility, processor, OS. Storage trade-offs: HDD (cheap, more capacity, but mechanically fragile and heat-prone) versus SSD (fast, no moving parts, but pricier with less capacity — useful where device size matters). Network card trade-offs: efficient and secure but at higher cost with a finite performance lifespan. Other considerations: resource setup for performance, permissions (file/folder access, user authorisation, least privilege) and security impact on the device, network, usability and data storage. Practical skill: remotely installing an OS and configuring settings — correct boot drive/partitioning/format, domain setup, time/date/region/language, drivers, updates, and upgrading an existing OS without losing user data — plus installing productivity software and applying network-based updates.
+System requirements to check before installing: storage, RAM, compatibility, processor, OS. Storage trade-offs: HDD (cheap, more capacity, but mechanically fragile and heat-prone) versus SSD (fast, no moving parts, but pricier with less capacity - useful where device size matters). Network card trade-offs: efficient and secure but at higher cost with a finite performance lifespan. Other considerations: resource setup for performance, permissions (file/folder access, user authorisation, least privilege) and security impact on the device, network, usability and data storage. Practical skill: remotely installing an OS and configuring settings - correct boot drive/partitioning/format, domain setup, time/date/region/language, drivers, updates, and upgrading an existing OS without losing user data - plus installing productivity software and applying network-based updates.
 
 ## 2.10 OS deployment considerations
 
 System requirements and hardware configuration must be checked first. **Installation/deployment methods**: network-based, local (CD/USB), virtualised, cloud-based. **Boot methods**: internal drive (SSD/HDD), external media (USB/flash/hot-swappable), or network boot (PXE, Netboot). **Partitioning**: dynamic, basic, primary, extended, logical, GPT. **File systems**: exFAT, FAT32, NTFS, ReFS, NFS, ext3, ext4, HFS, and swap partitions. **Formatting**: quick format (faster, easier file recovery, no bad-sector scan) vs. full format (thorough scrub and bad-sector scan, harder to recover files, slower).
 
-## 2.11 Deployment methods — advantages and disadvantages
+## 2.11 Deployment methods - advantages and disadvantages
 
-- **Unattended installation** — minimal technician input via pre-set options.
-- **Thin imaging** — scales well across varied devices and stays flexible, but needs more maintenance and is harder to configure.
-- **Base image** — easy to create for a specific purpose at scale, but harder to maintain and less flexible.
-- **In-place upgrade** — efficient, keeps user profiles, but risks compatibility issues and needs the full OS media/download.
-- **Manual clean install** — gives the latest OS version simply, but may need a prior backup and takes time.
-- **Repair installation** — fixes without data loss or a full upgrade, but is manual and may not resolve every instability.
-- **Multi-boot** — runs multiple OSs on one device, but is fiddly to set up and maintain.
-- **Remote network installation** — no physical access needed and scales efficiently, but is capped by network speed, needs specific configuration (e.g. PXE support) and significant setup.
+- **Unattended installation** - minimal technician input via pre-set options.
+- **Thin imaging** - scales well across varied devices and stays flexible, but needs more maintenance and is harder to configure.
+- **Base image** - easy to create for a specific purpose at scale, but harder to maintain and less flexible.
+- **In-place upgrade** - efficient, keeps user profiles, but risks compatibility issues and needs the full OS media/download.
+- **Manual clean install** - gives the latest OS version simply, but may need a prior backup and takes time.
+- **Repair installation** - fixes without data loss or a full upgrade, but is manual and may not resolve every instability.
+- **Multi-boot** - runs multiple OSs on one device, but is fiddly to set up and maintain.
+- **Remote network installation** - no physical access needed and scales efficiently, but is capped by network speed, needs specific configuration (e.g. PXE support) and significant setup.
 
 ## 2.12 Deploying software and OS remotely
 
@@ -85,18 +85,18 @@ Requires fewer resources through automation, keeps deployments consistent, reduc
 
 ## 2.16 Corporate and ISP email configuration
 
-- **POP3** — pulls mail down to local software.
-- **IMAP** — holds mail on the server, accessed by client software.
-- **SMTP** — receives/sends mail over the internet.
-- **S/MIME** — sends encrypted email.
-- **SSL / port settings** — encrypted connection between mail/web server and client.
-- **TLS** — SSL's successor, providing data security.
+- **POP3** - pulls mail down to local software.
+- **IMAP** - holds mail on the server, accessed by client software.
+- **SMTP** - receives/sends mail over the internet.
+- **S/MIME** - sends encrypted email.
+- **SSL / port settings** - encrypted connection between mail/web server and client.
+- **TLS** - SSL's successor, providing data security.
 
 ## 2.17 Configuring on-premises and cloud email services
 
 Align configuration with corporate policy, set up user profiles (usernames, passwords, signatures), and select the provider (e.g. Google Workspace, Microsoft 365), protocol (SMTP/IMAP/POP3), MX record, and inbound/outbound mail domains.
 
-## 2.18 Remote access — purpose and applications
+## 2.18 Remote access - purpose and applications
 
 Purpose: lets someone work from a remote location as though connected to the physical network (e.g. supporting home working during an office closure as part of a BCP). Applications: desktop sharing, remote support (fault diagnosis, correcting user issues remotely), off-site working.
 
@@ -146,11 +146,11 @@ Operate systems to collect/store/maintain/distribute information supporting serv
 
 ## Key terms
 
-- **AD DS / GPO** — Active Directory Domain Services and Group Policy Objects, the core Windows domain management tools.
-- **DHCP / DNS** — protocols that assign IP addresses and resolve hostnames respectively.
-- **Thin imaging / base image** — two contrasting approaches to building deployment images, trading flexibility against maintenance effort.
-- **MDM** — Mobile Device Management, used to secure and control mobile devices remotely.
-- **VPN** — Virtual Private Network, encrypting traffic and masking IP address for secure remote access.
+- **AD DS / GPO** - Active Directory Domain Services and Group Policy Objects, the core Windows domain management tools.
+- **DHCP / DNS** - protocols that assign IP addresses and resolve hostnames respectively.
+- **Thin imaging / base image** - two contrasting approaches to building deployment images, trading flexibility against maintenance effort.
+- **MDM** - Mobile Device Management, used to secure and control mobile devices remotely.
+- **VPN** - Virtual Private Network, encrypting traffic and masking IP address for secure remote access.
 
 ## Related pages
 

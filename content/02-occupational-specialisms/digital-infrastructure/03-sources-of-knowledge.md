@@ -1,8 +1,8 @@
-# Digital Infrastructure — Sources of Knowledge
+# Digital Infrastructure - Sources of Knowledge
 
 *Digital Support and Security T Level → Occupational Specialisms → Digital Infrastructure → Sources of Knowledge*
 
-This page covers Content Area 3 of the Digital Infrastructure specialism: discovering, evaluating and applying reliable sources of knowledge. Every specialism shares this content area, since finding and judging good information is a professional skill in its own right — this version applies it specifically to digital infrastructure work.
+This page covers Content Area 3 of the Digital Infrastructure specialism: discovering, evaluating and applying reliable sources of knowledge. Every specialism shares this content area, since finding and judging good information is a professional skill in its own right - this version applies it specifically to digital infrastructure work.
 
 ## 3.1 Types of sources and legitimising their use
 
@@ -14,11 +14,11 @@ To use a source legitimately: clarify what the requirement actually is, pick up 
 
 - **Industry-certified accreditation** (e.g. Cisco CCNA, Microsoft MTA).
 - **Appropriateness** to the task.
-- **Evidence-based** — supported by citations.
+- **Evidence-based** - supported by citations.
 - **Relevant context**.
-- **Credibility of the author** — affiliation to recognised bodies, reputation, relevant experience/qualifications.
-- **Target audience** — was it written with the right audience in mind (technical vs non-technical language)?
-- **Publication** — is it the current version, and how recent is it?
+- **Credibility of the author** - affiliation to recognised bodies, reputation, relevant experience/qualifications.
+- **Target audience** - was it written with the right audience in mind (technical vs non-technical language)?
+- **Publication** - is it the current version, and how recent is it?
 
 ## 3.3 Searching and corroborating information (skill)
 
@@ -26,10 +26,10 @@ Clarify the parameters of the search (e.g. explore trends in the digital economy
 
 ## 3.4 Identifying bias
 
-- **Author/proprietary bias** — the author's own unweighted opinion.
-- **Confirmation bias** — sources chosen because they support an existing assumption.
-- **Selection bias** — sources chosen to fit specific criteria.
-- **Cultural bias** — assumptions rooted in societal norms.
+- **Author/proprietary bias** - the author's own unweighted opinion.
+- **Confirmation bias** - sources chosen because they support an existing assumption.
+- **Selection bias** - sources chosen to fit specific criteria.
+- **Cultural bias** - assumptions rooted in societal norms.
 
 Bias shows up as partiality, prejudice or omission, and is reduced by grounding conclusions in fact/evidence and taking an inclusive, objective approach that represents demographics fully. Students must be able to name the type of bias present, point to its indicators, and explain both how it arose and how it could be avoided. *(E1, E3, E5, M6, D3.)*
 
@@ -49,18 +49,18 @@ IT service management tools (incident/problem and change-management systems), kn
 
 ## 3.7 Comparing sources and justifying choices (skill)
 
-Identify the sources being compared, apply reliability/validity factors to each, compare the outcomes, and explain — using correct technical terms — which source(s) to rely on and why. *(E1, E3, E5, M5, D3.)*
+Identify the sources being compared, apply reliability/validity factors to each, compare the outcomes, and explain - using correct technical terms - which source(s) to rely on and why. *(E1, E3, E5, M5, D3.)*
 
 ## Key terms
 
-- **Corroboration** — checking a claim against multiple independent sources.
-- **Triangulation** — using three or more sources/methods to validate a finding.
-- **RAG-style bias indicators** — partiality, prejudice, omission.
+- **Corroboration** - checking a claim against multiple independent sources.
+- **Triangulation** - using three or more sources/methods to validate a finding.
+- **RAG-style bias indicators** - partiality, prejudice, omission.
 
 ## Related pages
 
 - [Security Procedures and Controls](01-security-procedures-and-controls.md)
 - [Physical and Virtual Infrastructure](02-physical-and-virtual-infrastructure.md)
-- [Network Cabling — Sources of Knowledge](../network-cabling/03-sources-of-knowledge.md)
+- [Network Cabling - Sources of Knowledge](../network-cabling/03-sources-of-knowledge.md)
 - [Occupational Specialisms overview](../00-overview.md)
 - [Scheme of Assessment](../05-scheme-of-assessment.md)

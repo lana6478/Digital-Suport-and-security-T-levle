@@ -410,6 +410,24 @@ a:visited { color: var(--link-visited); }
   }
   .sidebar.open { transform: translateX(0); }
   .content-wrap { padding: 16px; }
-  .search-wrap { width: 200px; }
+
+  .header-inner { flex-wrap: wrap; row-gap: 8px; }
+  .search-wrap {
+    order: 3;
+    flex: 1 1 100%;
+    width: auto;
+    max-width: none;
+    margin-left: 0;
+  }
+  #search-input {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 2px solid var(--link);
+    border-radius: 20px;
+    background: var(--page-bg);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  }
+  #search-input::placeholder { color: var(--muted); }
   .site-subtitle { display: none; }
 }
