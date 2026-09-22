@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280" role="img" aria-label="Illustration of a central gear connected to four smaller nodes, representing shared foundational knowledge">
+  <rect width="480" height="280" rx="10" fill="#eaf3ff"/>
+  <g stroke="#a9c8f0" stroke-width="2">
+    <line x1="240" y1="140" x2="110" y2="70"/>
+    <line x1="240" y1="140" x2="370" y2="70"/>
+    <line x1="240" y1="140" x2="110" y2="210"/>
+    <line x1="240" y1="140" x2="370" y2="210"/>
+  </g>
+  <g fill="#0645ad">
+    <circle cx="110" cy="70" r="16"/>
+    <circle cx="370" cy="70" r="16"/>
+    <circle cx="110" cy="210" r="16"/>
+    <circle cx="370" cy="210" r="16"/>
+  </g>
+  <g fill="#ffffff" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" text-anchor="middle">
+    <text x="110" y="74">1</text>
+    <text x="370" y="74">2</text>
+    <text x="110" y="214">3</text>
+    <text x="370" y="214">4</text>
+  </g>
+  <!-- central gear -->
+  <g transform="translate(240,140)" fill="#0645ad">
+    <g id="teeth">
+      <rect x="-8" y="-56" width="16" height="20" rx="2"/>
+      <rect x="-8" y="36" width="16" height="20" rx="2"/>
+      <rect x="-56" y="-8" width="20" height="16" rx="2"/>
+      <rect x="36" y="-8" width="20" height="16" rx="2"/>
+    </g>
+    <g transform="rotate(45)">
+      <rect x="-8" y="-56" width="16" height="20" rx="2"/>
+      <rect x="-8" y="36" width="16" height="20" rx="2"/>
+      <rect x="-56" y="-8" width="20" height="16" rx="2"/>
+      <rect x="36" y="-8" width="20" height="16" rx="2"/>
+    </g>
+    <circle r="42" fill="#0645ad"/>
+    <circle r="18" fill="#eaf3ff"/>
+  </g>
+  <text x="240" y="252" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#54595d">One shared core, four ways to specialise</text>
+</svg>

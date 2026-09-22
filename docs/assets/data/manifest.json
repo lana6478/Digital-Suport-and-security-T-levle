@@ -100,6 +100,14 @@
 "title": "Diagram and Notation Guide"
 },
 {
+"path": "04-help-and-about/01-help.md",
+"title": "Help: Using This Wiki"
+},
+{
+"path": "04-help-and-about/02-developers.md",
+"title": "Developers"
+},
+{
 "path": "sources-and-further-reading.md",
 "title": "Sources and Further Reading"
 }

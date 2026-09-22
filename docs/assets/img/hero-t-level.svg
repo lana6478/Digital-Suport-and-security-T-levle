@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280" role="img" aria-label="Illustration of a graduation cap above a circuit-board pattern, representing technical education">
+  <rect width="480" height="280" rx="10" fill="#eaf3ff"/>
+  <g stroke="#a9c8f0" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M40 230 H150 V190 H210"/>
+    <path d="M440 220 H360 V180 H300"/>
+    <path d="M60 60 V100 H120"/>
+    <path d="M420 70 V110 H370"/>
+  </g>
+  <g>
+    <circle cx="150" cy="190" r="4" fill="#0645ad"/>
+    <circle cx="360" cy="180" r="4" fill="#0645ad"/>
+    <circle cx="120" cy="100" r="4" fill="#0645ad"/>
+    <circle cx="370" cy="110" r="4" fill="#0645ad"/>
+  </g>
+  <!-- graduation cap -->
+  <g transform="translate(240,140)">
+    <polygon points="0,-46 118,-8 0,30 -118,-8" fill="#0645ad"/>
+    <polygon points="0,-46 118,-8 0,30 -118,-8" fill="none" stroke="#03306e" stroke-width="2"/>
+    <path d="M-70,4 V40 C-70,58 -30,68 0,68 C30,68 70,58 70,40 V4 L0,30 Z" fill="#083f8f"/>
+    <line x1="90" y1="-16" x2="96" y2="46" stroke="#03306e" stroke-width="3"/>
+    <circle cx="96" cy="52" r="6" fill="#f2b705"/>
+  </g>
+  <text x="240" y="252" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#54595d">Technical education, shaped by employers</text>
+</svg>

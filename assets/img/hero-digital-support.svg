@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280" role="img" aria-label="Illustration of a laptop with a chat bubble and a support headset, representing helpdesk and technical support">
+  <rect width="480" height="280" rx="10" fill="#eaf3ff"/>
+  <!-- laptop -->
+  <g transform="translate(150,100)">
+    <rect x="0" y="0" width="140" height="90" rx="6" fill="#0645ad"/>
+    <rect x="8" y="8" width="124" height="74" rx="2" fill="#eaf3ff"/>
+    <rect x="20" y="20" width="60" height="8" rx="2" fill="#a9c8f0"/>
+    <rect x="20" y="34" width="90" height="8" rx="2" fill="#a9c8f0"/>
+    <rect x="20" y="48" width="40" height="8" rx="2" fill="#a9c8f0"/>
+    <path d="M-14 90 H154 L140 106 H0 Z" fill="#083f8f"/>
+  </g>
+  <!-- chat bubble -->
+  <g transform="translate(300,50)">
+    <path d="M0 10 A10 10 0 0 1 10 0 H80 A10 10 0 0 1 90 10 V44 A10 10 0 0 1 80 54 H30 L14 68 V54 H10 A10 10 0 0 1 0 44 Z" fill="#33c17a"/>
+    <circle cx="24" cy="27" r="4" fill="#ffffff"/>
+    <circle cx="45" cy="27" r="4" fill="#ffffff"/>
+    <circle cx="66" cy="27" r="4" fill="#ffffff"/>
+  </g>
+  <!-- headset -->
+  <g transform="translate(70,60)">
+    <path d="M4 34 A28 28 0 0 1 60 34" fill="none" stroke="#0645ad" stroke-width="6"/>
+    <rect x="-4" y="28" width="16" height="24" rx="5" fill="#0645ad"/>
+    <rect x="52" y="28" width="16" height="24" rx="5" fill="#0645ad"/>
+    <path d="M60 40 V54 C60 62 50 66 40 66" fill="none" stroke="#0645ad" stroke-width="5"/>
+    <circle cx="40" cy="66" r="4" fill="#0645ad"/>
+  </g>
+  <text x="240" y="252" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#54595d">Solving software and operating-system problems for real users</text>
+</svg>

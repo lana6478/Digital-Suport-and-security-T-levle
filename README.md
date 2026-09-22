@@ -1,60 +1,37 @@
 # Digital Support and Security T Level
 
-An organised, browsable study-guide library for the **T Level Technical Qualification in Digital Support and Security (Level 3)** — Pearson's specification, first teaching September 2025 (built from spec version 1.1, August 2026).
+A free, independent study guide for the **T Level Technical Qualification in Digital Support and Security (Level 3)** — covering the core component and all four occupational specialisms, organised so you can find exactly the topic you need.
 
-This is an **independent, unofficial** revision resource. It paraphrases and reorganises the official specification for easier browsing and searching — it is not a substitute for the real thing, and nothing here should be treated as assessment-authoritative. Always check the [official specification PDF](https://qualifications.pearson.com/content/dam/pdf/TLevels/digital-support-and-security/2025/specification-and-sample-assessment-materials/digital-dss-specification.pdf) for anything that matters for exams or coursework.
+**[Read it as a website &rarr;](https://lana6478.github.io/Digital-Suport-and-security-T-levle/)**
 
-## Two ways to use this repo
+## What's here
 
-1. **Browse the files directly** — everything lives under [`content/`](content/), organised into clearly named folders and files so you can go straight to the topic you need (see the map below).
-2. **Browse the wiki site** — [`docs/`](docs/) is a static, Wikipedia-style website (built for GitHub Pages) with a search bar and a sidebar directory tree, showing the exact same files as `content/` in a more navigable form. See [Website](#website) below.
+This guide covers:
 
-## Content map
+- **The core component** — the knowledge every student studies: Core Paper 1, Core Paper 2, and the Employer Set Project.
+- **All four occupational specialisms** — Digital Infrastructure, Network Cabling, Digital Support, and Cyber Security — including how each one is graded.
+- **Grading, progression and careers** — how the qualification is graded, and where it can take you (apprenticeships, further study, employment).
+- **Appendices** — competency frameworks and diagram notation referenced throughout the specification.
 
-| Folder | What's in it |
-|---|---|
-| [`content/00-overview/`](content/00-overview/) | What a T Level is, qualification structure & weighting, student progression/careers, grading |
-| [`content/01-core-component/`](content/01-core-component/) | The knowledge every student studies: Core Paper 1, Core Paper 2, Employer Set Projects, core scheme of assessment |
-| [`content/02-occupational-specialisms/`](content/02-occupational-specialisms/) | The four specialisms students choose between: **Digital Infrastructure**, **Network Cabling**, **Digital Support**, **Cyber Security** — each with its own security, technical-skills and sources-of-knowledge content areas |
-| [`content/03-appendices/`](content/03-appendices/) | General English/maths/digital competency frameworks, command word taxonomy, diagram notation |
-| [`content/sources-and-further-reading.md`](content/sources-and-further-reading.md) | Links to primary/official sources and related apprenticeship standards |
+Every page is written as clear, plain-English revision notes, cross-referenced to the numbering used in the official specification, so you can jump straight from a revision note to the exact section of the real document if you need to check the original wording.
 
-Every markdown file starts with a `# Title` and an italic breadcrumb line so you always know where you are, and ends with a **Key terms** glossary and **Related pages** links to jump around the library.
+## How to use it
 
-## Website
+The easiest way is the **[website](https://lana6478.github.io/Digital-Suport-and-security-T-levle/)**: use the search bar to jump straight to a topic, or browse the directory tree on the left — it's organised exactly like a set of revision folders, grouped by core component vs. specialism, and then by topic within each.
 
-The `docs/` folder is a small, dependency-free static site (plain HTML/CSS/JS) designed to look and feel like a minimal wiki:
+If you'd rather read the plain files — for example, to download everything at once, or search across all of it with your own tools — everything also lives in this repository under [`content/`](content/), organised into the same folders.
 
-- a **search bar** (top) that full-text searches every page,
-- a **sidebar** directory tree mirroring `content/`, always highlighting the folder/file path you're currently viewing,
-- an **article pane** that renders the markdown pages themselves.
+## Is this official?
 
-It reads its page list and content straight from `docs/content/`, a generated mirror of the repo's `content/` folder — so the website always shows the same material as the file library, just easier to navigate.
+No. This is an **independent, unofficial** study guide, paraphrased and reorganised from the real specification to make revision easier — it is **not** produced or endorsed by Pearson or the Institute for Apprenticeships and Technical Education (IfATE), and it can contain mistakes or fall behind updates to the real qualification.
 
-### Building/updating the site
+For anything that actually matters for your grade — exact wording, mark schemes, deadlines — always check:
 
-After adding, editing or removing anything in `content/`, regenerate the site data:
+- the [official T Level specification (PDF)](https://qualifications.pearson.com/content/dam/pdf/TLevels/digital-support-and-security/2025/specification-and-sample-assessment-materials/digital-dss-specification.pdf), and
+- your course provider.
 
-```bash
-python3 tools/build_site.py
-```
+See [Sources and Further Reading](content/sources-and-further-reading.md) for more official links.
 
-This copies every file from `content/` into `docs/content/` and rebuilds `docs/assets/data/manifest.json` (directory tree) and `docs/assets/data/search-index.json` (search index).
+## Found a mistake, or want to help improve it?
 
-### Viewing it locally
-
-```bash
-cd docs
-python3 -m http.server 8000
-# then open http://localhost:8000
-```
-
-### Publishing it
-
-GitHub Pages isn't switched on for this repo yet. To enable it: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main`, folder: `/docs`**. Once enabled, the site will be live at `https://<username>.github.io/Digital-Suport-and-security-T-levle/`.
-
-## Contributing / editing
-
-- Add new topics as new `.md` files under the right `content/` subfolder, following the existing template (H1 title, breadcrumb, sections, Key terms, Related pages).
-- Re-run `python3 tools/build_site.py` after any content change so the website stays in sync.
-- Keep filenames lowercase, hyphenated, and numbered where order matters (e.g. `01-`, `02-`) so both the repo file listing and the sidebar sort sensibly.
+See the [Developers page](content/04-help-and-about/02-developers.md) on the website (or [`content/04-help-and-about/02-developers.md`](content/04-help-and-about/02-developers.md) in this repo) for how to report an issue, suggest a topic, or contribute a fix.

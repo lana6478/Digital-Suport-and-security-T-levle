@@ -4,6 +4,11 @@
 
 This page covers Content Area 1 of the Digital Infrastructure occupational specialism: applying procedures and controls to maintain the digital security of an organisation and its data. It is the security foundation every Digital Infrastructure student needs before moving on to the technical infrastructure content in Content Area 2. Subsection numbers (1.1, 1.2 …) mirror the specification so you can cross-reference the official document.
 
+<figure>
+<img src="../../../assets/img/hero-digital-infrastructure.svg" alt="A server rack connected to a cloud, representing physical and virtual infrastructure">
+<figcaption>Digital Infrastructure: physical racks and virtual environments, working together.</figcaption>
+</figure>
+
 ## 1.1 Preventative business controls
 
 Preventative controls are proactive — their job is to stop an incident happening in the first place. They fall into four groups:

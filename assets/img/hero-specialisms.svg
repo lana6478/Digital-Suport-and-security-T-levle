@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280" role="img" aria-label="Illustration of four icons -- a server, a cable connector, a headset and a shield -- arranged around a central hub">
+  <rect width="480" height="280" rx="10" fill="#eaf3ff"/>
+  <g stroke="#a9c8f0" stroke-width="2" fill="none">
+    <line x1="240" y1="140" x2="120" y2="70"/>
+    <line x1="240" y1="140" x2="360" y2="70"/>
+    <line x1="240" y1="140" x2="120" y2="210"/>
+    <line x1="240" y1="140" x2="360" y2="210"/>
+  </g>
+  <circle cx="240" cy="140" r="14" fill="#0645ad"/>
+
+  <!-- server: infrastructure -->
+  <g transform="translate(96,44)">
+    <rect width="48" height="52" rx="4" fill="#0645ad"/>
+    <rect x="6" y="6" width="36" height="8" rx="2" fill="#eaf3ff"/>
+    <rect x="6" y="18" width="36" height="8" rx="2" fill="#eaf3ff"/>
+    <rect x="6" y="30" width="36" height="8" rx="2" fill="#eaf3ff"/>
+    <circle cx="12" cy="44" r="3" fill="#4ea1ff"/>
+  </g>
+  <text x="120" y="120" text-anchor="middle" font-size="12" fill="#54595d" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">Infrastructure</text>
+
+  <!-- cable connector: network cabling -->
+  <g transform="translate(336,44)">
+    <rect x="0" y="14" width="40" height="24" rx="3" fill="#0645ad"/>
+    <rect x="6" y="0" width="6" height="14" fill="#0645ad"/>
+    <rect x="16" y="0" width="6" height="14" fill="#0645ad"/>
+    <rect x="26" y="0" width="6" height="14" fill="#0645ad"/>
+    <rect x="40" y="22" width="16" height="8" fill="#0645ad"/>
+  </g>
+  <text x="360" y="120" text-anchor="middle" font-size="12" fill="#54595d" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">Network Cabling</text>
+
+  <!-- headset: digital support -->
+  <g transform="translate(96,186)">
+    <path d="M4 30 A20 20 0 0 1 44 30" fill="none" stroke="#0645ad" stroke-width="5"/>
+    <rect x="-2" y="26" width="12" height="18" rx="4" fill="#0645ad"/>
+    <rect x="38" y="26" width="12" height="18" rx="4" fill="#0645ad"/>
+    <path d="M44 34 V44 C44 50 38 52 32 52" fill="none" stroke="#0645ad" stroke-width="4"/>
+  </g>
+  <text x="120" y="256" text-anchor="middle" font-size="12" fill="#54595d" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">Digital Support</text>
+
+  <!-- shield: cyber security -->
+  <g transform="translate(340,182)">
+    <path d="M20 0 L38 7 V24 C38 36 30 44 20 48 C10 44 2 36 2 24 V7 Z" fill="#0645ad"/>
+    <path d="M13 24 L18 29 L28 17" fill="none" stroke="#eaf3ff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="360" y="256" text-anchor="middle" font-size="12" fill="#54595d" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">Cyber Security</text>
+</svg>

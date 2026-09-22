@@ -4,6 +4,11 @@
 
 This is Content Area 1 of the Cyber Security occupational specialism. Every specialism has a version of this content area, but here — since security is the specialism's whole focus — it goes noticeably deeper, into governance, IT service management frameworks, cryptography, digital certificates and the legal/ethical framework a cyber security technician operates within.
 
+<figure>
+<img src="../../../assets/img/hero-cyber-security.svg" alt="A shield with a padlock, surrounded by a radar-style scan sweep, representing threat detection and defence">
+<figcaption>Cyber Security: identifying risk, assessing threats, recommending remediation.</figcaption>
+</figure>
+
 ## 1.1 Purpose of organisational information security governance
 
 Governance exists to investigate, control, communicate and report cyber risk; to give the organisation a security framework (defined roles such as data controller/processor, policies like retention and deletion, and defined security activities such as evaluating new systems); to manage compliance against legislation/frameworks/standards (e.g. ISO 27001, data protection law, FOI requests); and to align organisational priorities with mitigating cyber threats (e.g. setting password-complexity rules).

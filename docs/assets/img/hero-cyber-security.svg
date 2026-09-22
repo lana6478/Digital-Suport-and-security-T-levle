@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280" role="img" aria-label="Illustration of a shield with a padlock, surrounded by a radar-style scan sweep, representing threat detection and defence">
+  <rect width="480" height="280" rx="10" fill="#eaf3ff"/>
+  <circle cx="240" cy="140" r="90" fill="none" stroke="#a9c8f0" stroke-width="2" stroke-dasharray="4 6"/>
+  <circle cx="240" cy="140" r="60" fill="none" stroke="#a9c8f0" stroke-width="2" stroke-dasharray="4 6"/>
+  <path d="M240 140 L240 50 A90 90 0 0 1 314 184 Z" fill="#a9c8f0" opacity="0.35"/>
+  <!-- shield -->
+  <g transform="translate(240,140)">
+    <path d="M0 -58 L52 -38 V6 C52 42 26 64 0 76 C-26 64 -52 42 -52 6 V-38 Z" fill="#0645ad"/>
+    <path d="M0 -50 L44 -33 V6 C44 36 22 55 0 66 C-22 55 -44 36 -44 6 V-33 Z" fill="#eaf3ff"/>
+    <!-- padlock -->
+    <g transform="translate(0,4)">
+      <path d="M-14 -8 V-16 A14 14 0 0 1 14 -16 V-8" fill="none" stroke="#0645ad" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-20" y="-8" width="40" height="32" rx="5" fill="#0645ad"/>
+      <circle cx="0" cy="6" r="4.5" fill="#eaf3ff"/>
+      <rect x="-2.5" y="8" width="5" height="10" fill="#eaf3ff"/>
+    </g>
+  </g>
+  <text x="240" y="252" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#54595d">Identifying risk, assessing threats, recommending remediation</text>
+</svg>

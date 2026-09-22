@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280" role="img" aria-label="Illustration of a patch panel with cables plugged into numbered ports">
+  <rect width="480" height="280" rx="10" fill="#eaf3ff"/>
+  <!-- patch panel -->
+  <g transform="translate(90,60)">
+    <rect width="300" height="60" rx="4" fill="#0645ad"/>
+    <g fill="#eaf3ff">
+      <rect x="14" y="16" width="26" height="28" rx="2"/>
+      <rect x="52" y="16" width="26" height="28" rx="2"/>
+      <rect x="90" y="16" width="26" height="28" rx="2"/>
+      <rect x="128" y="16" width="26" height="28" rx="2"/>
+      <rect x="166" y="16" width="26" height="28" rx="2"/>
+      <rect x="204" y="16" width="26" height="28" rx="2"/>
+      <rect x="242" y="16" width="26" height="28" rx="2"/>
+      <rect x="260" y="16" width="26" height="28" rx="2" opacity="0"/>
+    </g>
+  </g>
+  <!-- cables dropping down -->
+  <g fill="none" stroke-width="4" stroke-linecap="round">
+    <path d="M117 120 C117 160 150 150 150 200" stroke="#f2b705"/>
+    <path d="M193 120 C193 165 220 155 220 205" stroke="#33c17a"/>
+    <path d="M269 120 C269 160 300 150 300 200" stroke="#e0463a"/>
+  </g>
+  <g fill="#54595d">
+    <rect x="140" y="196" width="20" height="14" rx="2"/>
+    <rect x="210" y="201" width="20" height="14" rx="2"/>
+    <rect x="290" y="196" width="20" height="14" rx="2"/>
+  </g>
+  <text x="240" y="252" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="15" fill="#54595d">Running, terminating and testing cable to a professional standard</text>
+</svg>

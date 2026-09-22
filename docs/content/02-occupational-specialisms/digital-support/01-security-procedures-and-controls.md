@@ -4,6 +4,11 @@
 
 This is Content Area 1 of the Digital Support occupational specialism. It is one of three content areas every Digital Support student studies, and it is largely shared in spirit (though not word-for-word) with the equivalent content area in the other three specialisms — every T Level Digital Support and Security student, whichever specialism they choose, has to be able to apply procedures and controls to protect an organisation's digital security. In the Digital Support version, the emphasis sits on business controls, disaster recovery, risk management and network/device-level technical controls a digital support technician would apply day to day.
 
+<figure>
+<img src="../../../assets/img/hero-digital-support.svg" alt="A laptop with a chat bubble and a support headset, representing helpdesk and technical support">
+<figcaption>Digital Support: solving software and operating-system problems for real users.</figcaption>
+</figure>
+
 ## 1.1 Preventative business control techniques
 
 Preventative controls stop an incident happening in the first place. They fall into four broad groups:

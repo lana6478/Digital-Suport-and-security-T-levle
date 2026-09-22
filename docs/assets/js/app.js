@@ -17,10 +17,20 @@
     els.searchResults = document.getElementById("search-results");
     els.sidebar = document.getElementById("sidebar");
     els.sidebarToggle = document.getElementById("sidebar-toggle");
+    els.randomLink = document.getElementById("random-page-link");
 
     els.sidebarToggle.addEventListener("click", function () {
       els.sidebar.classList.toggle("open");
     });
+
+    if (els.randomLink) {
+      els.randomLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (!manifest.length) return;
+        var pick = manifest[Math.floor(Math.random() * manifest.length)];
+        window.location.hash = "#/" + pick.path;
+      });
+    }
 
     els.searchInput.addEventListener("input", onSearchInput);
     els.searchInput.addEventListener("focus", function () {
@@ -152,8 +162,10 @@
 
   function route() {
     var hash = window.location.hash || "#/";
+    if (hash.indexOf("#/") !== 0) return; // plain in-page anchor (e.g. #h-slug) -- let the browser scroll natively
     var path = decodeURIComponent(hash.replace(/^#\/?/, ""));
     els.sidebar.classList.remove("open");
+    window.scrollTo(0, 0);
     if (!path) {
       renderHome();
       setActiveFile(null);
@@ -189,8 +201,13 @@
     els.article.innerHTML = html;
   }
 
+  var MINOR_WORDS = { and: 1, of: 1, the: 1, in: 1, for: 1, to: 1, a: 1, an: 1 };
   function cap(s) {
-    return s.replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+    var words = s.split(" ");
+    return words.map(function (w, i) {
+      if (i > 0 && MINOR_WORDS[w.toLowerCase()]) return w.toLowerCase();
+      return w.charAt(0).toUpperCase() + w.slice(1);
+    }).join(" ");
   }
 
   function loadArticle(path) {
@@ -214,11 +231,93 @@
             a.setAttribute("href", "#/" + resolveRelative(path, href));
           }
         });
+        enhanceArticle(path);
       })
       .catch(function () {
         els.article.innerHTML = "<h1>Page not found</h1><p>No content file at <code>" + escapeHtml(path) + "</code>. Use the directory tree or search to find a page.</p>";
         els.breadcrumb.innerHTML = "";
       });
+  }
+
+  function stripNumberPrefix(text) {
+    return text.replace(/^\d+(\.\d+)*\.?\s+/, "");
+  }
+
+  function slugify(text) {
+    return "h-" + text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+
+  function enhanceArticle(path) {
+    buildContentsBox();
+    buildCategoriesBox(path);
+  }
+
+  function buildContentsBox() {
+    var headings = Array.prototype.slice.call(els.article.querySelectorAll("h2, h3"));
+    if (headings.length < 2) return;
+
+    var used = {};
+    var items = [];
+    var currentTop = null;
+    headings.forEach(function (h) {
+      var text = h.textContent;
+      var base = slugify(text);
+      var id = base;
+      var n = 2;
+      while (used[id]) { id = base + "-" + n++; }
+      used[id] = true;
+      h.id = id;
+
+      if (h.tagName === "H2") {
+        currentTop = { id: id, text: text, children: [] };
+        items.push(currentTop);
+      } else if (currentTop) {
+        currentTop.children.push({ id: id, text: text });
+      }
+    });
+
+    var html = '<div class="contents-box"><div class="contents-title">Contents</div><ol>';
+    items.forEach(function (item, i) {
+      html += '<li><a href="#' + item.id + '">' + (i + 1) + ". " + escapeHtml(stripNumberPrefix(item.text)) + "</a>";
+      if (item.children.length) {
+        html += "<ol>";
+        item.children.forEach(function (child, j) {
+          html += '<li><a href="#' + child.id + '">' + (i + 1) + "." + (j + 1) + " " + escapeHtml(stripNumberPrefix(child.text)) + "</a></li>";
+        });
+        html += "</ol>";
+      }
+      html += "</li>";
+    });
+    html += "</ol></div>";
+
+    var firstH2 = els.article.querySelector("h2");
+    if (firstH2) {
+      firstH2.insertAdjacentHTML("beforebegin", html);
+    }
+  }
+
+  function buildCategoriesBox(path) {
+    var segments = path.split("/");
+    if (segments.length < 2) return;
+
+    var cats = [];
+    var topPath = segments[0];
+    var topEntry = manifest.filter(function (m) { return m.path.indexOf(topPath + "/") === 0; })[0];
+    if (topEntry) cats.push({ label: cap(folderLabel(topPath)), path: topEntry.path });
+
+    if (segments.length >= 3) {
+      var subPrefix = segments[0] + "/" + segments[1];
+      var subEntry = manifest.filter(function (m) { return m.path.indexOf(subPrefix + "/") === 0; })[0];
+      if (subEntry) cats.push({ label: cap(folderLabel(segments[1])), path: subEntry.path });
+    }
+
+    if (!cats.length) return;
+    var html = '<div class="categories-box">Categories: ';
+    html += cats.map(function (c) {
+      return '<a href="#/' + c.path + '">' + escapeHtml(c.label) + "</a>";
+    }).join(" ");
+    html += "</div>";
+    els.article.insertAdjacentHTML("beforeend", html);
   }
 
   function resolveRelative(currentPath, href) {
