@@ -176,15 +176,17 @@
   }
 
   function renderHome() {
-    document.title = "Digital Support and Security T Level Wiki";
+    var homeTitle = document.body.dataset.homeTitle || document.title;
+    var homeDescription = document.body.dataset.homeDescription || "An independent, browsable study-guide wiki.";
+    document.title = homeTitle + " Wiki";
     var sections = {};
     manifest.forEach(function (item) {
       var top = item.path.split("/")[0];
       sections[top] = sections[top] || [];
       sections[top].push(item);
     });
-    var html = "<h1>Digital Support and Security T Level</h1>";
-    html += "<p><em>An independent, browsable study-guide wiki for the T Level Technical Qualification in Digital Support and Security (Level 3).</em></p>";
+    var html = "<h1>" + escapeHtml(homeTitle) + "</h1>";
+    html += "<p><em>" + escapeHtml(homeDescription) + "</em></p>";
     html += "<p>Use the search bar above, or browse the directory tree on the left - it mirrors the <code>/content</code> folder in the GitHub repository. Start with the overview, or jump straight to a topic:</p>";
     html += '<div class="home-grid">';
     Object.keys(sections).sort().forEach(function (top) {
