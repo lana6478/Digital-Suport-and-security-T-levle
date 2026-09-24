@@ -99,10 +99,6 @@ The security content that Digital Infrastructure, Digital Support and Network Ca
 | [Testing, Certification and Troubleshooting](slides/network-cabling/04-testing-certification-and-troubleshooting.pptx) | 2.17, 2.18, 2.26 to 2.29 | [Network Cabling - Installation and Testing](../02-occupational-specialisms/network-cabling/02-cabling-installation-and-testing.md) |
 | [Health, Safety and Compliance for Cabling](slides/network-cabling/05-health-safety-and-compliance-for-cabling.pptx) | 2.19 to 2.24 | [Network Cabling - Installation and Testing](../02-occupational-specialisms/network-cabling/02-cabling-installation-and-testing.md) |
 
-## Editing or adding decks
-
-The decks are generated from short content files in the repository's `tools/slides/decks/` folder. To change a deck, edit its content file and run `python3 tools/slides/build_slides.py` followed by `python3 tools/build_site.py`. See the [Developers page](../04-help-and-about/02-developers.md) for details.
-
 ## Related pages
 
 - [Core Component Overview](../01-core-component/00-overview.md)

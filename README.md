@@ -33,6 +33,6 @@ For anything that actually matters for your grade - exact wording, mark schemes,
 
 See [Sources and Further Reading](content/sources-and-further-reading.md) for more official links.
 
-## Found a mistake, or want to help improve it?
+## Found a mistake?
 
-See the [Developers page](content/04-help-and-about/02-developers.md) on the website (or [`content/04-help-and-about/02-developers.md`](content/04-help-and-about/02-developers.md) in this repo) for how to report an issue, suggest a topic, or contribute a fix.
+See the [Developers page](content/04-help-and-about/02-developers.md) on the website (or [`content/04-help-and-about/02-developers.md`](content/04-help-and-about/02-developers.md) in this repo) for how to report a mistake or suggest a topic.

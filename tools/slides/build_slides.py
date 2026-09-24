@@ -216,13 +216,6 @@ def write_index(decks):
             out.append(f"| [{d['title']}]({link}) | {d['spec']} | {notes} |")
         out.append("")
     out += [
-        "## Editing or adding decks",
-        "",
-        "The decks are generated from short content files in the repository's "
-        "`tools/slides/decks/` folder. To change a deck, edit its content file and run "
-        "`python3 tools/slides/build_slides.py` followed by `python3 tools/build_site.py`. "
-        "See the [Developers page](../04-help-and-about/02-developers.md) for details.",
-        "",
         "## Related pages",
         "",
     ]
