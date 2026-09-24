@@ -26,6 +26,10 @@ Key legislation:
 
 Students should be able to weigh up how digital legislation interrelates with digital support and security work, and its impact on organisations, society and individuals.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Health and Safety in Digital Work](../05-teaching-resources/slides/core/08-health-and-safety-in-digital-work.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ### 4.2 Guidelines
 
 **Codes of conduct** come from organisational, professional (e.g. BCS, the Institution of Analysts and Programmers, CIISec) and governmental sources, and shape professional behaviour by ensuring people follow policy/procedure/legislation, maintain quality of work (minimising public risk, acting with competence and integrity), meet deadlines, communicate effectively, and maintain confidentiality and trust.
@@ -33,6 +37,10 @@ Students should be able to weigh up how digital legislation interrelates with di
 **Digital industry standards** come from bodies including ISO, WCAG, W3C, IETF, EIA/TIA, British Standards (BS), IEEE, and the PCI Security Standards Council.
 
 **Acceptable use policies (AUPs)** set out permitted/prohibited activities, working practices (including confidentiality), communication etiquette, and sanctions/penalties. **Whistleblowing procedures** matter too - students should understand why they're important.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Digital Legislation and Professional Guidelines](../05-teaching-resources/slides/core/09-digital-legislation-and-professional-guidelines.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 ## Content area 5: Business context
 
@@ -59,6 +67,10 @@ Digital systems also need to meet **user needs and quality expectations**: appro
 
 **Impacts**: legal action, fines, reputational damage, loss of licence to practise, loss of business.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [The Business Context](../05-teaching-resources/slides/core/10-the-business-context.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ### 5.4 Technical change management
 
 **Internal triggers for change**: restructuring, expansion, downsizing, new strategic objectives (diversification, rebranding, new features), plus unforeseen factors like crises (natural disasters, terrorism, cyber-attacks) or system failure/data corruption.
@@ -70,6 +82,10 @@ Organisations **respond to change** through new/amended policies, business proce
 The **change management process**: identify the type of change (new system vs. amendment) → the **Change Advisory Board (CAB)** prioritises, reviews, and approves change requests, monitors the process, and gives feedback → identify the specific changes using **SMARTER objectives** (specific, measurable, achievable, realistic, time-bound, evaluated, reviewed) → identify/forecast the impact → allocate resources (budget, time, staffing, hardware/software) → communicate risks and impact to stakeholders (to gain acceptance and ensure compliance) → configure the new system (integrating with legacy systems, maintaining service during change) → **fully test** the new system (reproducible results, a proper test environment) → choose an **implementation method** (parallel, phased, direct, pilot) → **document** the change (requirement traceability, up-to-date records, decisions logged, training manuals retained) → plan for **rollback** (backup methodology and location, recovery plan) → identify training needs (new training vs. refresher) → monitor progress (post-implementation review) → maintain **version control**.
 
 **Feasibility factors** for a digital project: benefits/drawbacks (financial savings vs. cost of change, impact on productivity/communication/security, new products, reputational impact); risks (resistance to change, misuse of new systems, inadequate support/knowledge, disruption during rollout); and constraints (budget, time, human/technological resources).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Technical Change Management](../05-teaching-resources/slides/core/11-technical-change-management.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
 
 ### 5.5 How digital support roles enable business operations
 
@@ -85,6 +101,10 @@ The specification breaks this down by occupational area - useful context for all
 **Communication techniques**: incident tickets, system update notifications, forums, and using clear/concise language matched to audience (target audience, size, knowledge level, detail needed) - via troubleshooting technique, active listening, reading body language, open questioning, negotiation, and conflict de-escalation.
 
 **End-user interaction needs** differ by group: clients/end-users (verbal support, written updates, training, remote support, screen sharing), managers (escalation routes, progress reports, presentations), peers/colleagues (sharing best practice, knowledge dissemination, training, collaboration).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Digital Support Roles and Communication](../05-teaching-resources/slides/core/12-digital-support-roles-and-communication.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## Content area 6: Emerging issues
 
@@ -102,6 +122,10 @@ The specification breaks this down by occupational area - useful context for all
 
 Students should understand how developments affect organisations, individuals and society across: storage media (growing demand), processing (quantum computing), IoT (edge computing, network load, industrial/smart-city/domestic contexts), AI (generative AI, machine learning), extended reality (AR/VR), open source software, blockchain, 3D printing, drones, environmental impact (rare metal consumption, energy use, disposal impact), and autonomous machines (self-driving cars, robotic assembly). Students should be able to judge how these interrelate and their wider impact.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Emerging Issues and Technologies](../05-teaching-resources/slides/core/13-emerging-issues-and-technologies.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## Content area 7: Digital environments
 
 ### 7.1 Hardware
@@ -112,6 +136,10 @@ Physical computer types: personal computers, mobile devices, servers, embedded d
 
 Operating system types: **batch** (non-interactive, high volume, scheduled), **multitasking** (concurrent execution, time-slicing, interrupts), **real-time** (monitoring/control, transaction processing), **network** (resource sharing, user management, communication), **mobile** (lower processing needs, longer battery life). Common utilities: file management, defragmenters, file compression, package managers, protection software, backup software. Common application software: word processors, spreadsheets, databases, email, project management software.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Hardware and Software](../05-teaching-resources/slides/core/14-hardware-and-software.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ### 7.3 Networks
 
 Benefits/drawbacks of networking devices together. Network types by scale: **PAN, LAN, MAN, WAN**. Connectivity: wired (copper/ethernet, fibre) and wireless (access points). Topologies: star, mesh, tree, and logical vs. physical topology. Network models: client-server, thin client, peer-to-peer. Components: server, client, router, switch, internet connection/backbone.
@@ -121,6 +149,10 @@ Two key reference models:
 - **TCP/IP 4-layer model** - application, transport, internet, network.
 
 **Data packets**: their contents/structure, the role of each component, packet switching (and causes of packet loss), and error handling via cyclic redundancy check (CRC). **Common protocols**: web (HTTP, HTTPS), mail (SMTP, POP, IMAP), routing (RIP, OSPF), application (FTP, SFTP, DHCP, DNS). **Bandwidth** and **latency**, and their effect on network/system performance.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Networks](../05-teaching-resources/slides/core/15-networks.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 ### 7.4 Virtual environments
 
@@ -140,6 +172,10 @@ Cloud types: **private**, **public**. Benefits: portability, elasticity, fewer s
 
 Benefits of resilience: better security (data protection, reduced vulnerabilities), better reputation (brand protection, customer confidence), less downtime. Methods to improve resilience: software updates/patches (planned and vulnerability-driven), hardware replacement (rolling plans, secure disposal), data/system redundancy, device hardening (removing unneeded ports/apps/permissions/access), backups and recovery procedures (onsite, remote/offsite, cloud), hot/cold/warm sites, and standard operating procedures (effective training, induction, rollout of new systems/policies).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Virtual, Cloud and Resilient Environments](../05-teaching-resources/slides/core/16-virtual-cloud-and-resilient-environments.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## Content area 8: Security
 
 ### 8.1 Security risks
@@ -158,6 +194,10 @@ Confidential information organisations hold: HR data (salaries, staff details), 
 
 **Impacts**: loss/leaking of sensitive data, unauthorised digital access, data corruption, service disruption, unauthorised physical access.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Security Threats and Vulnerabilities](../05-teaching-resources/slides/core/17-security-threats-and-vulnerabilities.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ### 8.3 Threat mitigation
 
 Techniques: security settings (hardware and software); anti-malware software; intrusion detection; encryption (hashing, symmetric, asymmetric); user access policies; staff vetting and training; software-based access control; device hardening; backups (full, incremental, differential - safely stored); software/firmware/driver updates; air gaps; API certification; VPNs; multi-factor authentication; password managers; port scanning; penetration testing (ethical vs. unethical hacking).
@@ -173,6 +213,10 @@ Techniques: security settings (hardware and software); anti-malware software; in
 - **Authentication** - verifying the identity claimed at identification (MFA, passwords/passphrases, biometrics).
 - **Authorisation** - ensuring an authenticated user can only access what they're permitted to (role-based access, access control lists).
 - **Accountability** - ensuring actions can be traced back to the responsible user (audit logs, user activity monitoring).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Threat Mitigation, the CIA Triad and IAAA](../05-teaching-resources/slides/core/18-threat-mitigation-cia-and-iaaa.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
 ## Teaching resources

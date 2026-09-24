@@ -8,6 +8,10 @@ This page covers Content Area 2 of the Network Cabling specialism: installing an
 
 Data is represented electronically as bits, bytes and packet structures. Transmission can be synchronous or asynchronous, and must handle error detection/correction, bandwidth limits and noise, and data compression, using access methods such as **CSMA/CD** and **CSMA/CA**. Data is encapsulated into frames, packets, datagrams, addresses and sequence numbers via the network interface card. Addressing covers **IPv4** (schemes, subnetting, subnet masks) and **IPv6** (address types).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Signal Theory and Data Transmission](../../05-teaching-resources/slides/network-cabling/01-signal-theory-and-data-transmission.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.2 Tools and equipment (skill)
 
 - **Testing tools**: multimeter, tone generator and probe, **OTDR**, light source and power meter, spectrum analyser, continuity tester.
@@ -29,6 +33,10 @@ Design is shaped by network topology (logical and physical), compliance with phy
 
 A network design specification typically includes: a customer statement of requirement (SOR), a bill of materials, cabling design documentation (building/floor plans, power/cooling diagrams, containment layouts, cable routes), installation admin (labelling, documentation, certification, warranty, performance declarations), installation procedures, contractual penalties and a future-proofing strategy. Producing one means gathering requirements, designing the spec, analysing/interpreting it (resource quantities, material lengths, component placement), and flagging potential issues - all written using correct technical language and organised logically.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Structured Cabling Design and Installation](../../05-teaching-resources/slides/network-cabling/03-structured-cabling-design-and-installation.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.7–2.9 Fibre signal theory and handling faults
 
 Light travels down fibre core via **total internal reflection (TIR)**, following **refraction** principles, in single-mode or multi-mode form. **Attenuation** is the loss of signal strength over distance (measured in dB), caused by absorption (light absorbed by particles, worsens with distance), scattering (light hitting particles and being lost into the cladding), and macro/microbending. Poor handling causes its own losses: dirty/faulty/contaminated connectors (unreliable or no connection), excessive bending (with or without tension), and poor-quality cable/connectors (interference).
@@ -36,6 +44,10 @@ Light travels down fibre core via **total internal reflection (TIR)**, following
 ## 2.10 Ohm's law and copper cabling
 
 Ohm's law: **V = I × R**. Voltage and current are proportional (more voltage → more current); resistance opposes current (more resistance → less current). Applied to cabling, resistance varies with cable length, the resistors present in hardware, signal frequency and cable size - which is why there's a maximum cable length for reliable signal transmission.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Signal Theory and Data Transmission](../../05-teaching-resources/slides/network-cabling/01-signal-theory-and-data-transmission.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 2.11 Copper and fibre media types
 
@@ -89,11 +101,19 @@ Compared to non-fire-resistant cable, plenum cable emits lower toxicity and smok
 
 **Termination standards**: TIA/EIA-568A (American pin-out) and TIA/EIA-568B (British/European pin-out) - a **crossover** cable uses 568A at one end and 568B at the other; a **straight-through** cable uses the same standard at both ends. Ethernet deployment standards range from 100BaseT/TX through 1000BaseT/T1/LX/SX to 10GBaseT.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Cable Media, Connectors and Standards](../../05-teaching-resources/slides/network-cabling/02-cable-media-connectors-and-standards.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 2.17–2.18 Maintenance and troubleshooting
 
 Troubleshooting follows: identify the problem (fault or routine monitoring) → diagnose (gather info, analyse against past data/similar systems, narrow down causes) → test the shortlist → resolve (implement the fix, document it, prevent recurrence). Maintenance also covers logging hardware/software changes and informing stakeholders, monitoring performance (user activity, traffic/load, benchmarking), and choosing between predictive maintenance (replacing before failure) and reactive maintenance (run-to-failure).
 
 Common connectivity/performance failures - physical (wrong cable type, incorrect pin-out, open/short, bad port, cable damage, bent pins, duplex/speed mismatch, wrong containment) and technical (attenuation, latency, jitter, crosstalk, EMI, transceiver mismatch, TX/RX reverse, bottlenecks, hardware error, LED status) - are detected via cyclical redundancy checks, encapsulation errors, frame/packet/datagram loss, address conflicts and missing sequence numbers.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Testing, Certification and Troubleshooting](../../05-teaching-resources/slides/network-cabling/04-testing-certification-and-troubleshooting.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 ## 2.19–2.21 Transmission principles, supporting media and compliance
 
@@ -109,9 +129,17 @@ If ACM is suspected during installation: stop work immediately, inform relevant 
 
 Apply the risk-management process before working at height (using MEWPs safely per the Health and Safety at Work etc. Act 1974) and when assembling/inspecting/operating/dismantling prefabricated low-level access towers per manufacturer guidance. The same process applies to confined-space work, alongside correctly applied and maintained PPE, with findings recorded clearly.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Health, Safety and Compliance for Cabling](../../05-teaching-resources/slides/network-cabling/05-health-safety-and-compliance-for-cabling.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 2.25 Installing fixtures and fittings (skill)
 
 Interpret the cabling design spec, compare the physical site against it (space, power, cooling), construct/install cabinets and racks per manufacturer guidance, add additional fixtures (trunking, containment), test everything for compliance, and arrange equipment within racks to meet the spec.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Structured Cabling Design and Installation](../../05-teaching-resources/slides/network-cabling/03-structured-cabling-design-and-installation.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 2.26–2.28 Inspection, certification and interpreting results
 
@@ -122,6 +150,10 @@ Failing to meet standards has network consequences (slower speeds, more interfer
 ## 2.29 Impact of poor workmanship
 
 Incorrect labelling makes troubleshooting, maintenance and reconfiguration harder. Failing to test all cabling risks equipment damage, premature breakdown, service disruption, and undetected system errors.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Testing, Certification and Troubleshooting](../../05-teaching-resources/slides/network-cabling/04-testing-certification-and-troubleshooting.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
 ## Teaching resources

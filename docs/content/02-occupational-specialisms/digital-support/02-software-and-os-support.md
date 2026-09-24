@@ -18,9 +18,17 @@ The four values behind agile work: individuals and interactions over processes a
 - **Lean** (7 principles) - eliminate waste, build in quality, create knowledge, defer commitment, deliver fast, respect people, optimise the whole.
 - **Extreme Programming (XP)** - frequent short release cycles, checkpoints for new requirements, planning and feedback loops.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Agile Values and Methodologies](../../05-teaching-resources/slides/digital-support/01-agile-values-and-methodologies.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.3 Digital technologies across business operations
 
 Digital systems now sit inside every business function: finance (budget dashboards, invoicing, expense tracking), sales/marketing (CRM, social media tools), operations (performance dashboards, ticketing), HR (personnel systems, digital training), communications (video conferencing, email, collaboration platforms) and R&D (CAD, IDEs). For digital support this means rising demand for support, greater staff training needs, more emphasis on CPD, and an ongoing requirement to keep information systems running so the organisation can collect, store, maintain and distribute information.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Digital Solutions and Training Users](../../05-teaching-resources/slides/digital-support/07-digital-solutions-and-training-users.pptx) (PowerPoint, 9 slides)
+<!-- lesson-slide:end -->
 
 ## 2.4 Service functions that create a domain environment
 
@@ -32,9 +40,17 @@ Digital systems now sit inside every business function: finance (budget dashboar
 - **Mail server** - manages inbound/outbound client mail.
 - **Certificate authority** - issues digital certificates to certify ownership of a public key.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Domains, Email and Remote Access](../../05-teaching-resources/slides/digital-support/02-domains-email-and-remote-access.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.5 Content management systems (CMS) and resolving user problems
 
 CMS functions: **incident/request management** (logging, tracking, open/closed tickets), **knowledge management** (identifying training needs, collating support knowledge), **change management** (supporting new system rollout) and **configuration/asset management** (licence tracking, hardware/software requests, decommissioning). The troubleshooting method taught is: gather information (investigate the request and likely causes) → analyse the problem (eliminate known fixes/causes) → test remaining possibilities → resolve (back up data, implement and test the fix, repeat until resolved, document the cause/solution in the CMS, apply controls to stop recurrence).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [End-User Support and Troubleshooting](../../05-teaching-resources/slides/digital-support/05-end-user-support-and-troubleshooting.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 2.6 End-user devices and systems supported via a CMS
 
@@ -51,6 +67,10 @@ Productivity software (word processing, spreadsheets, presentations, diagramming
 ## 2.9 Application installation and configuration
 
 System requirements to check before installing: storage, RAM, compatibility, processor, OS. Storage trade-offs: HDD (cheap, more capacity, but mechanically fragile and heat-prone) versus SSD (fast, no moving parts, but pricier with less capacity - useful where device size matters). Network card trade-offs: efficient and secure but at higher cost with a finite performance lifespan. Other considerations: resource setup for performance, permissions (file/folder access, user authorisation, least privilege) and security impact on the device, network, usability and data storage. Practical skill: remotely installing an OS and configuring settings - correct boot drive/partitioning/format, domain setup, time/date/region/language, drivers, updates, and upgrading an existing OS without losing user data - plus installing productivity software and applying network-based updates.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Devices, Operating Systems and Applications](../../05-teaching-resources/slides/digital-support/03-devices-operating-systems-and-applications.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 2.10 OS deployment considerations
 
@@ -83,6 +103,10 @@ Requires fewer resources through automation, keeps deployments consistent, reduc
 
 **Recovery** fixes the system in its current state, preserving files/folders. **Restoration** is used when recovery fails, and reverts the system to an earlier state. Process: ensure data is backed up → boot into recovery tools → follow on-screen steps → test to confirm the issue is resolved.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [OS Deployment, Imaging and Recovery](../../05-teaching-resources/slides/digital-support/04-os-deployment-imaging-and-recovery.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.16 Corporate and ISP email configuration
 
 - **POP3** - pulls mail down to local software.
@@ -108,6 +132,10 @@ Role: encrypts network traffic and masks the client's IP address to increase pri
 
 **Server side**: enable the VPN service, configure IP address/DNS hostnames for the VPN interface, manage user access (authentication, permissions). **Client side**: create the connection, set the destination IP/FQDN, set permissions and conditions.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Domains, Email and Remote Access](../../05-teaching-resources/slides/digital-support/02-domains-email-and-remote-access.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.21 Support processes for end users and customers
 
 User management (add/remove users, access hours), password management (complexity, expiry, forced reset), permissions/privileges (resource access, group policy, shared resource configuration), software installation/deployment, remote resource connection, fault identification, escalation from first to third line, knowledge management/documentation, known fixes, SOPs, asset management and auditing.
@@ -119,6 +147,10 @@ The same structured method as 2.5: gather information → analyse the problem �
 ## 2.23 Monitoring and operating information systems
 
 Analyse the performance of hardware, software, database, network and people. Monitor the appropriate security controls (firewalls, anti-virus) and network performance/traffic. Operate and maintain assets (track licences, respond to hardware/software requests, log/tag assets correctly). Support users face-to-face or remotely (training, recording issues in the CMS, password management, fault ID, escalation). Record and summarise findings logically, using correct technical terms, to inform future policy.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [End-User Support and Troubleshooting](../../05-teaching-resources/slides/digital-support/05-end-user-support-and-troubleshooting.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 2.24 Version control management
 
@@ -132,17 +164,33 @@ Identification and planning (user/organisational needs, constraints, deployment 
 
 Purpose: track/locate, secure, and manage the use and configuration (wireless/cellular data, hotspot, tethering, airplane mode, Bluetooth, email) of mobile devices. Applications include segregating personal/professional profiles and enforcing policy compliance. Remote management covers remote wipe, disabling features, restricting devices/app stores/calling-data use, and controlling backup/sync. Security features: screen lock, device encryption, password enforcement, login-attempt restrictions, MFA, and authenticator apps (e.g. Google Authenticator, FIDO). Practical skill: applying MDM to configure the settings listed under "purpose" above.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Asset, Version and Mobile Device Management](../../05-teaching-resources/slides/digital-support/06-asset-version-and-mobile-device-management.pptx) (PowerPoint, 9 slides)
+<!-- lesson-slide:end -->
+
 ## 2.27 Explaining the benefits of digital solutions
 
 Analyse the requirement (access to information/services/products, or transactions), identify the best-fit solution (digital systems, productivity software, or wider digital technology), then explain the benefit clearly and concisely, pitched to the audience and using correct technical terminology.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Digital Solutions and Training Users](../../05-teaching-resources/slides/digital-support/07-digital-solutions-and-training-users.pptx) (PowerPoint, 9 slides)
+<!-- lesson-slide:end -->
 
 ## 2.28 Operating digital information systems and tools
 
 Operate systems to collect/store/maintain/distribute information supporting service delivery; process and critically review user feedback; maintain service delivery (create/action/update tickets, communicate ticket status, monitor/record system performance, support users remotely); record and summarise findings clearly to inform future policy.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [End-User Support and Troubleshooting](../../05-teaching-resources/slides/digital-support/05-end-user-support-and-troubleshooting.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.29 Training methods and tools for digital systems
 
 **Methods**: shadowing, desk-side support, remote support, e-learning, VR, AR, smart boards, gamified apps (e.g. Kahoot!, Padlet), simulation. **Tools**: crib sheets, smart sheets, webinars, screencasts, managed/virtual learning environments (MLE/VLE), sandboxed environments, MOOCs.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Digital Solutions and Training Users](../../05-teaching-resources/slides/digital-support/07-digital-solutions-and-training-users.pptx) (PowerPoint, 9 slides)
+<!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
 ## Teaching resources

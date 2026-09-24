@@ -8,6 +8,10 @@ This is Content Area 2 of the Cyber Security specialism - the specialism's secon
 
 Purpose: investigate and analyse digital devices/networks to gather legitimate evidence for a body such as law enforcement. The five-stage compliance model: **identification** (what evidence exists, where, how it's stored), **preservation** (avoid tampering - isolate, secure and preserve evidence in chronological order, in line with legal retention periods), **analysis** (reconstruct data fragments, draw evidence-based conclusions), **documentation** (record all findings and the investigation itself), **presentation** (present findings to the appropriate body for further action).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Incident Management and Digital Forensics](../../05-teaching-resources/slides/cyber-security/09-incident-management-and-forensics.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.2 Threats - social engineering, malware and password attacks
 
 **Social engineering**: phishing (mass fraudulent messages - spoofed/misspelt domains, poor writing, infected attachments, urgency cues), spear phishing (targeted, harder to detect), vishing (fraudulent phone calls, often impersonating official bodies like HMRC, pressuring victims for personal details), smishing (fraudulent texts, often with suspicious links), shoulder surfing (observing someone entering credentials) and dumpster diving (retrieving discarded information).
@@ -24,6 +28,10 @@ Purpose: investigate and analyse digital devices/networks to gather legitimate e
 
 **Threat actors**: cyber criminals (financial gain via ransomware/social engineering/malware), insiders (current/past staff misusing authorised access for revenge or gain), terrorist organisations (disruption for a cause), nation states (political gain - stealing data, damaging infrastructure), hacktivists (expose wrongdoing "for good"), script kiddies (inexperienced attackers seeking a challenge). **Threat intelligence** - gathering critical information to analyse/prioritise threats - identifies previously unknown threats, reveals actor motivations, and supports fast, effective mitigation decisions.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Threats, Threat Actors and Threat Intelligence](../../05-teaching-resources/slides/cyber-security/06-threats-threat-actors-and-intelligence.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 2.4 Risk assessment stages and vulnerability assessment
 
 Stages: **identify** vulnerability (scan/log analysis for anomalies) → **analyse** it (is it exploitable, how severe) → **identify risk** associated with it (prioritise) → **remediate** (update or remove the affected hardware/software) → **mitigate** (apply countermeasures, close down mitigated items, escalate anything still risky). Scoping a vulnerability assessment means defining in-scope systems/services/networks, access requirements and the vulnerabilities being tested for; evaluating it means classifying the risk of each finding and determining likely business impact, then documenting and organising the results.
@@ -36,9 +44,17 @@ Identify published CVEs (from vendors, testers) → research each one, scoring i
 
 Factors to weigh: potential business/operational/infrastructure impact, mitigating circumstances behind the vulnerability, cost of acting vs. not acting, type/severity of the vulnerability, available resources (people, finance, technology), reporting/response timeframes, CVE-based scope and priority, possible mitigation responses, and Proof-of-Concept (PoC) results confirming the flaw. Recommendations must be documented logically and communicated in appropriate technical language for the audience.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Vulnerability Assessment and Penetration Testing](../../05-teaching-resources/slides/cyber-security/07-vulnerability-assessment-and-penetration-testing.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ## 2.7 Impacts of an exploited vulnerability
 
 Damage to property/resources, financial loss, reputational damage (loss of customer trust), fines/prosecution (e.g. an ICO fine after a data breach), operational disruption, harm to employees (physical or psychological), and identity theft.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Risk Analysis and Risk Response](../../05-teaching-resources/slides/cyber-security/08-risk-analysis-and-risk-response.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
 
 ## 2.8 Purpose of risk assessments on network infrastructure
 
@@ -48,13 +64,25 @@ Damage to property/resources, financial loss, reputational damage (loss of custo
 
 **Infrastructure scanners** (host/network/wireless): find missing patches, unsupported systems, weak passwords, exposed services, missing hardening and incorrect access controls - but don't stop active attacks, only catch previously known issues, can be slow for vendors to fix, may be inaccurate, and can affect live services while scanning. **Web application scanners**: automate scanning, find SQL injection, broken authentication, data exposure, incorrect access controls, vulnerable third-party components and weak/unencrypted communication - but can produce false positives/negatives, impact system resources while scanning, and again only catch known issue types. **Software scanners**: find missing updates/patches and run vendor-specific checks - but need regular updating, can also produce false positives/negatives, and make business impact hard to judge.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Vulnerability Assessment and Penetration Testing](../../05-teaching-resources/slides/cyber-security/07-vulnerability-assessment-and-penetration-testing.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ## 2.10 Types of organisational risk and management approaches
 
 **Compliance risk** (not following policy) - managed via monitoring/updating processes, compliance controls and exception reports (flagging emerging issues, e.g. expiring software support). **Safety risk** (harm to people/property/environment) - managed via checks for human error and maintenance audits. **Information security risk** (data lost/stolen/copied/compromised) - managed via data controls (e.g. access control), network traffic monitoring, device management (e.g. restricted USB access) and regular security training.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Risk Analysis and Risk Response](../../05-teaching-resources/slides/cyber-security/08-risk-analysis-and-risk-response.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ## 2.11 Mitigating privacy-breach threats
 
 Social engineering → raise awareness of current issues. Unmanaged devices → company policy restricting their use. Untrained staff → training and SOPs. Insider threats → access controls, monitoring unusual activity, segregation of duties. Unpatched applications → ensure updates are applied. Third-party risk → supplier due diligence. Improper device disposal → secure wiping and DPA 2018 compliance.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Mitigation, Backups, Policies and Compliance](../../05-teaching-resources/slides/cyber-security/10-mitigation-backups-and-compliance.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 ## 2.12 Measures used to assess threat/vulnerability impact
 
@@ -76,13 +104,25 @@ Qualitative: RAG rating (red/amber/green) applied to business risk. Quantitative
 
 Identify potential risks → assess each using a scoring matrix (likelihood × severity = risk score/RAG rating) → weigh asset value against mitigation cost → control the risk (proportionate response) → record findings → review/test controls regularly. Applied through regular internal/external audits covering in-house systems and third-party suppliers. *(E3, E4, M5, M6, M8.)*
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Risk Analysis and Risk Response](../../05-teaching-resources/slides/cyber-security/08-risk-analysis-and-risk-response.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ## 2.17 Penetration testing stages
 
 Planning and scoping (rules of engagement, timing, legal/contractual boundaries) → reconnaissance (gathering system information - topology, OS, applications) → scanning (finding open ports/services) → vulnerability assessment (identifying and testing exploitability) → exploitation (attempting to gain access) → reporting (documenting findings and remediation recommendations).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Vulnerability Assessment and Penetration Testing](../../05-teaching-resources/slides/cyber-security/07-vulnerability-assessment-and-penetration-testing.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ## 2.18 Risk response types
 
 Accept (no further mitigation available, or residual risk remains after mitigation), transfer (outsource the risk to another party), avoid (change project/system scope to sidestep it), mitigate (reduce severity/likelihood through controls).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Risk Analysis and Risk Response](../../05-teaching-resources/slides/cyber-security/08-risk-analysis-and-risk-response.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
 
 ## 2.19 Incident/event management stages
 
@@ -92,13 +132,25 @@ Identify (via service desk, phone, email, SMS, chat) → log (manually, with con
 
 Record the incident's date/time and description → take appropriate action (e.g. isolate the affected device from the network) → preserve digital evidence (copy relevant log files) → escalate as appropriate.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Incident Management and Digital Forensics](../../05-teaching-resources/slides/cyber-security/09-incident-management-and-forensics.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.21 Applying NCSC Cyber Essentials controls
 
 Boundary firewalls/internet gateways (restrict traffic flow), secure configuration (only necessary functionality enabled), malware protection (current anti-malware, regular scans), security update management (patch currency), access control and management (least privilege, with PAM for elevated access such as a super-user or privileged business account).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Mitigation, Backups, Policies and Compliance](../../05-teaching-resources/slides/cyber-security/10-mitigation-backups-and-compliance.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 2.22 Encryption tools as risk mitigation
 
 **Asymmetric encryption** - private data between users (e.g. encrypted email); underpins **data-in-transit** protection: TLS (end-to-end encryption for email/web/messaging) and SSL (legacy protocol for browser-to-website encryption). **Symmetric encryption** - same key encrypts/decrypts (e.g. card payments); underpins **data-at-rest encryption (DARE)**: Full Disk Encryption (FDE, protects against e.g. laptop theft) and File-Based Encryption (FBE, protects individual files/folders in transfer).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Cryptography and Digital Certificates](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 ## 2.23 Purpose, criteria and types of backup
 
@@ -111,6 +163,10 @@ Data protection policy, acceptable use policy, access control policy, asset clas
 ## 2.25 Monitoring cyber security compliance
 
 Audit processes/policies for currency (e.g. reviewing the information security policy) and improve them as needed; compare and check the accuracy of processes, logs and incident reports; comply with relevant ISO standards.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Mitigation, Backups, Policies and Compliance](../../05-teaching-resources/slides/cyber-security/10-mitigation-backups-and-compliance.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
 ## Teaching resources

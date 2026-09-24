@@ -4,6 +4,10 @@
 
 This page covers Content Area 3 of the Digital Infrastructure specialism: discovering, evaluating and applying reliable sources of knowledge. Every specialism shares this content area, since finding and judging good information is a professional skill in its own right - this version applies it specifically to digital infrastructure work.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 3.1 Types of sources and legitimising their use
 
 Recognised source types include academic publications, supplier literature (handbooks, device-specific articles), search engines, websites (wikis, forums, Stack Overflow, manufacturer sites), social media, blogs, vlogs, professional networks/conferences, e-learning (MOOCs, vendor qualifications such as Cisco), and peers/colleagues.

@@ -4,6 +4,10 @@
 
 This is Content Area 3 of the Cyber Security specialism. It mirrors the equivalent content area in the other three specialisms, but is populated with sources and bodies specific to the cyber security profession - professional bodies, accreditation schemes and vulnerability databases a working cyber security technician would actually use.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 3.1 Sources of knowledge applicable to cyber security
 
 Academic publications (textbooks, journals, periodicals), supplier literature (e.g. Microsoft, AWS), websites (wikis, forums, community encyclopaedias, manufacturer sites, Q&A sites), webinars, social media (company profiles on X/Facebook/LinkedIn), blogs (vulnerability discussion), vlogs (mitigation-strategy tutorials), professional networks (conferences/events), professional bodies (CIISec, CREST, ISACA, UK Cyber Security Council), e-learning (MOOCs), peers, cyber security policies/procedures (e.g. an information security policy), guidelines/legislation (e.g. DPA 2018), regulating authorities (e.g. ICO), industry standards (NCSC Cyber Essentials, CIS Benchmarks), industry accreditation (CompTIA, Certified Cyber Professional, (ISC)²) and databases (e.g. CVE).
@@ -37,6 +41,10 @@ Identify relevant information (arguments, views, opinions) → analyse it (bias,
 ## 3.8 Cyber security impacts on critical national infrastructure
 
 Disruption to supply chains (food, raw materials); utilities - energy (power cuts, surges, under-voltage, gas supply loss), water/sanitation (loss of supply, flooding, treatment disruption), government (communication/policy interruption), finance (failed payments, transfer interruption), healthcare (compromised patient records, impaired communication/treatment), communications/ISPs (service loss, eavesdropping, impersonation), defence (impaired military/defence capability), and transport (disrupted public/private transport and emergency dispatch).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Threats, Threat Actors and Threat Intelligence](../../05-teaching-resources/slides/cyber-security/06-threats-threat-actors-and-intelligence.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 ## 3.9 Purpose and types of control systems
 

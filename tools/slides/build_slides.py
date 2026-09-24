@@ -10,6 +10,10 @@ What it does:
   3. Adds (or refreshes) a "Teaching resources" table on each topic page,
      between the <!-- teaching-resources:start/end --> markers, listing the
      decks that cover that page.
+  4. Adds (or refreshes) a "Lesson slides for this section" link at the end
+     of the matching section of text on each page, between
+     <!-- lesson-slide:start/end --> markers. decks/placement.py says which
+     sections each deck belongs under.
 
 Requires python-pptx:
     pip install python-pptx
@@ -28,6 +32,7 @@ sys.path.insert(0, HERE)
 
 import render  # noqa: E402
 from decks import ALL_DECKS, AREA_ORDER  # noqa: E402
+from decks.placement import PLACEMENT  # noqa: E402
 
 CONTENT_DIR = os.path.join(ROOT, "content")
 RES_DIR_REL = "05-teaching-resources"
@@ -82,22 +87,88 @@ def section_for_page(page, decks):
     return "\n".join(lines)
 
 
+INLINE_START = "<!-- lesson-slide:start -->"
+INLINE_END = "<!-- lesson-slide:end -->"
+HEADING_RE = re.compile(r"^(#{2,3})\s+(.*?)\s*$")
+NUMBER_RE = re.compile(r"(\d+)\.(\d+)(?:\s*[\u2013-]\s*(\d+)\.(\d+))?\s")
+
+
+def heading_numbers(text):
+    """Spec numbers a heading covers: '1.8\u20131.9 Disaster...' -> {'1.8', '1.9'}."""
+    m = NUMBER_RE.match(text + " ")
+    if not m:
+        return set()
+    area, first = m.group(1), int(m.group(2))
+    last = int(m.group(4)) if m.group(4) and m.group(3) == area else first
+    return {f"{area}.{n}" for n in range(first, last + 1)}
+
+
+def inline_positions(lines, targets):
+    """Line indexes to insert a deck's inline link before (end of each section run)."""
+    heads = [(i, HEADING_RE.match(l).group(2)) for i, l in enumerate(lines) if HEADING_RE.match(l)]
+    next_head = {}
+    for k, (i, _) in enumerate(heads):
+        next_head[i] = heads[k + 1][0] if k + 1 < len(heads) else len(lines)
+    positions = []
+    if "top" in targets:
+        first_h2 = next((i for i, l in enumerate(lines) if l.startswith("## ")), len(lines))
+        positions.append(first_h2)
+    numbered = [(i, heading_numbers(t)) for i, t in heads if heading_numbers(t)]
+    wanted = {t for t in targets if re.fullmatch(r"\d+\.\d+", t)}
+    run_end = None
+    for i, nums in numbered:
+        if nums & wanted:
+            run_end = i
+        elif run_end is not None:
+            positions.append(next_head[run_end])
+            run_end = None
+    if run_end is not None:
+        positions.append(next_head[run_end])
+    for t in targets:
+        if t != "top" and not re.fullmatch(r"\d+\.\d+", t):
+            for i, text in heads:
+                if text.startswith(t):
+                    positions.append(next_head[i])
+    return positions
+
+
 def inject(page, decks):
     path = os.path.join(CONTENT_DIR, page)
     with open(path, encoding="utf-8") as f:
         md = f.read()
+    # Remove anything a previous build added, then add it all back fresh.
+    md = re.sub(re.escape(INLINE_START) + r".*?" + re.escape(INLINE_END) + r"\n\n", "", md, flags=re.DOTALL)
+    md = re.sub(re.escape(START) + r".*?" + re.escape(END) + r"\n\n?", "", md, flags=re.DOTALL)
+
+    lines = md.split("\n")
+    inserts = {}
+    for d in decks:
+        targets = PLACEMENT.get(d["file"], {}).get(page, [])
+        for pos in inline_positions(lines, targets):
+            if d not in inserts.setdefault(pos, []):
+                inserts[pos].append(d)
+    for pos in sorted(inserts, reverse=True):
+        quote = "\n>\n".join(
+            f"> **Lesson slides for this section:** [{d['title']}]({rel_link(page, SLIDES_REL + '/' + d['file'])}) "
+            f"(PowerPoint, {d['_slides']} slides)"
+            for d in inserts[pos]
+        )
+        block = [INLINE_START, quote, INLINE_END, ""]
+        # keep a blank line between the section text and the link
+        if pos > 0 and lines[pos - 1].strip():
+            block.insert(0, "")
+        lines[pos:pos] = block
+    md = "\n".join(lines)
+
     block = section_for_page(page, decks)
-    if START in md:
-        md = re.sub(re.escape(START) + r".*?" + re.escape(END), lambda _: block, md, flags=re.DOTALL)
+    # Place the table just before "Key terms" (or "Related pages"), so it sits
+    # under the topic content but above the page's closing lists.
+    for anchor in ("\n## Key terms", "\n## Related pages", "\n## Further reading"):
+        if anchor in md:
+            md = md.replace(anchor, "\n" + block + "\n" + anchor, 1)
+            break
     else:
-        # Place it just before "Key terms" (or "Related pages"), so it sits
-        # under the topic content but above the page's closing lists.
-        for anchor in ("\n## Key terms", "\n## Related pages", "\n## Further reading"):
-            if anchor in md:
-                md = md.replace(anchor, "\n" + block + "\n" + anchor, 1)
-                break
-        else:
-            md = md.rstrip("\n") + "\n\n" + block + "\n"
+        md = md.rstrip("\n") + "\n\n" + block + "\n"
     with open(path, "w", encoding="utf-8") as f:
         f.write(md)
 

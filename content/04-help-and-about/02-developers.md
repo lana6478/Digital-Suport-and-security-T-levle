@@ -56,7 +56,7 @@ python3 tools/slides/build_slides.py
 python3 tools/build_site.py
 ```
 
-`build_slides.py` also writes the [Lesson Slides](../05-teaching-resources/01-lesson-slides.md) index page and refreshes the "Teaching resources" table on each topic page (the part between the `teaching-resources` comment markers), so never edit those tables by hand. It refuses to build if a deck contains an em or en dash, and prints a warning for any slide where text might overflow.
+`build_slides.py` also writes the [Lesson Slides](../05-teaching-resources/01-lesson-slides.md) index page, refreshes the "Teaching resources" table on each topic page, and adds a "Lesson slides for this section" link at the end of each matching section of text. `tools/slides/decks/placement.py` says which sections each deck belongs under. Everything the script adds sits between `teaching-resources` or `lesson-slide` comment markers, so never edit those parts by hand. It refuses to build if a deck contains an em or en dash, and prints a warning for any slide where text might overflow.
 
 ## Contributing a page
 

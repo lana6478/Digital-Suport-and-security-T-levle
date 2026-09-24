@@ -15,6 +15,10 @@ This page covers Content Area 2 of the Digital Infrastructure specialism: explai
 
 Signal types are electrical (copper), light-based (fibre) or wireless. Security risks include tampering and signal loss. Copper cabling needs segregating from electrical cabling because of interference (electromagnetic, static, crosstalk) - mitigated by shielding or parallel cable runs, in line with **BS EN 50174**. Wireless standards range from 802.11b/g/n through Wi-Fi 5, 6/6e and 7. Addressing covers **IPv4** (addressing schemes, subnetting, subnet masks) and **IPv6** (address types).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Network Design, Addressing and Transmission](../../05-teaching-resources/slides/digital-infrastructure/01-network-design-addressing-and-transmission.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.3 Elements of infrastructure and associated technologies
 
 - **Network devices**: firewalls (including NGFW/UTM appliances), routers, switches, hubs, bridges, wireless access points, range extenders, modems, media converters.
@@ -26,6 +30,10 @@ Signal types are electrical (copper), light-based (fibre) or wireless. Security 
 - **Test equipment**: test plans, tone generator/probe, cable tester, tracing kit.
 - Also: support scripting for automation/administration, network monitoring/logging, and capacity management (e.g. monitoring server load).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Infrastructure Components and Cabling](../../05-teaching-resources/slides/digital-infrastructure/02-infrastructure-components-and-cabling.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.4 Electrostatic discharge (ESD) prevention and risk assessment (skill)
 
 Mitigate ESD risk by limiting movement, checking temperature/humidity (higher humidity increases static build-up), and using anti-static equipment (e.g. wrist straps). Students apply the full risk-management process - identify risks and their effect on people, calculate probability/impact, prioritise, record findings, apply ESD protection, and comply with health & safety legislation. *(E1, E3, M2, M6, M10, D5.)*
@@ -33,6 +41,10 @@ Mitigate ESD risk by limiting movement, checking temperature/humidity (higher hu
 ## 2.5 Health and safety legislation in a digital infrastructure context
 
 Health and Safety at Work etc. Act 1974 (PPE, employer duty of care); Manual Handling Operations Regulations 1992 (moving hardware); Health and Safety (Display Screen Equipment) Regulations 1999 (screen time, workspace setup); COSHH Regulations 2002 (e.g. printer maintenance); Control of Major Accident Hazards Regulations 2015 (e.g. earthing); WEEE Directive 2013 (disposal of hardware/network components).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Health, Safety and ESD in Digital Infrastructure](../../05-teaching-resources/slides/digital-infrastructure/05-health-safety-and-esd.pptx) (PowerPoint, 9 slides)
+<!-- lesson-slide:end -->
 
 ## 2.6–2.8 Physical servers, virtual servers and containers
 
@@ -44,6 +56,10 @@ Health and Safety at Work etc. Act 1974 (PPE, employer duty of care); Manual Han
 ## 2.9 Operating systems in digital infrastructure
 
 Types: end-user/desktop (Windows, macOS), mobile (Android, iOS), server (Linux, Windows Server). Benefits: usability, no machine-language knowledge required, stronger data security. All OSs share a user interface, personalisation, resource management and an application platform - but differ in purpose-specific features, UX/UI, and supported functionality.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Servers, Virtualisation and Operating Systems](../../05-teaching-resources/slides/digital-infrastructure/03-servers-virtualisation-and-operating-systems.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 2.10 Client-server network services
 
@@ -62,9 +78,17 @@ Remote access methods: **VPN** (private, encrypted connection), **RDP** (process
 
 Install and configure servers (physical/virtual, OS, applications, database, security utilities), network infrastructure devices, firewalls, load balancers, end-user devices and network services (DNS, DHCP); select the right ports/protocols; implement scripting; apply back-up policy; and test functionality and performance, recording results to drive improvement. Ongoing maintenance repeats this for the same components, plus performance monitoring/logging, capacity management, and automation via scripting. *(D1, D6.)*
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Network Services, Remote Access and Installation](../../05-teaching-resources/slides/digital-infrastructure/04-network-services-remote-access-and-installation.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.15 Making and testing UTP cable (skill)
 
 Determine the cable's purpose and calculate the required length, then make a straight-through or crossover cable using the correct equipment (8P8C/RJ45 connectors, crimper, wire cutters), and test it against TIA/EIA standards. *(M2.)*
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Infrastructure Components and Cabling](../../05-teaching-resources/slides/digital-infrastructure/02-infrastructure-components-and-cabling.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 2.16–2.17 IT service management (ITSM) and ITIL
 
@@ -72,9 +96,17 @@ Determine the cable's purpose and calculate the required length, then make a str
 
 **ITIL®** lifecycle stages: service strategy (aligning services to business objectives), service design, service transition (managed change), service operation (fulfilling requests, resolving failures, routine tasks), and continual service improvement.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Service Management and the Solution Lifecycle](../../05-teaching-resources/slides/digital-infrastructure/06-service-management-and-solution-lifecycle.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.18–2.19 DRPs and BCPs in digital infrastructure
 
 Common principles: identify (risk, critical systems, resource requirements), analyse (business impact, maximum downtime), design (plan components), implement (communication plan), and measure (test, check compliance, review). A **BCP** is about keeping the business running during disruption (alternative premises, adaptive processes, alternative technology); a **DRP** is about restoring normal operations after a disaster (restoring access/functionality, replacing infrastructure).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 2.20 Solution lifecycle (SLC)
 
@@ -88,13 +120,25 @@ Principles: continuous integration/delivery, microservices, infrastructure as co
 
 Reuse and documentation matter; solution architecture applies to hardware; frameworks such as **TOGAF** provide structure; solutions should align to enterprise architecture; and architecture is described through system, view, viewpoint, concern and stakeholder.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Service Management and the Solution Lifecycle](../../05-teaching-resources/slides/digital-infrastructure/06-service-management-and-solution-lifecycle.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.23 Virtualisation concepts and applications
 
 Concepts: creating multiple virtual resources from one physical resource (partitioning), or one virtual resource from several physical resources; isolation; encapsulation; hardware independence. Applications: network, server, desktop, OS and data virtualisation.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Servers, Virtualisation and Operating Systems](../../05-teaching-resources/slides/digital-infrastructure/03-servers-virtualisation-and-operating-systems.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
+
 ## 2.24 Continuous improvement of hardware/network (skill)
 
 Identify the hardware affected by a change and assess current network performance; apply the appropriate SLC stage to respond; assess performance afterwards; process and review outcome data; and record findings clearly to inform future policy. *(E1, E2, E4, D4.)*
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Service Management and the Solution Lifecycle](../../05-teaching-resources/slides/digital-infrastructure/06-service-management-and-solution-lifecycle.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
 ## Teaching resources

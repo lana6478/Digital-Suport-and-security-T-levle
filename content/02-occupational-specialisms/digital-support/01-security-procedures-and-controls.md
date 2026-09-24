@@ -44,12 +44,20 @@ A safeguard used when a primary control isn't available or fails - e.g. environm
 
 Students must be able to review an identified risk (gathering information from systems and users), then select, apply and monitor the appropriate control type - preventative, detective, corrective, deterrent, directive, compensating or recovery - while complying with relevant regulation and organisational procedure. *(Maps to assessment competencies D3.)*
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Business Security Controls](../../05-teaching-resources/slides/shared/01-business-security-controls.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 1.8 Disaster recovery plan components
 
 A Disaster Recovery Plan (DRP) covers:
 
 - **Physical** elements - backups, off-site alternative server storage.
 - **Administrative/procedural** elements sitting under a wider organisational Business Continuity Plan (BCP) - keeping systems functional, letting users access systems away from the main site, deploying backups to preserve data integrity, keeping digital systems aligned with business needs, tracking assets across the network (tagging/logging laptops), and reporting infrastructure changes to management.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 1.9 Impacts of threats and vulnerabilities
 
@@ -59,9 +67,17 @@ Realised threats can cause: **danger to life** (health & safety breaches), **pri
 
 Typical weak points include unauthorised physical access to network ports, weak user account control, single points of failure, open USB/network ports, and unsecured wireless networks.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ## 1.11 Measures and procedures that mitigate threats
 
 Key measures: Recovery Time Objective (RTO), Recovery Point Objective (RPO), Mean Time Between Failure (MTBF) and Mean Time to Repair (MTTR). Key procedures: standard operating procedures (installation, back-up, set-up) and service level agreements defining uptime and response/resolution times.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 1.12 The risk management process
 
@@ -97,13 +113,25 @@ Customer engagement → information gathering → discovery and scanning → vul
 
 Design considerations include the chosen risk response, the user profile (requirements, ability level), cost/benefit, and escalation routes to the appropriate authority. Students learn to gather and organise incident data, analyse trends to find underlying risks, apply mitigation techniques to threats found on end-user devices (e.g. installing RMM software, hardening a device), and treat this as a continuous-improvement loop: assign a risk owner, plan contingencies, keep security software current, and interpret penetration-test outputs.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ## 1.19 Technical security controls as risk mitigation
 
 Purpose: improving network security for users and systems. The five Cyber Essentials controls reappear here in more technical depth - access control (least privilege), patch management, malware protection, boundary firewalls/internet gateways, and secure configuration - alongside device hardening (removing unneeded programs/accounts/ports), remote monitoring and management (RMM), and vulnerability scanning (port/device scanning).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 1.20 Continuous improvement through risk mitigation
 
 The same continuous-improvement cycle as 1.18, extended with the requirement to record all findings and actions clearly using correct technical terms. *(E4, M5, D4.)*
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
 
 ## 1.21 Encryption as risk mitigation
 
@@ -112,9 +140,17 @@ The same continuous-improvement cycle as 1.18, extended with the requirement to 
 - **Data-at-rest**: full disk encryption; a Hardware Security Module (HSM) safeguarding keys; a Trusted Platform Module (TPM) storing device-specific keys.
 - **Data-in-transit**: SSL (encrypted link between browser and website) and TLS (end-to-end encryption for email, web and messaging).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 1.22 Purpose, criteria and types of backup
 
 Purpose: keep an up-to-date copy of data for recovery. Criteria: frequency, source, destination, and storage medium (e.g. LTO tape, cloud, disk). Types: full, incremental, differential, mirror.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 1.23 Policies, procedures and risk mitigation
 
@@ -129,6 +165,10 @@ Organisational digital use policy SOPs cover network usage/monitoring, internet 
 - **PCI DSS** - global card-payment security standard: secure network, protected cardholder data, vulnerability management, strong access control, regular monitoring/testing, and a documented security policy.
 - **NCSC "10 Steps to Cyber Security"** - user education/awareness, home/mobile working, secure configuration, removable media control, managing user privileges, incident management, monitoring, malware protection, network security, risk management regime.
 - **OWASP** - reviews and shares cyber security tools/resources, provides education for the public and professionals, and acts as a networking platform; applied in digital support to help users stay safe online and to improve software security.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Security Law, Standards and Policy](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 1.25 Principles of network security
 
@@ -148,9 +188,17 @@ Authentication restricts/grants access based on verified identity; firewalls res
 
 Wireless security (WPA2/WPA3 with end-to-end protection), device/password authentication, encryption, virtualisation, penetration testing, malware/anti-virus protection, patching, MFA and single logout. Practical skills: installing/configuring vulnerability-scanning software, anti-malware and firewall software on end-user devices; applying device hardening (change default passwords, correct file/service permissions, apply updates, remove unneeded software, apply security policy, disable unauthorised devices); and testing that the configuration was successful. *(E4, D1, D6.)*
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 1.29 The importance of cyber security to organisations and society
 
 For **organisations**: protecting systems, devices, cloud availability, personal/commercially sensitive data, password policy, legal compliance and defence against cybercrime. For **society**: protecting privacy, preventing prejudice, ensuring equal opportunity and preventing identity theft - including the individual rights guaranteed under DPA 2018 (be informed, access data, correct inaccurate data, erasure, restrict processing, data portability, object to processing).
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Security Law, Standards and Policy](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) (PowerPoint, 10 slides)
+<!-- lesson-slide:end -->
 
 ## 1.30 Techniques applied to cyber security for connected devices
 
@@ -166,6 +214,10 @@ The same technique list as 1.28 (wireless security, device security, encryption,
 ## 1.32 Common network/system/device vulnerabilities
 
 Missing patches/firmware updates → mitigate with patch-manager software, traffic tracking and test devices. Password vulnerabilities (weak/default/no lockout) → NCSC-aligned minimum password rules and reset policy. Insecure BIOS/UEFI configuration → review/update settings. Misconfigured permissions → test and schedule audits (e.g. remove access for leavers). Missing protection software → anti-malware, updated/monitored security software, awareness of buffer overflow. Insecure disposal of data/devices → WEEE Directive 2013 compliance and data wiping. Inadequate backup management → correct frequency and backup type. Unprotected physical devices → install the correct protective software.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
 ## Teaching resources

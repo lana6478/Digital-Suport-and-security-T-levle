@@ -19,6 +19,10 @@ Every ESP follows the same task sequence, built around a single scenario (the sp
 
 Each task is signposted against specific [English, maths and digital competencies](../03-appendices/01-competency-frameworks.md) (e.g. `E4`, `M6`, `D2`) - the letter/number codes you'll see throughout the official spec show exactly which general competency each task is designed to develop.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [The Employer Set Project](../05-teaching-resources/slides/core/19-employer-set-project-overview.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## Digital Infrastructure & Network Cabling Employer Set Project
 
 Built around a **network** scenario. After planning (Task 1) and fixing defects in a given network simulation (Task 2 - using testing tools like ping/tracer, correcting errors, following networking conventions), students move to:

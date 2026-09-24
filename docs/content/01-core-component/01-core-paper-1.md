@@ -25,6 +25,10 @@ Covers the definition, characteristics and purpose of algorithms, and two ways t
 - identify and correct errors in an algorithm; and
 - design their own algorithms/solutions using these control structures.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Computational Thinking, Algorithms and Diagrams](../05-teaching-resources/slides/core/01-computational-thinking-algorithms-and-diagrams.pptx) (PowerPoint, 13 slides)
+<!-- lesson-slide:end -->
+
 ### 1.3 Strategies
 
 Three problem-solving approaches - **top-down, bottom-up, modularisation** - each with their own benefits and drawbacks depending on the problem.
@@ -39,6 +43,10 @@ The **high-level problem-solving strategy** students should apply: define the pr
 - The incident management process has three stages: **detection** (report, record, prioritise) → **response** (identify owner, resolve and restore, record resolution) → **intelligence** (record lessons, identify cause, share lessons).
 
 Students should be able to judge which strategy suits which type of problem.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Problem-Solving Strategies and Reflective Practice](../05-teaching-resources/slides/core/02-problem-solving-strategies-and-reflective-practice.pptx) (PowerPoint, 13 slides)
+<!-- lesson-slide:end -->
 
 ## Content area 2: Introduction to digital support
 
@@ -56,6 +64,10 @@ Cable types and where each is used: **UTP, STP, coaxial, fibre-optic**. What **E
 
 **VoIP** and **SIP**, how they relate to each other, and the network metrics that affect call/communication quality: **speed, bandwidth, latency, jitter, packet loss**. **Codecs** compress/decompress data - students should know examples like MPEG-4 (video), MP3 (lossy audio) and FLAC (lossless audio).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Network Infrastructure, Cabling and Unified Communications](../05-teaching-resources/slides/core/03-networks-cabling-and-unified-communications.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ### 2.4 Support
 
 Understanding what users need when selecting/configuring/testing hardware (cores, memory, storage, clock speed, connectivity), operating systems (graphical/text-based, multi-tasking, single/multi-user, VM), and software (database, spreadsheet, word processor, presentation, communication, browser) - and being able to actually select, configure and test these components, judging what's suitable for the user's needs.
@@ -68,13 +80,25 @@ Why individual components (software, hardware, data, interfaces, the final servi
 
 Automation via **macros** and **scripts**; types of **test data** (valid, invalid, boundary, erroneous) and being able to create it; the structure of a **test plan** (identify tests → describe purpose → identify test data → describe expected results → record actual results); and methods for checking whether results are believable/accurate - logical reasoning (unbiased, relevant inputs; results that make sense), verification by a subject matter expert, and use of test plans.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Supporting and Testing Systems](../05-teaching-resources/slides/core/04-supporting-and-testing-systems.pptx) (PowerPoint, 12 slides)
+<!-- lesson-slide:end -->
+
 ### 2.6 Using data in digital support
 
 How tabular data is organised (worksheet, row, column); **validation checks** - presence, length, range, type, format; techniques to interrogate data - ordering/sorting/filtering by field, arithmetic functions (SUM, MIN, MAX, AVERAGE), logical functions (IF, COUNTIF) - and using these in spreadsheets; and the purpose of saving/importing data via text-based files.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Data Quality, Systems and Analysis](../05-teaching-resources/slides/core/07-data-quality-systems-and-analysis.pptx) (PowerPoint, 13 slides)
+<!-- lesson-slide:end -->
+
 ### 2.7 Using diagrams in digital support
 
 **Data flow diagrams (DFDs)** - data sources, data destinations, processes, data stores, arrows, labels (symbol key in [Diagram notation](../03-appendices/02-diagram-notation.md)) - and **information flow diagrams** (boxes, arrows, labels). Students need to both interpret existing diagrams and create/complete their own to represent a system.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Computational Thinking, Algorithms and Diagrams](../05-teaching-resources/slides/core/01-computational-thinking-algorithms-and-diagrams.pptx) (PowerPoint, 13 slides)
+<!-- lesson-slide:end -->
 
 ### 2.8 Risk and risk assessment
 
@@ -84,13 +108,25 @@ Risk is assessed using a **5×5 matrix** of Likelihood (improbable, remote, occa
 
 **Waterfall** vs **Agile** project methodologies (components, benefits, drawbacks), and diagrammatic project-management techniques: **PERT**, precedence tables, **Gantt** charts, **Kanban**, **Critical Path Analysis (CPA)**. Students should be able to interpret/draw these diagrams and judge which methodology/technique suits a given project.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Project Management and Risk Assessment](../05-teaching-resources/slides/core/05-project-management-and-risk-assessment.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ### 2.10 Strategies for responding to support issues
 
 Reflective practice models: **Kolb's Experiential Learning Cycle** (concrete experience → reflective observation → abstract conceptualisation → active experimentation) and **Gibbs' Reflective Cycle** (description → feelings → evaluation → analysis → conclusion → action plan). **Concept mapping** (main idea, individual concepts - hardware, software, people, information, processes - linked by verb relationships) and the **design thinking process** (empathise → define → ideate → prototype → user feedback → repeat).
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Problem-Solving Strategies and Reflective Practice](../05-teaching-resources/slides/core/02-problem-solving-strategies-and-reflective-practice.pptx) (PowerPoint, 13 slides)
+<!-- lesson-slide:end -->
+
 ### 2.11 Sources of knowledge
 
 Categories of source: literature (textbooks, manuals, supplier literature), professionals (conferences, managers, colleagues), websites (wikis, blogs, forums), media (social media, podcasts, video), and observation (dashboards, inspection). Reliability/validity should be judged on bias/subjectivity, evidence/expertise, publication date, and whether other sources corroborate it.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
 
 ## Content area 3: Data
 
@@ -120,6 +156,10 @@ Common formats and their use cases: **JSON, text file, CSV, UTF-8, ASCII, XML**.
 
 The role of **metadata** in describing and contextualising data; **file-based** and **directory-based** structures; **hierarchy-based** structures; and how storage structure relates to data transformation.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Data Fundamentals](../05-teaching-resources/slides/core/06-data-fundamentals.pptx) (PowerPoint, 13 slides)
+<!-- lesson-slide:end -->
+
 ### 3.7 Data dimensions and maintenance
 
 The **6 Vs of Big Data**: volume, variety, variability, velocity, veracity, value - and their impact on gathering, storing, maintaining and processing data. Data quality assurance methods: validation, verification, reliability, consistency, integrity, redundancy. Maintenance is also shaped by time, skills and cost.
@@ -143,6 +183,10 @@ Three ways to organise data: **hierarchical, network, relational** - chosen base
 ### 3.12 Data analysis tools
 
 Storing Big Data for analysis: **data warehouse, data lake, data mart**. Analysing it: **data mining, reporting**. Using the resulting business intelligence: financial planning and analysis, and CRM (customer data analytics, communications) - and how the right tool depends on the scale of the data involved.
+
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Data Quality, Systems and Analysis](../05-teaching-resources/slides/core/07-data-quality-systems-and-analysis.pptx) (PowerPoint, 13 slides)
+<!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
 ## Teaching resources

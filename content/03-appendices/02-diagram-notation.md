@@ -40,6 +40,10 @@ Flowcharts are core to the **algorithmic design** content in Core Paper 1: stude
 
 Several command words in the [command word taxonomy](01-competency-frameworks.md#command-word-taxonomy) - particularly **Draw** and **Complete** - apply directly to these diagram types. A "Draw" question expects a fully-formed, correctly labelled diagram built from a given scenario; a "Complete" question gives a partially-finished diagram and expects the missing elements filled in correctly. Using the right symbol for the right purpose (e.g. not confusing a "process" box with a "decision" box in a flowchart) is part of what's being assessed, not just the overall logic.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Computational Thinking, Algorithms and Diagrams](../05-teaching-resources/slides/core/01-computational-thinking-algorithms-and-diagrams.pptx) (PowerPoint, 13 slides)
+<!-- lesson-slide:end -->
+
 <!-- teaching-resources:start -->
 ## Teaching resources
 

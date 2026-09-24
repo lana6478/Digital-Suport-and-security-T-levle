@@ -4,6 +4,10 @@
 
 This is Content Area 3 of the Digital Support specialism. Every specialism ends with a version of this content area, because a digital support technician constantly needs to research, and needs to be able to tell a trustworthy source from an unreliable one. It covers what counts as a source, how to judge reliability and bias, how to search and corroborate information, and how to think critically and communicate findings.
 
+<!-- lesson-slide:start -->
+> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 11 slides)
+<!-- lesson-slide:end -->
+
 ## 3.1 Types of sources of knowledge
 
 Academic publications (textbooks, research journals, periodicals), supplier literature (handbooks, device-specific online articles), search engines (Google, Bing), websites (wikis, forums, Stack Overflow, manufacturer sites), social media (company profiles on X/Facebook/LinkedIn), blogs (reviews, opinion on sector issues), vlogs (demos, tutorials), professional networks (conferences/networking events), e-learning (MOOCs, vendor qualifications such as Cisco), and peers (colleagues, contacts, other professionals).
