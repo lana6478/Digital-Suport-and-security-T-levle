@@ -105,6 +105,6 @@ The decks are generated from short content files in the repository's `tools/slid
 
 ## Related pages
 
-- [Core Component overview](../01-core-component/00-overview.md)
-- [Occupational Specialisms overview](../02-occupational-specialisms/00-overview.md)
-- [Help](../04-help-and-about/01-help.md)
+- [Core Component Overview](../01-core-component/00-overview.md)
+- [Occupational Specialisms](../02-occupational-specialisms/00-overview.md)
+- [Help: Using This Wiki](../04-help-and-about/01-help.md)

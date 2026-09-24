@@ -229,7 +229,8 @@
         expandToPath(path);
         els.article.querySelectorAll("a[href]").forEach(function (a) {
           var href = a.getAttribute("href");
-          if (href && !/^([a-z]+:)?\/\//i.test(href) && !href.startsWith("#")) {
+          // Leave external links (http:, mailto: and any other scheme) alone.
+          if (href && !/^([a-z][a-z0-9+.-]*:|\/\/)/i.test(href) && !href.startsWith("#")) {
             var target = resolveRelative(path, href);
             if (/\.md(#.*)?$/i.test(target)) {
               a.setAttribute("href", "#/" + target);

@@ -17,7 +17,34 @@ Each deck is a dict with:
 
 Never use em or en dashes in deck text; the build refuses them.
 """
-from . import core, shared, cyber, di, ds, nc
+SITE = {
+    "name": "Digital Support and Security T Level",
+    "short": "Digital Support and Security",
+    "url": "https://lana6478.github.io/Digital-Suport-and-security-T-levle/",
+    "author": "Samuel O'Connell",
+    "awarding_body": "Pearson",
+    "spec_url": "https://qualifications.pearson.com/content/dam/pdf/TLevels/digital-support-and-security/"
+                "2025/specification-and-sample-assessment-materials/digital-dss-specification.pdf",
+    # pages listed under "Related pages" on the Lesson Slides index
+    "related": [
+        "01-core-component/00-overview.md",
+        "02-occupational-specialisms/00-overview.md",
+        "04-help-and-about/01-help.md",
+    ],
+}
+
+# Areas of the course: label shown on slides, accent colour (hex), and
+# light_text for accents dark enough to need white numbers on them.
+AREAS = {
+    "core": {"label": "Core Component", "accent": "F2B705"},
+    "shared": {"label": "Occupational Specialisms", "accent": "4EA1FF"},
+    "cyber": {"label": "Cyber Security", "accent": "E0463A", "light_text": True},
+    "di": {"label": "Digital Infrastructure", "accent": "33C17A"},
+    "ds": {"label": "Digital Support", "accent": "4EA1FF"},
+    "nc": {"label": "Network Cabling", "accent": "F2B705"},
+}
+
+from . import core, shared, cyber, di, ds, nc  # noqa: E402
 
 ALL_DECKS = core.DECKS + shared.DECKS + cyber.DECKS + di.DECKS + ds.DECKS + nc.DECKS
 

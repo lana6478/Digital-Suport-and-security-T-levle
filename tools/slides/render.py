@@ -1,5 +1,9 @@
 """
-Slide renderer for the Digital Support and Security teaching decks.
+Slide renderer for the T Level lesson-slide decks.
+
+This file is identical in every T Level study-guide repo; everything
+site-specific (name, URL, areas and their colours) comes from SITE and
+AREAS in decks/__init__.py.
 
 Turns a plain-Python deck spec (see decks/*.py) into a styled .pptx lesson
 deck using python-pptx. Every deck gets the same lesson shape:
@@ -36,20 +40,21 @@ MUTED = RGBColor(0x54, 0x59, 0x5D)
 WHITE = RGBColor(0xFF, 0xFF, 0xFF)
 LINE = RGBColor(0xD5, 0xDD, 0xE8)
 
-# One accent per area, so decks from different parts of the course are easy
-# to tell apart while still looking like one family.
+from decks import SITE, AREAS as _AREAS  # noqa: E402
+
+# One accent colour per area of the course, set in decks/__init__.py.
 AREAS = {
-    "core": {"label": "Core Component", "accent": RGBColor(0xF2, 0xB7, 0x05), "on_accent": TEXT},
-    "shared": {"label": "Occupational Specialisms", "accent": RGBColor(0x4E, 0xA1, 0xFF), "on_accent": TEXT},
-    "cyber": {"label": "Cyber Security", "accent": RGBColor(0xE0, 0x46, 0x3A), "on_accent": WHITE},
-    "di": {"label": "Digital Infrastructure", "accent": RGBColor(0x33, 0xC1, 0x7A), "on_accent": TEXT},
-    "ds": {"label": "Digital Support", "accent": RGBColor(0x4E, 0xA1, 0xFF), "on_accent": TEXT},
-    "nc": {"label": "Network Cabling", "accent": RGBColor(0xF2, 0xB7, 0x05), "on_accent": TEXT},
+    key: {
+        "label": a["label"],
+        "accent": RGBColor.from_string(a["accent"]),
+        "on_accent": WHITE if a.get("light_text") else TEXT,
+    }
+    for key, a in _AREAS.items()
 }
 
 HEAD_FONT = "Cambria"
 BODY_FONT = "Calibri"
-SITE_URL = "https://lana6478.github.io/Digital-Suport-and-security-T-levle/"
+SITE_URL = SITE["url"]
 
 W = 13.333
 H = 7.5
@@ -235,9 +240,9 @@ class Deck:
         self.count = 0
         props = self.prs.core_properties
         props.title = spec["title"]
-        props.subject = "Digital Support and Security T Level: " + spec["unit"]
-        props.author = "Samuel O'Connell"
-        props.keywords = "T Level; Digital Support and Security; lesson slides; " + spec["spec"]
+        props.subject = SITE["name"] + ": " + spec["unit"]
+        props.author = SITE["author"]
+        props.keywords = "T Level; " + SITE["short"] + "; lesson slides; " + spec["spec"]
 
     # -- frame shared by all content slides
     def _slide(self, title, notes=None, dark=False):
@@ -259,7 +264,7 @@ class Deck:
                  font=HEAD_FONT, color=WHITE if dark else NAVY, anchor=MSO_ANCHOR.MIDDLE)
         if not dark:
             text(s, MARGIN, H - 0.45, 9, 0.3,
-                 f"Digital Support and Security T Level  ·  {self.spec['title']}",
+                 f"{SITE['name']}  ·  {self.spec['title']}",
                  size=10, color=MUTED)
             text(s, W - MARGIN - 1, H - 0.45, 1, 0.3, str(self.count), size=10,
                  color=MUTED, align=PP_ALIGN.RIGHT)
@@ -283,8 +288,8 @@ class Deck:
         text(s, MARGIN, 4.2, 8.0, 0.5, sp["unit"], size=18, color=SKY)
         text(s, MARGIN, 4.7, 8.0, 0.5, "Specification reference: " + sp["spec"], size=14, color=SKY)
         text(s, MARGIN, 6.3, 8.2, 0.7,
-             "Digital Support and Security T Level  ·  Lesson slides\n"
-             "Unofficial teaching resource. Check the official Pearson specification for assessment detail.",
+             SITE["name"] + "  ·  Lesson slides\n"
+             "Unofficial teaching resource. Check the official " + SITE["awarding_body"] + " specification for assessment detail.",
              size=11, color=SKY)
 
     def objectives_slide(self):

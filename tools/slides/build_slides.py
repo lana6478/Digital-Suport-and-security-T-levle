@@ -2,6 +2,9 @@
 """
 Build the lesson-slide PowerPoint decks and link them into the wiki.
 
+This file is identical in every T Level study-guide repo; site-specific
+settings live in decks/__init__.py.
+
 What it does:
   1. Renders every deck defined in tools/slides/decks/*.py to a .pptx under
      content/05-teaching-resources/slides/.
@@ -31,7 +34,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 
 import render  # noqa: E402
-from decks import ALL_DECKS, AREA_ORDER  # noqa: E402
+from decks import ALL_DECKS, AREA_ORDER, SITE  # noqa: E402
 from decks.placement import PLACEMENT  # noqa: E402
 
 CONTENT_DIR = os.path.join(ROOT, "content")
@@ -177,7 +180,7 @@ def write_index(decks):
     out = [
         "# Lesson Slides",
         "",
-        "*Digital Support and Security T Level → Teaching Resources → Lesson Slides*",
+        f"*{SITE['name']} \u2192 Teaching Resources \u2192 Lesson Slides*",
         "",
         "Free, editable PowerPoint lesson decks for every topic in the qualification, written to match "
         "the revision notes on this site. Each deck covers one subject, so you can pick up exactly the "
@@ -190,9 +193,7 @@ def write_index(decks):
         "- **An exit ticket** that links students back to the revision notes.",
         "",
         "Every slide has **teacher notes** in the speaker notes pane. The decks are unofficial: "
-        "check the [official specification](https://qualifications.pearson.com/content/dam/pdf/TLevels/"
-        "digital-support-and-security/2025/specification-and-sample-assessment-materials/"
-        "digital-dss-specification.pdf) for anything assessment-critical.",
+        f"check the [official specification]({SITE['spec_url']}) for anything assessment-critical.",
         "",
     ]
     for area in AREA_ORDER:
@@ -220,11 +221,9 @@ def write_index(decks):
         "",
         "## Related pages",
         "",
-        "- [Core Component overview](../01-core-component/00-overview.md)",
-        "- [Occupational Specialisms overview](../02-occupational-specialisms/00-overview.md)",
-        "- [Help](../04-help-and-about/01-help.md)",
-        "",
     ]
+    out += [f"- [{page_title(p)}]({rel_link(INDEX_REL, p)})" for p in SITE["related"]]
+    out.append("")
     with open(os.path.join(CONTENT_DIR, INDEX_REL), "w", encoding="utf-8") as f:
         f.write("\n".join(out))
 
