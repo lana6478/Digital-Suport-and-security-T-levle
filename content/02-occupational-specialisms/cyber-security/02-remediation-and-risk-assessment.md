@@ -112,6 +112,23 @@ Data protection policy, acceptable use policy, access control policy, asset clas
 
 Audit processes/policies for currency (e.g. reviewing the information security policy) and improve them as needed; compare and check the accuracy of processes, logs and incident reports; comply with relevant ISO standards.
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Cryptography and Digital Certificates (PowerPoint)](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) | 1.9, 1.17 to 1.20, 2.22 | 11 |
+| [Threats, Threat Actors and Threat Intelligence (PowerPoint)](../../05-teaching-resources/slides/cyber-security/06-threats-threat-actors-and-intelligence.pptx) | 2.2, 2.3, 3.8 | 11 |
+| [Vulnerability Assessment and Penetration Testing (PowerPoint)](../../05-teaching-resources/slides/cyber-security/07-vulnerability-assessment-and-penetration-testing.pptx) | 2.4, 2.5, 2.6, 2.8, 2.9, 2.17 | 12 |
+| [Risk Analysis and Risk Response (PowerPoint)](../../05-teaching-resources/slides/cyber-security/08-risk-analysis-and-risk-response.pptx) | 2.7, 2.10, 2.12 to 2.16, 2.18 | 12 |
+| [Incident Management and Digital Forensics (PowerPoint)](../../05-teaching-resources/slides/cyber-security/09-incident-management-and-forensics.pptx) | 2.1, 2.19, 2.20 | 10 |
+| [Mitigation, Backups, Policies and Compliance (PowerPoint)](../../05-teaching-resources/slides/cyber-security/10-mitigation-backups-and-compliance.pptx) | 2.11, 2.21, 2.23, 2.24, 2.25 | 11 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **CVE / CVSS** - Common Vulnerabilities and Exposures (a published vulnerability record) scored by the Common Vulnerability Scoring System (0–10).

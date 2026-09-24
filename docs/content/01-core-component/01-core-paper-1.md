@@ -144,6 +144,25 @@ Three ways to organise data: **hierarchical, network, relational** - chosen base
 
 Storing Big Data for analysis: **data warehouse, data lake, data mart**. Analysing it: **data mining, reporting**. Using the resulting business intelligence: financial planning and analysis, and CRM (customer data analytics, communications) - and how the right tool depends on the scale of the data involved.
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Computational Thinking, Algorithms and Diagrams (PowerPoint)](../05-teaching-resources/slides/core/01-computational-thinking-algorithms-and-diagrams.pptx) | 1.1, 1.2, 2.7 | 13 |
+| [Problem-Solving Strategies and Reflective Practice (PowerPoint)](../05-teaching-resources/slides/core/02-problem-solving-strategies-and-reflective-practice.pptx) | 1.3, 2.10 | 13 |
+| [Network Infrastructure, Cabling and Unified Communications (PowerPoint)](../05-teaching-resources/slides/core/03-networks-cabling-and-unified-communications.pptx) | 2.1, 2.2, 2.3 | 12 |
+| [Supporting and Testing Systems (PowerPoint)](../05-teaching-resources/slides/core/04-supporting-and-testing-systems.pptx) | 2.4, 2.5 | 12 |
+| [Project Management and Risk Assessment (PowerPoint)](../05-teaching-resources/slides/core/05-project-management-and-risk-assessment.pptx) | 2.8, 2.9 | 11 |
+| [Data Fundamentals (PowerPoint)](../05-teaching-resources/slides/core/06-data-fundamentals.pptx) | 3.1 to 3.6 | 13 |
+| [Data Quality, Systems and Analysis (PowerPoint)](../05-teaching-resources/slides/core/07-data-quality-systems-and-analysis.pptx) | 2.6, 3.7 to 3.12 | 13 |
+| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 11 |
+
+See [all lesson slides](../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **Decomposition / pattern recognition / abstraction / algorithmic design** - the four components of computational thinking.

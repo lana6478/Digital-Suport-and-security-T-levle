@@ -431,3 +431,19 @@ a:visited { color: var(--link-visited); }
   #search-input::placeholder { color: var(--muted); }
   .site-subtitle { display: none; }
 }
+
+/* Downloadable files (lesson slides) linked from a page */
+.article a.file-link::after {
+  content: "Download";
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 600;
+  color: var(--muted);
+  vertical-align: 1px;
+}
+.article a.file-link:hover::after { color: var(--link); border-color: var(--link); }

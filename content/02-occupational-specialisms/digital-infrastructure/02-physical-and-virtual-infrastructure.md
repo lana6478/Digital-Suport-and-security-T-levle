@@ -96,6 +96,24 @@ Concepts: creating multiple virtual resources from one physical resource (partit
 
 Identify the hardware affected by a change and assess current network performance; apply the appropriate SLC stage to respond; assess performance afterwards; process and review outcome data; and record findings clearly to inform future policy. *(E1, E2, E4, D4.)*
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Disaster Recovery, Continuity and Backup (PowerPoint)](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) | DRP, BCP, RTO/RPO/MTBF/MTTR, SLAs, backups (1.8 to 1.12, 1.22 to 1.23; DI 2.18 to 2.19) | 10 |
+| [Network Design, Addressing and Transmission (PowerPoint)](../../05-teaching-resources/slides/digital-infrastructure/01-network-design-addressing-and-transmission.pptx) | 2.1, 2.2 | 10 |
+| [Infrastructure Components and Cabling (PowerPoint)](../../05-teaching-resources/slides/digital-infrastructure/02-infrastructure-components-and-cabling.pptx) | 2.3, 2.15 | 10 |
+| [Servers, Virtualisation and Operating Systems (PowerPoint)](../../05-teaching-resources/slides/digital-infrastructure/03-servers-virtualisation-and-operating-systems.pptx) | 2.6 to 2.9, 2.23 | 10 |
+| [Network Services, Remote Access and Installation (PowerPoint)](../../05-teaching-resources/slides/digital-infrastructure/04-network-services-remote-access-and-installation.pptx) | 2.10 to 2.14 | 10 |
+| [Health, Safety and ESD in Digital Infrastructure (PowerPoint)](../../05-teaching-resources/slides/digital-infrastructure/05-health-safety-and-esd.pptx) | 2.4, 2.5 | 9 |
+| [Service Management and the Solution Lifecycle (PowerPoint)](../../05-teaching-resources/slides/digital-infrastructure/06-service-management-and-solution-lifecycle.pptx) | 2.16, 2.17, 2.20 to 2.22, 2.24 | 10 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **HA / clustering / load balancing** - resilience techniques for network design.

@@ -5,7 +5,8 @@ Build the docs/ GitHub Pages site from the /content markdown library.
 What it does:
   1. Mirrors every file under content/ into docs/content/ (the site fetches
      pages from here at runtime, so the site always shows exactly what's in
-     the repo's content library).
+     the repo's content library). Non-markdown files such as the lesson-slide
+     PowerPoints are copied too, so pages can link to them for download.
   2. Mirrors shared images from assets/img/ into docs/assets/img/.
   3. Generates docs/assets/data/manifest.json - a flat list of every page
      (path + title) used to build the sidebar directory tree.
@@ -72,14 +73,17 @@ def main():
     for dirpath, dirnames, filenames in os.walk(CONTENT_DIR):
         dirnames.sort()
         for filename in sorted(filenames):
-            if not filename.endswith(".md"):
-                continue
             src_path = os.path.join(dirpath, filename)
             rel_path = os.path.relpath(src_path, CONTENT_DIR).replace(os.sep, "/")
 
             dest_path = os.path.join(DOCS_CONTENT_DIR, rel_path)
             os.makedirs(os.path.dirname(dest_path), exist_ok=True)
             shutil.copyfile(src_path, dest_path)
+
+            # Non-markdown files (e.g. lesson slide PowerPoints) are copied so
+            # pages can link to them, but are not pages themselves.
+            if not filename.endswith(".md"):
+                continue
 
             with open(src_path, "r", encoding="utf-8") as f:
                 md_text = f.read()

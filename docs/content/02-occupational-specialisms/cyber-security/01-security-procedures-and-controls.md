@@ -124,6 +124,22 @@ Generate a public/private key pair → generate a Certificate Signing Request (C
 
 Assess a request's validity by considering its origin, its reason, the requestor's status/permissions, its sensitivity (e.g. personal-data exposure), any new risk it would introduce, and whether it complies with regulatory requirements. *(D4.)*
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Security Governance, ITSM and Frameworks (PowerPoint)](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) | 1.1, 1.2, 1.7, 1.8, 1.10, 1.24 | 12 |
+| [Secure Design and Layered Protection (PowerPoint)](../../05-teaching-resources/slides/cyber-security/02-secure-design-and-layered-protection.pptx) | 1.3, 1.4, 1.5, 1.6, 1.23 | 11 |
+| [Security Controls and Disaster Recovery (PowerPoint)](../../05-teaching-resources/slides/cyber-security/03-security-controls-and-disaster-recovery.pptx) | 1.11 to 1.16 | 10 |
+| [Cryptography and Digital Certificates (PowerPoint)](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) | 1.9, 1.17 to 1.20, 2.22 | 11 |
+| [Cyber Law and Ethics (PowerPoint)](../../05-teaching-resources/slides/cyber-security/05-cyber-law-and-ethics.pptx) | 1.21, 1.22 | 10 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **Zero trust** - a design principle where no access is granted by default; every request is verified regardless of network location.

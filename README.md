@@ -12,6 +12,7 @@ This guide covers:
 - **All four occupational specialisms** - Digital Infrastructure, Network Cabling, Digital Support, and Cyber Security - including how each one is graded.
 - **Grading, progression and careers** - how the qualification is graded, and where it can take you (apprenticeships, further study, employment).
 - **Appendices** - competency frameworks and diagram notation referenced throughout the specification.
+- **Lesson slides for teachers** - 53 free, editable PowerPoint decks, one per subject, each with objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket. Download them from the **Teaching resources** section of each topic page, or from the [Lesson Slides](content/05-teaching-resources/01-lesson-slides.md) index.
 
 Every page is written as clear, plain-English revision notes, cross-referenced to the numbering used in the official specification, so you can jump straight from a revision note to the exact section of the real document if you need to check the original wording.
 

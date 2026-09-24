@@ -123,6 +123,22 @@ Failing to meet standards has network consequences (slower speeds, more interfer
 
 Incorrect labelling makes troubleshooting, maintenance and reconfiguration harder. Failing to test all cabling risks equipment damage, premature breakdown, service disruption, and undetected system errors.
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Signal Theory and Data Transmission (PowerPoint)](../../05-teaching-resources/slides/network-cabling/01-signal-theory-and-data-transmission.pptx) | 2.1, 2.7 to 2.10 | 10 |
+| [Cable Media, Connectors and Standards (PowerPoint)](../../05-teaching-resources/slides/network-cabling/02-cable-media-connectors-and-standards.pptx) | 2.11 to 2.16 | 11 |
+| [Structured Cabling Design and Installation (PowerPoint)](../../05-teaching-resources/slides/network-cabling/03-structured-cabling-design-and-installation.pptx) | 2.2 to 2.6, 2.25 | 10 |
+| [Testing, Certification and Troubleshooting (PowerPoint)](../../05-teaching-resources/slides/network-cabling/04-testing-certification-and-troubleshooting.pptx) | 2.17, 2.18, 2.26 to 2.29 | 11 |
+| [Health, Safety and Compliance for Cabling (PowerPoint)](../../05-teaching-resources/slides/network-cabling/05-health-safety-and-compliance-for-cabling.pptx) | 2.19 to 2.24 | 11 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **TIR** - total internal reflection, the principle that keeps light inside a fibre core.

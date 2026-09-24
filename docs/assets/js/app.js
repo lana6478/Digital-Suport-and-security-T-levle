@@ -230,7 +230,15 @@
         els.article.querySelectorAll("a[href]").forEach(function (a) {
           var href = a.getAttribute("href");
           if (href && !/^([a-z]+:)?\/\//i.test(href) && !href.startsWith("#")) {
-            a.setAttribute("href", "#/" + resolveRelative(path, href));
+            var target = resolveRelative(path, href);
+            if (/\.md(#.*)?$/i.test(target)) {
+              a.setAttribute("href", "#/" + target);
+            } else {
+              // A downloadable file (e.g. a PowerPoint) - link straight to it.
+              a.setAttribute("href", CONTENT_ROOT + target);
+              a.setAttribute("download", "");
+              a.classList.add("file-link");
+            }
           }
         });
         enhanceArticle(path);

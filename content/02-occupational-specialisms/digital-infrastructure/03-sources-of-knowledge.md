@@ -51,6 +51,18 @@ IT service management tools (incident/problem and change-management systems), kn
 
 Identify the sources being compared, apply reliability/validity factors to each, compare the outcomes, and explain - using correct technical terms - which source(s) to rely on and why. *(E1, E3, E5, M5, D3.)*
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 11 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **Corroboration** - checking a claim against multiple independent sources.

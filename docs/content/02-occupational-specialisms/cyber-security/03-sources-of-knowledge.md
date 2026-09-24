@@ -54,6 +54,19 @@ IAG guides the development and improvement of security strategies/policies/proce
 
 Compare sources using reliability/validity factors (publisher credibility, currency) → recommend and justify which source(s) to use, and whether additional sources are needed. *(M5, M6, D5.)*
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 11 |
+| [Threats, Threat Actors and Threat Intelligence (PowerPoint)](../../05-teaching-resources/slides/cyber-security/06-threats-threat-actors-and-intelligence.pptx) | 2.2, 2.3, 3.8 | 11 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **CyBOK** - Cyber Security Body of Knowledge, a structured foundation of cyber security knowledge areas.

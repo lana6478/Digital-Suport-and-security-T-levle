@@ -167,6 +167,22 @@ The same technique list as 1.28 (wireless security, device security, encryption,
 
 Missing patches/firmware updates → mitigate with patch-manager software, traffic tracking and test devices. Password vulnerabilities (weak/default/no lockout) → NCSC-aligned minimum password rules and reset policy. Insecure BIOS/UEFI configuration → review/update settings. Misconfigured permissions → test and schedule audits (e.g. remove access for leavers). Missing protection software → anti-malware, updated/monitored security software, awareness of buffer overflow. Insecure disposal of data/devices → WEEE Directive 2013 compliance and data wiping. Inadequate backup management → correct frequency and backup type. Unprotected physical devices → install the correct protective software.
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Business Security Controls (PowerPoint)](../../05-teaching-resources/slides/shared/01-business-security-controls.pptx) | 1.1 to 1.7 | 11 |
+| [Disaster Recovery, Continuity and Backup (PowerPoint)](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) | DRP, BCP, RTO/RPO/MTBF/MTTR, SLAs, backups (1.8 to 1.12, 1.22 to 1.23; DI 2.18 to 2.19) | 10 |
+| [Risk Management and Threat Assessment (PowerPoint)](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) | Impacts, risk process, threat analysis, risk response, penetration testing (1.9 to 1.21) | 12 |
+| [Technical Security and Network Protection (PowerPoint)](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) | Technical controls, encryption, network security, access control, topologies and vulnerabilities (1.19 to 1.33) | 11 |
+| [Security Law, Standards and Policy (PowerPoint)](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) | Policies, legislation, standards and the importance of cyber security (1.23 to 1.31) | 10 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **Preventative / detective / corrective / deterrent / directive / compensating control** - the six standard categories of business security control, each acting at a different stage of an incident.

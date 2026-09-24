@@ -174,6 +174,28 @@ Techniques: security settings (hardware and software); anti-malware software; in
 - **Authorisation** - ensuring an authenticated user can only access what they're permitted to (role-based access, access control lists).
 - **Accountability** - ensuring actions can be traced back to the responsible user (audit logs, user activity monitoring).
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Health and Safety in Digital Work (PowerPoint)](../05-teaching-resources/slides/core/08-health-and-safety-in-digital-work.pptx) | 4.1 (health and safety) | 10 |
+| [Digital Legislation and Professional Guidelines (PowerPoint)](../05-teaching-resources/slides/core/09-digital-legislation-and-professional-guidelines.pptx) | 4.1 (legislation), 4.2 | 11 |
+| [The Business Context (PowerPoint)](../05-teaching-resources/slides/core/10-the-business-context.pptx) | 5.1, 5.2, 5.3 | 10 |
+| [Technical Change Management (PowerPoint)](../05-teaching-resources/slides/core/11-technical-change-management.pptx) | 5.4 | 12 |
+| [Digital Support Roles and Communication (PowerPoint)](../05-teaching-resources/slides/core/12-digital-support-roles-and-communication.pptx) | 5.5 | 10 |
+| [Emerging Issues and Technologies (PowerPoint)](../05-teaching-resources/slides/core/13-emerging-issues-and-technologies.pptx) | 6.1, 6.2 | 10 |
+| [Hardware and Software (PowerPoint)](../05-teaching-resources/slides/core/14-hardware-and-software.pptx) | 7.1, 7.2 | 11 |
+| [Networks (PowerPoint)](../05-teaching-resources/slides/core/15-networks.pptx) | 7.3 | 11 |
+| [Virtual, Cloud and Resilient Environments (PowerPoint)](../05-teaching-resources/slides/core/16-virtual-cloud-and-resilient-environments.pptx) | 7.4, 7.5, 7.6 | 10 |
+| [Security Threats and Vulnerabilities (PowerPoint)](../05-teaching-resources/slides/core/17-security-threats-and-vulnerabilities.pptx) | 8.1, 8.2 | 11 |
+| [Threat Mitigation, the CIA Triad and IAAA (PowerPoint)](../05-teaching-resources/slides/core/18-threat-mitigation-cia-and-iaaa.pptx) | 8.3, 8.4 | 10 |
+
+See [all lesson slides](../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **CIA triad** - Confidentiality, Integrity, Availability: the three interlocking goals of information security.

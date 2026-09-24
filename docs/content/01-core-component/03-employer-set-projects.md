@@ -44,6 +44,18 @@ Framed around **supporting end users and diagnosing problems**, rather than buil
 - **Task 4a - Developing the solution**: same robustness/security/organisation/user-experience considerations as the other two pathways, applied to a support context.
 - **Task 4b - Reflective evaluation** as in the common structure.
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [The Employer Set Project (PowerPoint)](../05-teaching-resources/slides/core/19-employer-set-project-overview.pptx) | Employer Set Project, all pathways | 11 |
+
+See [all lesson slides](../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **ESP (Employer Set Project)** - the externally set, controlled-conditions project that synoptically assesses the six core skills.

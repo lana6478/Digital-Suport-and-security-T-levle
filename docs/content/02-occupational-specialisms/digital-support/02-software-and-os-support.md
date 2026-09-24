@@ -144,6 +144,24 @@ Operate systems to collect/store/maintain/distribute information supporting serv
 
 **Methods**: shadowing, desk-side support, remote support, e-learning, VR, AR, smart boards, gamified apps (e.g. Kahoot!, Padlet), simulation. **Tools**: crib sheets, smart sheets, webinars, screencasts, managed/virtual learning environments (MLE/VLE), sandboxed environments, MOOCs.
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Agile Values and Methodologies (PowerPoint)](../../05-teaching-resources/slides/digital-support/01-agile-values-and-methodologies.pptx) | 2.1, 2.2 | 10 |
+| [Domains, Email and Remote Access (PowerPoint)](../../05-teaching-resources/slides/digital-support/02-domains-email-and-remote-access.pptx) | 2.4, 2.16 to 2.20 | 10 |
+| [Devices, Operating Systems and Applications (PowerPoint)](../../05-teaching-resources/slides/digital-support/03-devices-operating-systems-and-applications.pptx) | 2.6 to 2.9 | 10 |
+| [OS Deployment, Imaging and Recovery (PowerPoint)](../../05-teaching-resources/slides/digital-support/04-os-deployment-imaging-and-recovery.pptx) | 2.10 to 2.15 | 10 |
+| [End-User Support and Troubleshooting (PowerPoint)](../../05-teaching-resources/slides/digital-support/05-end-user-support-and-troubleshooting.pptx) | 2.5, 2.21 to 2.23, 2.28 | 10 |
+| [Asset, Version and Mobile Device Management (PowerPoint)](../../05-teaching-resources/slides/digital-support/06-asset-version-and-mobile-device-management.pptx) | 2.24 to 2.26 | 9 |
+| [Digital Solutions and Training Users (PowerPoint)](../../05-teaching-resources/slides/digital-support/07-digital-solutions-and-training-users.pptx) | 2.3, 2.27, 2.29 | 9 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **AD DS / GPO** - Active Directory Domain Services and Group Policy Objects, the core Windows domain management tools.

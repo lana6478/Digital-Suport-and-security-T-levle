@@ -44,6 +44,20 @@ python3 -m http.server 8000
 # open http://localhost:8000
 ```
 
+## Lesson slides
+
+The PowerPoint lesson decks under `content/05-teaching-resources/slides/` are generated, not hand-made. Each deck's content lives in a short Python file in `tools/slides/decks/` (one file per area of the course), and `tools/slides/render.py` turns it into a styled `.pptx` with the same lesson shape every time: objectives and starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide.
+
+To change or add a deck, edit its content file, then rebuild the decks and the site:
+
+```bash
+pip install python-pptx
+python3 tools/slides/build_slides.py
+python3 tools/build_site.py
+```
+
+`build_slides.py` also writes the [Lesson Slides](../05-teaching-resources/01-lesson-slides.md) index page and refreshes the "Teaching resources" table on each topic page (the part between the `teaching-resources` comment markers), so never edit those tables by hand. It refuses to build if a deck contains an em or en dash, and prints a warning for any slide where text might overflow.
+
 ## Contributing a page
 
 1. Add a new `.md` file under the right `content/` subfolder, following the existing page template: an `# H1` title, an italic breadcrumb line, `##` sections, a closing **Key terms** list, and a **Related pages** list of relative links to nearby pages.
@@ -60,6 +74,7 @@ This project paraphrases and reorganises the official T Level Technical Qualific
 - **`content/`** - the canonical markdown study-guide library.
 - **`docs/`** - the generated GitHub Pages website that reads from `content/`.
 - **`tools/build_site.py`** - the script that mirrors `content/` into `docs/content/` and rebuilds the site's directory tree and search index.
+- **`tools/slides/build_slides.py`** - the script that generates the lesson-slide PowerPoints and links them into the topic pages.
 
 ## Related pages
 

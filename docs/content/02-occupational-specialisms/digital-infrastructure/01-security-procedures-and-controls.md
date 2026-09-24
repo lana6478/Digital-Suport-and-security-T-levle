@@ -162,6 +162,22 @@ Topologies: bus, star, ring, token ring, mesh, hybrid, client-server, peer-to-pe
 
 Missing patches, weak/default passwords, insecure BIOS/UEFI, misconfigured permissions, missing protection software, insecure disposal (WEEE Directive 2013), poor back-up management, DHCP spoofing, VLAN attacks/hopping, misconfigured firewalls or ACLs, poor topology design, and unprotected physical devices - each paired with a specific control (e.g. patch management software, minimum password policy, scheduled auditing, DHCP snooping, network monitoring).
 
+<!-- teaching-resources:start -->
+## Teaching resources
+
+Ready-made lesson slides for this topic. Each PowerPoint includes learning objectives, a starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide. Download it and adapt it for your class.
+
+| Lesson slides | Covers | Slides |
+|---|---|---|
+| [Business Security Controls (PowerPoint)](../../05-teaching-resources/slides/shared/01-business-security-controls.pptx) | 1.1 to 1.7 | 11 |
+| [Disaster Recovery, Continuity and Backup (PowerPoint)](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) | DRP, BCP, RTO/RPO/MTBF/MTTR, SLAs, backups (1.8 to 1.12, 1.22 to 1.23; DI 2.18 to 2.19) | 10 |
+| [Risk Management and Threat Assessment (PowerPoint)](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) | Impacts, risk process, threat analysis, risk response, penetration testing (1.9 to 1.21) | 12 |
+| [Technical Security and Network Protection (PowerPoint)](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) | Technical controls, encryption, network security, access control, topologies and vulnerabilities (1.19 to 1.33) | 11 |
+| [Security Law, Standards and Policy (PowerPoint)](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) | Policies, legislation, standards and the importance of cyber security (1.23 to 1.31) | 10 |
+
+See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
+<!-- teaching-resources:end -->
+
 ## Key terms
 
 - **DRP/BCP** - Disaster Recovery Plan / Business Continuity Plan.
