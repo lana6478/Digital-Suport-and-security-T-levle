@@ -48,6 +48,8 @@ python3 -m http.server 8000
 
 The PowerPoint lesson decks under `content/05-teaching-resources/slides/` are generated, not hand-made. Each deck's content lives in a short Python file in `tools/slides/decks/` (one file per area of the course), and `tools/slides/render.py` turns it into a styled `.pptx` with the same lesson shape every time: objectives and starter, teaching slides, a quiz with answers, an activity and an exit ticket, with teacher notes on every slide.
 
+Most topics also have a fuller explanation slide and a short quick-check slide (answers in the speaker notes). Their text lives in `tools/slides/decks/explain/`, matched to slides by deck file and slide title.
+
 To change or add a deck, edit its content file, then rebuild the decks and the site:
 
 ```bash

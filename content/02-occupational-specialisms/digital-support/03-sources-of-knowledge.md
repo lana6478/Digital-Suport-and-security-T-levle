@@ -5,7 +5,7 @@
 This is Content Area 3 of the Digital Support specialism. Every specialism ends with a version of this content area, because a digital support technician constantly needs to research, and needs to be able to tell a trustworthy source from an unreliable one. It covers what counts as a source, how to judge reliability and bias, how to search and corroborate information, and how to think critically and communicate findings.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 19 slides)
 <!-- lesson-slide:end -->
 
 ## 3.1 Types of sources of knowledge
@@ -55,7 +55,7 @@ Ready-made lesson slides for this topic. Each PowerPoint includes learning objec
 
 | Lesson slides | Covers | Slides |
 |---|---|---|
-| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 11 |
+| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 19 |
 
 See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
 <!-- teaching-resources:end -->

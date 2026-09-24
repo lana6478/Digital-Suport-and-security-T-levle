@@ -45,7 +45,7 @@ Compensating controls act as a backstop when a primary control fails - temperatu
 Students must be able to review an identified risk (gathering information from systems and users), then select, apply and monitor the appropriate control type - preventative, detective, corrective, deterrent, directive, compensating or recovery - while complying with relevant regulatory and organisational policy.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Business Security Controls](../../05-teaching-resources/slides/shared/01-business-security-controls.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Business Security Controls](../../05-teaching-resources/slides/shared/01-business-security-controls.pptx) (PowerPoint, 19 slides)
 <!-- lesson-slide:end -->
 
 ## 1.8–1.9 Disaster recovery planning
@@ -55,7 +55,7 @@ A **disaster recovery plan (DRP)** exists to recover and maintain service after 
 Building a DRP follows a structured process: define its scope (site, organisation, department or individual level); gather information (past outages, hardware/software/network/data inventories, contacts); risk-assess assets, threats, vulnerabilities, probability and impact; create the plan and identify the resources it needs; get it signed off; then test it (identify resources, set a test frequency, run the test, review and document the outcome, amend as needed) and continuously improve it through internal/external audit.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 10 slides)
+> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 16 slides)
 <!-- lesson-slide:end -->
 
 ## 1.10 Impacts of threats and vulnerabilities
@@ -67,7 +67,7 @@ Realised threats can cause harm across several categories: danger to life (healt
 Common weak points include unauthorised network or physical port access, single points of failure, system failure, and open ports such as USB and wireless.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 12 slides)
+> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 20 slides)
 <!-- lesson-slide:end -->
 
 ## 1.12 Measures and procedures that mitigate threats
@@ -75,7 +75,7 @@ Common weak points include unauthorised network or physical port access, single 
 Key measures: **RTO** (recovery time objective), **RPO** (recovery point objective), **MTBF** (mean time between failure), **MTTR** (mean time to repair). Key procedures: SOPs (installation, back-up, set-up) and SLAs (uptime, response and resolution times).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 10 slides)
+> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 16 slides)
 <!-- lesson-slide:end -->
 
 ## 1.13 The risk management process
@@ -112,7 +112,7 @@ Customer engagement → information gathering → discovery and scanning → vul
 Considerations: which risk response to use, the user profile (requirements, ability level), cost vs benefit, who owns the risk, escalation routes, contingency planning, and ongoing monitoring/review.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 12 slides)
+> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 20 slides)
 <!-- lesson-slide:end -->
 
 ## 1.20 Technical security controls as risk mitigation
@@ -120,7 +120,7 @@ Considerations: which risk response to use, the user profile (requirements, abil
 Purpose: strengthen network security for users and systems. Controls include the five Cyber Essentials controls (boundary firewalls, secure configuration, malware protection, patch management, access control), device hardening, network/system/data/device/service **segmentation**, hardware protection, **multi-factor authentication**, remote monitoring & management (RMM), and vulnerability/port scanning.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 21 slides)
 <!-- lesson-slide:end -->
 
 ## 1.21 Continuous improvement through risk mitigation (skill)
@@ -128,7 +128,7 @@ Purpose: strengthen network security for users and systems. Controls include the
 Gather and organise incident information → analyse trends to find underlying risk and understand the user profile → apply mitigation techniques to identified threats (e.g. installing RMM, hardening devices) → monitor and review continuously (assign an owner, plan contingencies, keep security software current, interpret penetration-test output) → record findings clearly. *(E4, M5, D4.)*
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 12 slides)
+> **Lesson slides for this section:** [Risk Management and Threat Assessment](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) (PowerPoint, 20 slides)
 <!-- lesson-slide:end -->
 
 ## 1.22 Encryption as risk mitigation
@@ -141,7 +141,7 @@ Purpose: protect stored and transferred data using cryptography.
 - **Data in transit**: **SSL** and **TLS**.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 21 slides)
 <!-- lesson-slide:end -->
 
 ## 1.23 Back-up purpose, criteria and types
@@ -149,7 +149,7 @@ Purpose: protect stored and transferred data using cryptography.
 Purpose: keep an up-to-date copy of data for recovery. Criteria: frequency, source, destination, storage medium (LTO tape, cloud, disk). Types: full, incremental, differential, mirror.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 10 slides)
+> **Lesson slides for this section:** [Disaster Recovery, Continuity and Backup](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) (PowerPoint, 16 slides)
 <!-- lesson-slide:end -->
 
 ## 1.24 Policies, procedures and risk mitigation
@@ -167,7 +167,7 @@ An organisational **digital use policy** typically covers network/internet usage
 - **OWASP** - promotes cyber security tools, training and a networking platform to support users and improve software security.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Security Law, Standards and Policy](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) (PowerPoint, 10 slides)
+> **Lesson slides for this section:** [Security Law, Standards and Policy](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) (PowerPoint, 18 slides)
 <!-- lesson-slide:end -->
 
 ## 1.26 Principles of network security
@@ -191,7 +191,7 @@ The CIA triad is applied to assess impact (e.g. a breach): prevent attacks throu
 Techniques: WPA2/WPA3 wireless security, device authentication, encryption, virtualisation, penetration testing, malware/anti-virus protection, patching, multi-factor authentication, single logout. Students install and configure vulnerability scanners, anti-malware and firewall software, apply device hardening, and verify configuration on end-user devices. *(E4, D1, D6.)*
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 21 slides)
 <!-- lesson-slide:end -->
 
 ## 1.31 Importance of cyber security to organisations and society
@@ -199,7 +199,7 @@ Techniques: WPA2/WPA3 wireless security, device authentication, encryption, virt
 Organisations must protect systems, cloud availability, company and personal data, enforce password policy, comply with legislation, and defend against cybercrime. For society, protecting personal data preserves privacy, prevents discrimination, supports equal opportunity, and prevents identity theft. DPA 2018 gives individuals rights to be informed, access their data, correct it, erase it, restrict its processing, port it, and object to certain processing.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Security Law, Standards and Policy](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) (PowerPoint, 10 slides)
+> **Lesson slides for this section:** [Security Law, Standards and Policy](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) (PowerPoint, 18 slides)
 <!-- lesson-slide:end -->
 
 ## 1.32 Network topologies, referencing models and minimum standards
@@ -211,7 +211,7 @@ Topologies: bus, star, ring, token ring, mesh, hybrid, client-server, peer-to-pe
 Missing patches, weak/default passwords, insecure BIOS/UEFI, misconfigured permissions, missing protection software, insecure disposal (WEEE Directive 2013), poor back-up management, DHCP spoofing, VLAN attacks/hopping, misconfigured firewalls or ACLs, poor topology design, and unprotected physical devices - each paired with a specific control (e.g. patch management software, minimum password policy, scheduled auditing, DHCP snooping, network monitoring).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Technical Security and Network Protection](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) (PowerPoint, 21 slides)
 <!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
@@ -221,11 +221,11 @@ Ready-made lesson slides for this topic. Each PowerPoint includes learning objec
 
 | Lesson slides | Covers | Slides |
 |---|---|---|
-| [Business Security Controls (PowerPoint)](../../05-teaching-resources/slides/shared/01-business-security-controls.pptx) | 1.1 to 1.7 | 11 |
-| [Disaster Recovery, Continuity and Backup (PowerPoint)](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) | DRP, BCP, RTO/RPO/MTBF/MTTR, SLAs, backups (1.8 to 1.12, 1.22 to 1.23; DI 2.18 to 2.19) | 10 |
-| [Risk Management and Threat Assessment (PowerPoint)](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) | Impacts, risk process, threat analysis, risk response, penetration testing (1.9 to 1.21) | 12 |
-| [Technical Security and Network Protection (PowerPoint)](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) | Technical controls, encryption, network security, access control, topologies and vulnerabilities (1.19 to 1.33) | 11 |
-| [Security Law, Standards and Policy (PowerPoint)](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) | Policies, legislation, standards and the importance of cyber security (1.23 to 1.31) | 10 |
+| [Business Security Controls (PowerPoint)](../../05-teaching-resources/slides/shared/01-business-security-controls.pptx) | 1.1 to 1.7 | 19 |
+| [Disaster Recovery, Continuity and Backup (PowerPoint)](../../05-teaching-resources/slides/shared/02-disaster-recovery-and-backup.pptx) | DRP, BCP, RTO/RPO/MTBF/MTTR, SLAs, backups (1.8 to 1.12, 1.22 to 1.23; DI 2.18 to 2.19) | 16 |
+| [Risk Management and Threat Assessment (PowerPoint)](../../05-teaching-resources/slides/shared/03-risk-management-and-threat-assessment.pptx) | Impacts, risk process, threat analysis, risk response, penetration testing (1.9 to 1.21) | 20 |
+| [Technical Security and Network Protection (PowerPoint)](../../05-teaching-resources/slides/shared/04-technical-security-and-network-protection.pptx) | Technical controls, encryption, network security, access control, topologies and vulnerabilities (1.19 to 1.33) | 21 |
+| [Security Law, Standards and Policy (PowerPoint)](../../05-teaching-resources/slides/shared/05-security-law-standards-and-policy.pptx) | Policies, legislation, standards and the importance of cyber security (1.23 to 1.31) | 18 |
 
 See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
 <!-- teaching-resources:end -->

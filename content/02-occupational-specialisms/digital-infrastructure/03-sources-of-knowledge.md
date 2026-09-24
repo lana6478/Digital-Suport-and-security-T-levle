@@ -5,7 +5,7 @@
 This page covers Content Area 3 of the Digital Infrastructure specialism: discovering, evaluating and applying reliable sources of knowledge. Every specialism shares this content area, since finding and judging good information is a professional skill in its own right - this version applies it specifically to digital infrastructure work.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 19 slides)
 <!-- lesson-slide:end -->
 
 ## 3.1 Types of sources and legitimising their use
@@ -62,7 +62,7 @@ Ready-made lesson slides for this topic. Each PowerPoint includes learning objec
 
 | Lesson slides | Covers | Slides |
 |---|---|---|
-| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 11 |
+| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 19 |
 
 See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
 <!-- teaching-resources:end -->

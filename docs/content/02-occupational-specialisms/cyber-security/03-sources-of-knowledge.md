@@ -5,7 +5,7 @@
 This is Content Area 3 of the Cyber Security specialism. It mirrors the equivalent content area in the other three specialisms, but is populated with sources and bodies specific to the cyber security profession - professional bodies, accreditation schemes and vulnerability databases a working cyber security technician would actually use.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Researching and Evaluating Sources of Knowledge](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) (PowerPoint, 19 slides)
 <!-- lesson-slide:end -->
 
 ## 3.1 Sources of knowledge applicable to cyber security
@@ -43,7 +43,7 @@ Identify relevant information (arguments, views, opinions) → analyse it (bias,
 Disruption to supply chains (food, raw materials); utilities - energy (power cuts, surges, under-voltage, gas supply loss), water/sanitation (loss of supply, flooding, treatment disruption), government (communication/policy interruption), finance (failed payments, transfer interruption), healthcare (compromised patient records, impaired communication/treatment), communications/ISPs (service loss, eavesdropping, impersonation), defence (impaired military/defence capability), and transport (disrupted public/private transport and emergency dispatch).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Threats, Threat Actors and Threat Intelligence](../../05-teaching-resources/slides/cyber-security/06-threats-threat-actors-and-intelligence.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Threats, Threat Actors and Threat Intelligence](../../05-teaching-resources/slides/cyber-security/06-threats-threat-actors-and-intelligence.pptx) (PowerPoint, 19 slides)
 <!-- lesson-slide:end -->
 
 ## 3.9 Purpose and types of control systems
@@ -69,8 +69,8 @@ Ready-made lesson slides for this topic. Each PowerPoint includes learning objec
 
 | Lesson slides | Covers | Slides |
 |---|---|---|
-| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 11 |
-| [Threats, Threat Actors and Threat Intelligence (PowerPoint)](../../05-teaching-resources/slides/cyber-security/06-threats-threat-actors-and-intelligence.pptx) | 2.2, 2.3, 3.8 | 11 |
+| [Researching and Evaluating Sources of Knowledge (PowerPoint)](../../05-teaching-resources/slides/shared/06-sources-of-knowledge.pptx) | 3.1 to 3.8 (all specialisms), Core Paper 1 2.11 | 19 |
+| [Threats, Threat Actors and Threat Intelligence (PowerPoint)](../../05-teaching-resources/slides/cyber-security/06-threats-threat-actors-and-intelligence.pptx) | 2.2, 2.3, 3.8 | 19 |
 
 See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
 <!-- teaching-resources:end -->

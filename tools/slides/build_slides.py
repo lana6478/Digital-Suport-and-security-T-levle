@@ -35,6 +35,10 @@ sys.path.insert(0, HERE)
 
 import render  # noqa: E402
 from decks import ALL_DECKS, AREA_ORDER, SITE  # noqa: E402
+try:
+    from decks.explain import EXPLAIN  # noqa: E402
+except ImportError:
+    EXPLAIN = {}
 from decks.placement import PLACEMENT  # noqa: E402
 
 CONTENT_DIR = os.path.join(ROOT, "content")
@@ -232,6 +236,19 @@ def main():
     only = set(sys.argv[1:])
     out_dir = os.path.join(CONTENT_DIR, SLIDES_REL)
     ids = set()
+    # Attach each topic's explanation and quick-check questions (decks/explain/)
+    # to the matching slide, by deck file and slide title.
+    for d in ALL_DECKS:
+        extra = EXPLAIN.get(d["file"], {})
+        titles = {sl.get("title") for sl in d["slides"]}
+        for t in extra:
+            if t not in titles:
+                raise SystemExit(f"Explanation for unknown slide {t!r} in {d['file']}")
+        for sl in d["slides"]:
+            if sl.get("title") in extra:
+                sl["explain"] = extra[sl["title"]]["explain"]
+                sl["check"] = extra[sl["title"]].get("check")
+
     for d in ALL_DECKS:
         if d["file"] in ids:
             raise SystemExit("Duplicate deck file " + d["file"])

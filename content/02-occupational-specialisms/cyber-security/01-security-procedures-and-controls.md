@@ -18,7 +18,7 @@ Governance exists to investigate, control, communicate and report cyber risk; to
 Six principles: **responsibility** (everyone understands their information-security role, e.g. asset owner, data controller/processor); **strategy** (secure-by-design, accounting for future infrastructure needs like cloud services); **acquisition** (every purchase evaluated for risk, benefit and cost, with transparent decisions); **performance** (enough preventative and remedial capability to guarantee CIA); **conformance** (IT/data/information use complies with mandatory legislation and regulation); **human behaviour** (technical and non-technical controls both factored into policy and decisions).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Security Governance, ITSM and Frameworks](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) (PowerPoint, 12 slides)
+> **Lesson slides for this section:** [Security Governance, ITSM and Frameworks](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) (PowerPoint, 22 slides)
 <!-- lesson-slide:end -->
 
 ## 1.3 Cyber security protection methods by layer
@@ -48,7 +48,7 @@ Design is framed around five aims:
 **Physical servers** run applications directly on hardware with full hardware access. **Virtualisation** offers **virtual servers** (one machine running multiple isolated OS/software instances) and **containers** (isolated, portable application packages carrying only what they need to run, adding security and portability).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Secure Design and Layered Protection](../../05-teaching-resources/slides/cyber-security/02-secure-design-and-layered-protection.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Secure Design and Layered Protection](../../05-teaching-resources/slides/cyber-security/02-secure-design-and-layered-protection.pptx) (PowerPoint, 17 slides)
 <!-- lesson-slide:end -->
 
 ## 1.7 IT service management (ITSM)
@@ -60,7 +60,7 @@ Purpose: manage the end-to-end delivery of IT services to customers. Core proces
 **Service strategy** (align to business objectives), **service design** (design services and supporting elements for people, process, product, partners), **service transition** (build/deploy with coordinated change management), **service operation** (fulfil requests, resolve failures, run routine operations), **continual service improvement** (ongoing efficiency/effectiveness gains).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Security Governance, ITSM and Frameworks](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) (PowerPoint, 12 slides)
+> **Lesson slides for this section:** [Security Governance, ITSM and Frameworks](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) (PowerPoint, 22 slides)
 <!-- lesson-slide:end -->
 
 ## 1.9 Cyber security principles for transmitting digital information
@@ -68,7 +68,7 @@ Purpose: manage the end-to-end delivery of IT services to customers. Core proces
 Identify the data's security requirements using the **CIA triad**. Prevent eavesdropping in transit using **asymmetric encryption**. Authenticate/verify data using cryptographic properties - integrity, authenticity, confidentiality, non-repudiation.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Cryptography and Digital Certificates](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Cryptography and Digital Certificates](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) (PowerPoint, 19 slides)
 <!-- lesson-slide:end -->
 
 ## 1.10 Frameworks and standards supporting an ISMS
@@ -76,7 +76,7 @@ Identify the data's security requirements using the **CIA triad**. Prevent eaves
 An Information Security Management System (ISMS) creates policies (information security policy, acceptable use policy) to keep an organisation compliant. **Frameworks**: COBIT (governance/management of IT systems), SOC 2 (assesses security/availability/processing integrity/confidentiality/privacy controls), NIST (helps organisations manage cyber risk). **Standards**: ISO 27000 series, especially ISO 27001 (establish/implement/maintain/improve an ISMS); ISO 38500:2015 (IT governance framework - note: sometimes referenced as ISO 35800 in source material, the correct standard number is ISO/IEC 38500); NCSC Cyber Essentials / Cyber Essentials Plus (government-backed accreditation scheme); PCI DSS (reduces payment-card fraud through security controls).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Security Governance, ITSM and Frameworks](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) (PowerPoint, 12 slides)
+> **Lesson slides for this section:** [Security Governance, ITSM and Frameworks](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) (PowerPoint, 22 slides)
 <!-- lesson-slide:end -->
 
 ## 1.11 Purpose and importance of a disaster recovery plan (DRP)
@@ -104,7 +104,7 @@ Purpose: a safeguard against a primary control failing. Physical: segregation of
 Review the potential risk (gather information from systems/users, e.g. logs, security events) → select and apply appropriate preventative/corrective/compensating controls → comply with relevant regulation and organisational policy (e.g. Data Protection Act 2018).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Security Controls and Disaster Recovery](../../05-teaching-resources/slides/cyber-security/03-security-controls-and-disaster-recovery.pptx) (PowerPoint, 10 slides)
+> **Lesson slides for this section:** [Security Controls and Disaster Recovery](../../05-teaching-resources/slides/cyber-security/03-security-controls-and-disaster-recovery.pptx) (PowerPoint, 16 slides)
 <!-- lesson-slide:end -->
 
 ## 1.17 Purpose and characteristics of cryptography
@@ -124,7 +124,7 @@ Monitor expiry dates, revoke certificates early if needed, auto-renew expired ce
 Generate a public/private key pair → generate a Certificate Signing Request (CSR) → have it issued and signed by a trusted Certificate Authority (CA) → install the certificate on the client/server device.
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Cryptography and Digital Certificates](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Cryptography and Digital Certificates](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) (PowerPoint, 19 slides)
 <!-- lesson-slide:end -->
 
 ## 1.21 Legislation relevant to cyber security
@@ -145,7 +145,7 @@ Generate a public/private key pair → generate a Certificate Signing Request (C
 - **BCS (British Computer Society) code of conduct** - make IT for everyone (professional information sharing); show what you know, learn what you don't (only work within your competence, keep developing, understand legislation, stay ethical); respect the organisation/individual you work for (due care, professional responsibility, no personal-gain disclosures, don't exploit others' inexperience); keep IT real/professional/pass it on (uphold the profession's reputation, raise standards, act with integrity, support colleagues).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Cyber Law and Ethics](../../05-teaching-resources/slides/cyber-security/05-cyber-law-and-ethics.pptx) (PowerPoint, 10 slides)
+> **Lesson slides for this section:** [Cyber Law and Ethics](../../05-teaching-resources/slides/cyber-security/05-cyber-law-and-ethics.pptx) (PowerPoint, 16 slides)
 <!-- lesson-slide:end -->
 
 ## 1.23 Core cyber security terminology
@@ -153,7 +153,7 @@ Generate a public/private key pair → generate a Certificate Signing Request (C
 **CIA triad** - confidentiality (access/modification restricted to authorised users), integrity (data can't be modified without authorisation), availability (authorised users can access data when needed). **IAAA** - identification (unique identity, e.g. username/employee number), authentication (verifying identity - single-factor or MFA), authorisation (granting permissions via access-control models), accountability (actions traceable to a specific user). Also: **access control methods** (e.g. MAC), **defence in depth** (layered security so one failure doesn't compromise the whole system), **reliability** (system performs as specified over time) and **assurance** (confirming security requirements have actually been met).
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Secure Design and Layered Protection](../../05-teaching-resources/slides/cyber-security/02-secure-design-and-layered-protection.pptx) (PowerPoint, 11 slides)
+> **Lesson slides for this section:** [Secure Design and Layered Protection](../../05-teaching-resources/slides/cyber-security/02-secure-design-and-layered-protection.pptx) (PowerPoint, 17 slides)
 <!-- lesson-slide:end -->
 
 ## 1.24 Managing and assessing security requests
@@ -161,7 +161,7 @@ Generate a public/private key pair → generate a Certificate Signing Request (C
 Assess a request's validity by considering its origin, its reason, the requestor's status/permissions, its sensitivity (e.g. personal-data exposure), any new risk it would introduce, and whether it complies with regulatory requirements. *(D4.)*
 
 <!-- lesson-slide:start -->
-> **Lesson slides for this section:** [Security Governance, ITSM and Frameworks](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) (PowerPoint, 12 slides)
+> **Lesson slides for this section:** [Security Governance, ITSM and Frameworks](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) (PowerPoint, 22 slides)
 <!-- lesson-slide:end -->
 
 <!-- teaching-resources:start -->
@@ -171,11 +171,11 @@ Ready-made lesson slides for this topic. Each PowerPoint includes learning objec
 
 | Lesson slides | Covers | Slides |
 |---|---|---|
-| [Security Governance, ITSM and Frameworks (PowerPoint)](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) | 1.1, 1.2, 1.7, 1.8, 1.10, 1.24 | 12 |
-| [Secure Design and Layered Protection (PowerPoint)](../../05-teaching-resources/slides/cyber-security/02-secure-design-and-layered-protection.pptx) | 1.3, 1.4, 1.5, 1.6, 1.23 | 11 |
-| [Security Controls and Disaster Recovery (PowerPoint)](../../05-teaching-resources/slides/cyber-security/03-security-controls-and-disaster-recovery.pptx) | 1.11 to 1.16 | 10 |
-| [Cryptography and Digital Certificates (PowerPoint)](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) | 1.9, 1.17 to 1.20, 2.22 | 11 |
-| [Cyber Law and Ethics (PowerPoint)](../../05-teaching-resources/slides/cyber-security/05-cyber-law-and-ethics.pptx) | 1.21, 1.22 | 10 |
+| [Security Governance, ITSM and Frameworks (PowerPoint)](../../05-teaching-resources/slides/cyber-security/01-governance-itsm-and-frameworks.pptx) | 1.1, 1.2, 1.7, 1.8, 1.10, 1.24 | 22 |
+| [Secure Design and Layered Protection (PowerPoint)](../../05-teaching-resources/slides/cyber-security/02-secure-design-and-layered-protection.pptx) | 1.3, 1.4, 1.5, 1.6, 1.23 | 17 |
+| [Security Controls and Disaster Recovery (PowerPoint)](../../05-teaching-resources/slides/cyber-security/03-security-controls-and-disaster-recovery.pptx) | 1.11 to 1.16 | 16 |
+| [Cryptography and Digital Certificates (PowerPoint)](../../05-teaching-resources/slides/cyber-security/04-cryptography-and-digital-certificates.pptx) | 1.9, 1.17 to 1.20, 2.22 | 19 |
+| [Cyber Law and Ethics (PowerPoint)](../../05-teaching-resources/slides/cyber-security/05-cyber-law-and-ethics.pptx) | 1.21, 1.22 | 16 |
 
 See [all lesson slides](../../05-teaching-resources/01-lesson-slides.md) for every topic.
 <!-- teaching-resources:end -->

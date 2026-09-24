@@ -20,6 +20,11 @@ Content slide types (the "type" key of each entry in a deck's "slides"):
     terms     title (optional), terms [(term, definition), ...]
 
 Every slide takes an optional "notes" string for the teacher.
+
+A slide can also carry "explain" ({text, example}) and "check" ([(q, a)]),
+attached by build_slides.py from decks/explain/. The deck then shows an
+explanation slide first, the summary slide, then a quick-check slide with
+the answers in the speaker notes.
 """
 import math
 import re
@@ -176,7 +181,7 @@ def bullet_list(slide, x, y, w, h, items, max_pt=24, min_pt=12, color=TEXT, wher
 def _add_rich(p, item, size, color):
     """Add a run, making any 'Label:' prefix bold."""
     label, sep, rest = item.partition(": ")
-    if sep and len(label) <= 40:
+    if sep and len(label) <= 40 and len(label.split()) <= 5:
         parts = [(label + ":", True), (" " + rest, False)]
     else:
         parts = [(item, False)]
@@ -578,11 +583,70 @@ class Deck:
             r2.font.color.rgb = TEXT
 
     # -- whole deck
+    def _explain(self, sl):
+        """A text-led slide that explains the topic before its summary slide."""
+        ex = sl["explain"]
+        s, where = self._slide(sl["title"], ex.get("notes"))
+        paras = [p.strip() for p in ex["text"].split("\n\n") if p.strip()]
+        example = ex.get("example")
+        width = 7.35 if example else W - 2 * MARGIN
+        top, height = 1.7, H - 0.75 - 1.7
+        size = fit_size(paras, width, height, 22, 12, spacing=0.6)
+        if size is None:
+            size = 12
+            WARNINGS.append(f"{where}: explanation text may overflow")
+        tb = s.shapes.add_textbox(Inches(MARGIN), Inches(top), Inches(width), Inches(height))
+        tf = tb.text_frame
+        tf.word_wrap = True
+        for side in ("margin_left", "margin_right", "margin_top", "margin_bottom"):
+            setattr(tf, side, Inches(0))
+        for i, para in enumerate(paras):
+            p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
+            p.space_after = Pt(size * 0.6)
+            _add_rich(p, para, size, TEXT)
+        if example:
+            rounded(s, 8.5, top, 4.23, height - 0.1, NAVY)
+            badge(s, 8.8, top + 0.3, 0.6, "e.g.", self.area["accent"], self.area["on_accent"], size=13)
+            text(s, 8.8, top + 1.1, 3.6, 0.4, ex.get("example_label", "EXAMPLE"), size=13, bold=True, color=SKY)
+            esize = fit_size([example], 3.6, height - 1.8, 19, 12, char_w=0.52)
+            if esize is None:
+                esize = 12
+                WARNINGS.append(f"{where}: example may overflow")
+            text(s, 8.8, top + 1.55, 3.6, height - 1.8, example, size=esize, font=HEAD_FONT, color=WHITE)
+
+    def _check(self, sl):
+        """Two or three quick questions straight after a topic; answers go in the notes."""
+        qs = sl["check"]
+        title = "Quick check: " + sl["title"]
+        if len(title) > 60:
+            title = "Quick check"
+        notes = "Answers:\n" + "\n".join(f"{i + 1}. {a}" for i, (_, a) in enumerate(qs))
+        s, where = self._slide(title, notes)
+        gap = 0.25
+        top = 1.8
+        avail = H - 1.3 - top
+        row_h = min(1.3, (avail - gap * (len(qs) - 1)) / len(qs))
+        for i, (q, _) in enumerate(qs):
+            y = top + i * (row_h + gap)
+            badge(s, MARGIN, y + 0.05, 0.55, i + 1, self.area["accent"], self.area["on_accent"], size=16)
+            size = fit_size([q], W - 2 * MARGIN - 0.9, row_h, 24, 14)
+            if size is None:
+                size = 14
+                WARNINGS.append(f"{where}: check question {i + 1} may overflow")
+            text(s, MARGIN + 0.9, y, W - 2 * MARGIN - 0.9, row_h, q, size=size)
+        text(s, MARGIN, H - 1.1, W - 2 * MARGIN, 0.4,
+             "Answer on mini whiteboards or in your book. Answers are in the speaker notes.",
+             size=13, italic=True, color=MUTED)
+
     def build(self, path):
         self.title_slide()
         self.objectives_slide()
         for sl in self.spec["slides"]:
+            if sl.get("explain"):
+                self._explain(sl)
             self.add(sl)
+            if sl.get("check"):
+                self._check(sl)
         self.quiz_slides()
         self.activity_slide()
         self.exit_slide()
